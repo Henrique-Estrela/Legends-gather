@@ -5,8 +5,25 @@
 }
 
 :root{
+    /* Cores Dark */
+
+    --d_color1: #68b2f8;
+    --d_color2: #506ee5;
+    --d_color3: #7037cd;
+    --d_color4: #651f71;
+    --d_color5: #1d0c20;
+
+    /* Cores Ligth */ 
+
+    --l_color1: #7faeca;
+    --l_color2: #94cceb;
+    --l_color3: #344c6c;
+    --l_color4: #647c9c;
+    --l_color5: #b5c3cc;
+
     /* Font */
 
-    /* Cores */
+    --font1: 'MedievalSharp', cursive, sans-serif;
+    --font2: ;
 
 }
