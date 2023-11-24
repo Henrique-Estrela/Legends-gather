@@ -1,11 +1,11 @@
 export function toggle_ligth_mode(){
-    document.body.classList.toggle("ligth")
+    document.body.classList.toggle("ligth");
 }
 
 export function loadtema(){
-    const ligthmode = localStorage.getItem("ligth")
+    const ligthmode = localStorage.getItem("ligth");
 
     if (ligthmode) {
-        toggle_ligth_mode()
+        toggle_ligth_mode();
     }
 }

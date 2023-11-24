@@ -1,4 +1,4 @@
-import * as funcoes from "./functions.js";
+import * as functions from "./functions.js";
 
 /* 
 ---------------------------------------------
@@ -17,7 +17,7 @@ const tema_btn = document.querySelector("#teste");
 chamar funções
 --------------------------------------------- 
 */
-funcoes.loadtema()
+functions.loadtema()
 
 
 
@@ -29,9 +29,12 @@ Ações
 
 
 tema_btn.addEventListener("click", function () {
-    funcoes.toggle_ligth_mode()
+    functions.toggle_ligth_mode();
 
-    if (document.body.contains("ligth")) {
-        
+    localStorage.removeItem("ligth");
+
+    if (document.body.classList.contains("ligth")) {
+        localStorage.setItem("ligth", 1);
     }
+
 });
