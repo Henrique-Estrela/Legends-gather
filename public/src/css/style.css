@@ -123,7 +123,7 @@ main{
     height: 4rem;
     background: var(--d_color5);
     border-radius: 10px;
-
+    cursor: pointer;
 }
 
 .btn2{
@@ -131,6 +131,8 @@ main{
     height: 4rem;
     background: var(--d_color6);
     border-radius: 10px;
+    cursor: pointer;
+
 }
 
 

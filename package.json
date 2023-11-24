@@ -1,0 +1,21 @@
+{
+  "name": "legends-gather",
+  "version": "1.0.0",
+  "description": "Projeto da faculdade.",
+  "type": "module", 
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Henrique-Estrela/Legends-gather.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Henrique-Estrela/Legends-gather/issues"
+  },
+  "homepage": "https://github.com/Henrique-Estrela/Legends-gather#readme"
+}

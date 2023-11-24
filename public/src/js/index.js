@@ -1,22 +1,37 @@
-function toggle_ligth_mode() {
-    document.body.classList.toggle("ligth")
-}
+import * as funcoes from "./functions.js";
 
-function loadtema() {
-    const ligthmode = localStorage.getItem("ligth")
+/* 
+---------------------------------------------
+Variáveis
+--------------------------------------------- 
+*/
 
-    if (ligthmode) {
-        toggle_ligth_mode()
-    }
-}
+const tema_btn = document.querySelector("#teste");
 
 
 
 
-loadtema()
 
-var tema_btn = document.querySelector("#teste")
+/* 
+---------------------------------------------
+chamar funções
+--------------------------------------------- 
+*/
+funcoes.loadtema()
+
+
+
+/* 
+---------------------------------------------
+Ações
+--------------------------------------------- 
+*/
+
 
 tema_btn.addEventListener("click", function () {
-    toggle_ligth_mode()
-})
+    funcoes.toggle_ligth_mode()
+
+    if (document.body.contains("ligth")) {
+        
+    }
+});
