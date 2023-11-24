@@ -8,13 +8,14 @@ Table of contents
 04. header
 05. login 
 06. cadastro
-07. erro
-08. configuração
-09. usuario
-10. criar personagem
-11. ficha final 
-12. editar
-13. loading
+07. home
+08. erro
+09. configuração
+10. usuario
+11. criar personagem
+12. ficha final 
+13. editar
+14. loading
 
 --------------------------------------------- */
 /* 
@@ -34,7 +35,7 @@ reset
 *{
     margin: 0;
     padding: 0;
-    font-family: --font1;
+    font-family: var(--font1);
     border: 0;
     outline: 0;
 }
@@ -157,6 +158,15 @@ login
 /* 
 ---------------------------------------------
 cadastro
+--------------------------------------------- 
+*/
+
+
+
+
+/* 
+---------------------------------------------
+home
 --------------------------------------------- 
 */
 
