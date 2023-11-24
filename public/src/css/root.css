@@ -1,29 +1,25 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'MedievalSharp', cursive, sans-serif;
-}
-
 :root{
     /* Cores Dark */
 
-    --d_color1: #68b2f8;
+    --d_color1: #1d0c20;
     --d_color2: #506ee5;
-    --d_color3: #7037cd;
+    --d_color3: rgba(111, 55, 204, 0.5);
     --d_color4: #651f71;
-    --d_color5: #1d0c20;
+    --d_color5: rgba(104, 179, 247, 0.46);
+    --d_color6: rgba(104, 179, 247, 0.8);
+    
 
     /* Cores Ligth */ 
 
-    --l_color1: #7faeca;
-    --l_color2: #94cceb;
-    --l_color3: #344c6c;
-    --l_color4: #647c9c;
+    --l_color1: #334C6B;
+    --l_color2: #7faeca;
+    --l_color3: #637C9B;
+    --l_color4: #94cceb;
     --l_color5: #b5c3cc;
 
     /* Font */
 
     --font1: 'MedievalSharp', cursive, sans-serif;
-    --font2: ;
+    --font2: 'McLaren', sans-serif;
 
 }

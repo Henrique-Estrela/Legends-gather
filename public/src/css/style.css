@@ -1,2 +1,167 @@
+
+/* ---------------------------------------------
+Table of contents
+------------------------------------------------
+01. root
+02. reset
+03. global styles
+04. header
+
+
+--------------------------------------------- */
+/* 
+---------------------------------------------
+root
+--------------------------------------------- 
+*/
 @import url("root.css");
-@import url("responsive.css");
+/* 
+---------------------------------------------
+reset
+--------------------------------------------- 
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: --font1;
+    border: 0;
+    outline: 0;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 50%;
+}
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul {
+  margin-bottom: 0px;
+}
+
+img {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* 
+---------------------------------------------
+global style
+--------------------------------------------- 
+*/
+
+/* Dark */
+body{
+  background-color: var(--d_color1);
+  color: #fff;
+  transition: all .5s;
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* Ligth */
+.ligth, .ligth p, .ligth div, .ligth section, .ligth span{
+    background-color: var(--l_color1);
+    color: #fff;
+    transition: all .5s;
+}
+
+.ligth main{
+    background-color: var(--l_color3) ;
+    transition: all .5s;
+}
+
+
+::selection {
+  background: #03a4ed;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #03a4ed;
+  color: #fff;
+}
+
+header{
+    width: 8%;
+    height: 100vh;
+    
+}
+
+main{
+    width: 92%;
+    height: calc(100vh - 56px);
+    background-color: var(--d_color3) ;
+    transition: all .5s;
+    border-radius: 20px;
+    margin: 28px;
+}
+
+.btn{
+    width: 12rem;
+    height: 4rem;
+    background: var(--d_color5);
+    border-radius: 10px;
+
+}
+
+.btn2{
+    width: 12rem;
+    height: 4rem;
+    background: var(--d_color6);
+    border-radius: 10px;
+
+}
+
+
+/* 
+---------------------------------------------
+header
+--------------------------------------------- 
+*/
