@@ -268,8 +268,34 @@ usuario
 criar personagem
 --------------------------------------------- 
 */
-
-
+input{
+  background-color: var(--d_color5);
+  border-radius: 5px;
+  font-size: 25px;
+  width: 230px;
+  padding-left: 10px;
+  color: white;
+  height: 40px;
+}
+#nome{
+  margin: 25px;
+  margin-left: 65px;
+  position: absolute;
+  display: flex;
+  margin-top: 220px;
+}
+#inpnome{
+  border-radius: 5px;
+  margin-left: 60px !important;
+  margin-top: 240px !important;
+  font-size: 25px;
+  margin: 20px;
+  flex-shrink: 0;
+}
+#grade1{
+  border: black 2.5px solid;
+  
+}
 
 
 
