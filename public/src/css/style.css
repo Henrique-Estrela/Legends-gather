@@ -278,7 +278,80 @@ criar personagem
 ficha final 
 --------------------------------------------- 
 */
-
+h1 {
+  margin-top: 10px;
+  margin: 12px;
+ }
+ 
+ input{
+   background-color: var(--d_color5);
+   border-radius: 5px;
+   font-size: 25px;
+   width: 230px;
+   padding-left: 10px;
+   color: white;
+   height: 40px;
+ }
+ 
+ #perso{
+   width: 310px;
+   height: 375px;
+   margin: 20px;
+   margin-top: 30px;
+   flex-shrink: 0;
+   border-radius: 10px;
+   border: 2.5px solid var(--d_color1);
+   background: rgba(217, 217, 217, 0.00);
+   
+ }
+ 
+ #nick{
+   margin: 25px;
+   margin-left: 40px;
+   position: absolute;
+   display: flex;
+   margin-top: 220px;
+ }
+ 
+ #raça{
+   margin: 25px;
+   margin-left: 40px;
+   display: flex;
+   margin-top: 0px
+ }
+ 
+ #nivel{
+   margin-left: 185px;
+   margin-top: -82px;
+ }
+ 
+ #inptamanho1{
+   border-radius: 5px;
+   margin-left: 30px !important;
+   margin-top: 240px !important;
+   font-size: 25px;
+   margin: 20px;
+   flex-shrink: 0;
+ }
+ 
+ #inpraça{
+   display: flex;
+   width: 120px;
+   border-radius: 5px;
+   margin-top: -25px !important;
+   margin-left: 30px !important;
+   font-size: 25px;
+   margin: 20px;
+   height: 40px;
+   flex-shrink: 0;
+ }
+ 
+ #inpnivel{
+   display: flex;
+   margin-left: 180px;
+   margin-top: -18px;
+   width: 100px;
+ }
 
 
 
