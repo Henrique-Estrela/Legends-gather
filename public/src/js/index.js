@@ -19,8 +19,8 @@ chamar funções
 */
 functions.loadtema()
 
-window.onload = functions.verificarLargura;
-window.onresize = functions.verificarLargura;
+window.onload = functions.check_width;
+window.onresize = functions.check_width;
 
 /* 
 ---------------------------------------------

@@ -10,18 +10,21 @@ export function loadtema(){
     }
 }
 
-export function verificarLargura() {
-    var larguraJanela = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+export function check_width() {
+    var widthwindow = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
-    var minhaImagem = document.querySelector('.logo a img');
+    var img_logo = document.querySelector('.logo a img');
 
-    if (larguraJanela < 750) {
-        minhaImagem.src = '../src/img/boneco2.png';
-        minhaImagem.alt = 'user';
+    if (widthwindow < 750) {
+        var link = document.querySelector('.logo a');
+        link.href = "../views/usuario.html";
+        img_logo.src = '../src/img/boneco2.png';
+        img_logo.alt = 'user';
     } else {
-        minhaImagem.src = '../src/img/logo-image.png';
-        minhaImagem.alt = 'Legends Gather';
+        img_logo.src = '../src/img/logo-image.png';
+        img_logo.alt = 'Legends Gather';
     }
 }
+
 
 
