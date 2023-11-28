@@ -325,7 +325,7 @@ home
   object-fit: contain;
 }
 
-h1{
+h1.title{
   padding: 4rem;
 }
 
