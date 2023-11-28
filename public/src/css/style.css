@@ -346,37 +346,23 @@ usuario
 criar personagem
 --------------------------------------------- 
 */
-input{
-  background-color: var(--d_color5);
-  border-radius: 5px;
-  font-size: 25px;
-  width: 230px;
-  padding-left: 10px;
-  color: white;
-  height: 40px;
-}
-#nome{
-  margin: 25px;
-  margin-left: 65px;
+#imgded {
+  width: 110px;
   position: absolute;
   display: flex;
-  margin-top: 220px;
+  margin-top: -62px;
+  margin-left: 240px;
 }
-#inpnome{
-  border-radius: 5px;
-  margin-left: 60px !important;
-  margin-top: 240px !important;
-  font-size: 25px;
+#bloco3{
+  width: 310px;
+  height: 300px;
   margin: 20px;
+  margin-top: 110px;
   flex-shrink: 0;
+  border-radius: 10px;
+  border: 2.5px solid var(--d_color1);
+  background: rgba(217, 217, 217, 0.00);
 }
-#grade1{
-  border: black 2.5px solid;
-  
-}
-
-
-
 /* 
 ---------------------------------------------
 ficha final 
