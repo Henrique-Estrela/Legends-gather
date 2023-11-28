@@ -232,7 +232,6 @@ home
   margin: 2rem;
 }
 
-<<<<<<< Updated upstream
 .search input{
   width: 90%;
   height: 3rem;
@@ -242,14 +241,6 @@ home
   font-family: var(--font2);
   padding-left: 2rem;
 }
-=======
-input#search {
-
-  width: 100%;
-  height: 61px;
-  background: rgba(255, 255, 255, 0.48);
-  border-radius: 20px;
->>>>>>> Stashed changes
 
 .search button{
   width: 8%;
