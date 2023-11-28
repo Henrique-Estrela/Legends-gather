@@ -1,11 +1,18 @@
 @import url("root.css");
 
 @media (max-width: 1150px) {
-    
+    .collapsed{
+        width: 93%;
+    }
+    .user .name {
+        font-size: 0.7em;
+    }
 }
 
 @media (max-width: 950px) {
-    
+    .user .name {
+        font-size: 0.5em;
+    }
 }
 
 @media (max-width: 750px) {
@@ -50,6 +57,18 @@
     nav .logo img{
         width: 4.5rem;
         border-radius: 50%;
+    }
+
+    .bar div.usuario{
+        display: none;
+    }
+
+    .search input {
+        width: 100%;
+    }
+    .search button {
+        width: 12%;
+        margin-left: -10%;
     }
 }
       

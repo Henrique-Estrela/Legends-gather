@@ -20,7 +20,7 @@
         <link rel="stylesheet" href="../src/css/responsive.css">
 
     <!-- Font Awesame -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
     
     <!-- JS -->
         <script type="module" src="../src/js/index.js" defer></script>
@@ -71,28 +71,33 @@
     <main>
         <div class="container">
             <div class="row bar">
-                <div class="search col-lg-8 col-sm-8">
+                <div class="search col-sm-8 ">
                     <input type="search" name="search" id="search" placeholder="Pesquise...">
                     <button>
                         <i class="fa fa-search" aria-hidden="true"></i>
                     </button>
                 </div>
 
-                <div class="col-lg-4 col-sm-4">
-                    <div class="row usuario">
+                <div class="usuario col-sm-4 ">
+                    <div class="row ">
                         <div class="user">
                             <img src="../src/img/boneco2.png" alt="Usuario" >
                             <div class="name">Nome do user</div>
-                            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                            <div id="userbtn">
+                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                            </div>
                         </div>
                     </div>
-                    <div class="collapsed">
+
+
+                    <div class="collapsed"  id="collapsed">
                         <a href="usuario.html">
                             <div class="collapsed-item">
                                 <img src="../src/img/icon/icon-editarimg.png" alt="Editar">
                                 <p>Editar</p>
                             </div>
                         </a>
+
                         <a href="../../index.html">
                             <div class="collapsed-item">
                                 <img src="../src/img/icon/icon-sair.png" alt="Sair">                               
@@ -106,8 +111,10 @@
                
             </div>
 
+
             <h1>Meus Personagens</h1>
 
+            
 
         </div>      
     </main>

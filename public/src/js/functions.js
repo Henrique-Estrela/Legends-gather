@@ -15,12 +15,18 @@ export function check_width() {
 
     var img_logo = document.querySelector('.logo a img');
 
+    const search = document.querySelector(".search");
+
+    var link = document.querySelector('.logo a');
+
     if (widthwindow < 750) {
-        var link = document.querySelector('.logo a');
         link.href = "../views/usuario.html";
         img_logo.src = '../src/img/boneco2.png';
         img_logo.alt = 'user';
-    } else {
+
+        search.classList.toggle("col-lg-8 col-sm-8")
+
+    }else {
         img_logo.src = '../src/img/logo-image.png';
         img_logo.alt = 'Legends Gather';
     }
