@@ -471,7 +471,7 @@ input {
 }
 
 #bloco2 {
-  width: 310px;
+  width: 300px;
   height: 280px;
   margin-left: 350px !important;
   margin: 20px;
@@ -492,17 +492,106 @@ input {
   margin-top: -10px;
 }
 
-.inspiracao {
-  margin-left: 500px;
-  font-size: 20px;
-  flex-shrink: 0;
-  border-radius: 5px black 2px solid;
-  margin-right: 10%;
-  padding: 11px;
+#bloco3{
+  height: 48px;
+  width: 200px;
   background-color: var(--d_color5);
+  border: 1px black solid;
+  border-radius: 5px;
+  margin-left: 450px;
   
 }
 
+.inspiracao {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  
+}
+
+.inpbloc3{
+  display: flex;
+  width: 60px;
+  height: 48px;
+  border: 1px black solid;
+  margin-top: -48px;
+  margin-left: 395px;
+  background-color: var(--d_color7);
+}
+
+#bloco4{
+  height: 48px;
+  width: 200px;
+  background-color: var(--d_color5);
+  border: 1px black solid;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 450px;
+}
+
+.bonusprof{
+  text-align: center;
+}
+
+.inpbloc4{
+  display: flex;
+  width: 80px;
+  height: 80px;
+  border: 1px black solid;
+  border-radius: 38px;
+  margin-top: -65px;
+  margin-left: 390px;
+  background-color: var(--d_color7);
+}
+
+.bloco5{
+  margin-top: -55px;
+}
+
+.ptsvida{
+  font-size: 30px;
+  margin-left: 60px;
+}
+
+.progress{
+  width: 280px;
+  height: 25px;
+  border-radius: 15px;
+  margin-top: -10px;
+  margin-left: 30px;
+  background-color: #FFFFFF7A;
+}
+
+.progress-bar{
+  background-color: rgba(255, 0, 0, 0.48);
+}
+
+.numvida{
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.inpbloc5, .inpbloc5-1, .inpbloc5-2 {
+  width: 80px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 0px;
+}
+
+.inpbloc5{
+  position: absolute;
+  margin-left: 80px;
+}
+
+.inpbloc5-2{
+  margin-top: 10px;
+  margin-left: 120px;
+}
+
+.pvtemp{
+  margin-left: 90px;
+font-size: 20px;
+}
 /* 
 ---------------------------------------------
 editar
