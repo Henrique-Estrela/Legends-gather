@@ -471,21 +471,22 @@ input {
   border: 2.5px solid var(--d_color1);
   border-radius: 10px;
   height: 280px;
-  width: 310px;
+  width: 315px;
   margin-top: -300px;
   margin-left: 675px;
   flex-shrink: 0;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .inpgrad3{
-  margin-left: 10%;
   margin-top: 40px;
   width: 100px;
+  margin-left: -30%;
 }
 
 .tex3{
-  margin-left: 13%;
+  margin-left: 50%;
   margin-top: 15px;
 
 }
@@ -495,7 +496,7 @@ input {
   overflow: hidden;
 }
 
-.progress progsup{
+.progress .progsup{
   width: 75%;
   margin-right: 10%;
   margin-top: 15px;
@@ -503,7 +504,7 @@ input {
   float: right;
 }
 
-.progress-bar progresso{
+.progress-bar .progresso{
   background-color: var(--d_color6);
   border-radius: 25px;
 }
@@ -513,6 +514,17 @@ input {
   margin-left: 150px;
   margin-top: 20px;
 }
+
+.prox{
+  background-color: var(--d_color7);
+  border-radius: 5%;
+  width: 175px;
+  height: 75px;
+  text-align: center;
+  margin-top: 100%;
+  margin-left: 85%;
+}
+
 
 /* 
 ---------------------------------------------
