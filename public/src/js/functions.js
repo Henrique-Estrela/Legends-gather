@@ -13,9 +13,9 @@ export function loadtema(){
 export function check_width() {
     var widthwindow = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
-    var img_logo = document.querySelector('.logo a img');
+    var img_logo = document.querySelector('header.mobile .logo a img');
 
-    var link = document.querySelector('.logo a');
+    var link = document.querySelector('header.mobile .logo a');
 
     if (widthwindow < 750) {
         link.href = "../views/usuario.html";
