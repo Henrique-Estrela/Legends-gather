@@ -711,7 +711,7 @@ ficha final
   background-color: var(--d_color5);
   border: 1px black solid;
   border-radius: 5px;
-  margin-left: -12rem;
+  margin-left: -13.3rem;
 }
 .inspiracao {
   font-size: 20px;
@@ -724,7 +724,7 @@ ficha final
   height: 3rem;
   border: 1px black solid;
   margin-top: -3rem;
-  margin-left: -15.5rem;
+  margin-left: -16.8rem;
   background-color: var(--d_color7);
 }
 #bloco4 {
@@ -734,7 +734,7 @@ ficha final
   border: 1px black solid;
   border-radius: 5px;
   margin-top: 2rem;
-  margin-left: -12rem;
+  margin-left: -13.3rem;
 }
 .bonusprof {
   text-align: center;
@@ -746,12 +746,12 @@ ficha final
   border: 1px black solid;
   border-radius: 2.5rem;
   margin-top: -4rem;
-  margin-left: -16.2rem;
+  margin-left: -17.5rem;
   background-color: var(--d_color7);
 }
 #bloco5 {
   margin-top: -3rem;
-  margin-left: -38rem;
+  margin-left: -39.5rem;
 }
 .ptsvida {
   font-size: 30px;
@@ -801,6 +801,134 @@ ficha final
   margin-left: 5.6rem;
   font-size: 19px;
   margin-top: 0.2rem;
+}
+
+.part2{
+  margin-left: 45rem;
+  
+}
+
+.classeArm{
+  font-size: 1.4rem;
+}
+
+.bloco6{
+  margin-top: -23.6rem;
+  margin-left: -3rem;
+}
+
+.bloco6-1{
+  border-radius: 10px;
+  border: 2.5px solid var(--d_color1);
+  background: rgba(217, 217, 217, 0.00);
+  width: 17rem;
+  height: 9rem;
+}
+
+.inpbloc6{
+  height: 5rem;
+  margin-left: 1rem;
+  margin-top: -0.8rem;
+}
+
+.equip6{
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  margin-left: 3.5rem;
+}
+
+.bloco6-2{
+  border-radius: 10px;
+  border: 2.5px solid var(--d_color1);
+  background: rgba(217, 217, 217, 0.00);
+  margin-top: 1.2rem;
+  width: 17rem;
+  height: 12rem;
+}
+
+.inpbloc6-1{
+  height: 8rem;
+  margin-left: 1.15rem;
+  margin-top: -0.8rem;
+}
+
+.habili6{
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  margin-left: 4.1rem;
+}
+
+.bloco6-3{
+  border-radius: 10px;
+  border: 2.5px solid var(--d_color1);
+  background: rgba(217, 217, 217, 0.00);
+  margin-top: 1.2rem;
+  width: 17rem;
+  height: 12rem;
+}
+
+.testmort6{
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  margin-left: 2.5rem;
+}
+
+.sucess6, .fracass6{
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+
+.bloco7{
+  margin-top: -35.8rem;
+  margin-left: 18rem;
+}
+
+.inpbloc7{
+  height: 7rem;
+  width: 7rem;
+  border-radius: 5rem;
+  margin-top: -1rem;
+  border: 0.17rem black solid;
+}
+
+.inpbloc7-1, .inpbloc7-2{
+  height: 7rem;
+  width: 7rem;
+  border-radius: 0rem;
+  border: 0.17rem black solid;
+}
+
+.inpbloc7-1{
+  margin-top: 1rem;
+}
+
+.inpbloc7-2{
+  margin-top: 0rem;
+}
+
+.LegenIni{
+  font-size: 1.22rem;
+  margin-top: -1.8rem;
+  margin-left: 1rem;
+  color: white;
+}
+
+.LegenDesloc{
+  font-size: 0.9rem;
+  margin-top: -1.5rem;
+  margin-left: 0.6rem;
+  color: white;
+}
+
+.setinha{
+  width: 3rem;
+  margin-top: 2rem;
+  background-color: var(--d_color5);
+  border-radius: 10px;
+}
+.setinhaProx{
+  margin-left: 20rem;
+  width: 10 rem;
 }
 
 /* 
