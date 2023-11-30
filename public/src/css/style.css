@@ -496,13 +496,14 @@ input
   margin: 25px;
   margin-left: 40px;
   display: flex;
-  margin-top: 0px
+  margin-top: 0px;
 }
 
 #level {
-  margin-left: 185px;
-  margin-top: -4.57rem;
-  border-radius: 1rem;
+  margin: 25px;
+  margin-left: 40px;
+  display: flex;
+  margin-top: 0px;
 }
 
 #inpnome {
@@ -528,10 +529,14 @@ input
 
 #inplevel {
   display: flex;
-  margin-left: 180px;
-  margin-top: -18px;
-  width: 6rem;
+  width: 7rem;
+  border-radius: 5px;
+  margin-top: -1.5rem !important;
+  margin-left: 11rem !important;
+  font-size: 25px;
+  margin: 1rem;
   height: 2rem;
+  flex-shrink: 0;
 }
 
 #grade2 {
