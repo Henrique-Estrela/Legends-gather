@@ -491,22 +491,6 @@ usuario
 criar personagem
 --------------------------------------------- 
 */
-input
-.inpnome
-.inplevel
-.inpraca
-.inpgrad2
-.inpgrad3
-{
-  background-color: var(--d_color5);
-  border-radius: 2rem;
-  font-size: 10rem;
-  width: 20rem;
-  padding-left: 2rem;
-  color: white;
-  height: 5rem;
-}
-
 #grade1 {
   width: 20rem;
   height: 27rem;
@@ -516,73 +500,58 @@ input
   border-radius: 1rem;
   border: 2.5px solid var(--d_color1);
   background: rgba(217, 217, 217, 0.00);
-  display: grid;
-  grid-column: auto;
+  display: flex;
 }
 
 #nome {
-  margin: 25px;
-  margin-left: 40px;
+  margin: 2rem;
+  margin-left: 2rem;
   position: absolute;
   display: flex;
   margin-top: 13.5rem;
 }
 
 #raca {
-  margin: 1.5rem;
-  margin-left: 40px;
-  display: flex;
-  margin-top: 0px;
+  margin-top: 19rem;
+  margin-left: 2rem;
+  position: absolute;
 }
 
 #level {
-  margin: 1.5rem;
-  margin-left: 12rem;
-  display: flex;
-  margin-top: 0px;
+  margin-top: 19rem;
+  margin-left: 11rem;
+  position: absolute;
 }
 
 #inpnome {
-  border-radius: 5px;
-  margin-left: 30px !important;
-  margin-top: 240px !important;
-  font-size: 25px;
-  margin: 20px;
-  flex-shrink: 0;
+  position: absolute;
+  margin-top: 15rem;
+  margin-left: 1.5rem;
+  width: 17rem;
 }
 
 #inpraca {
-  display: flex;
+  position: absolute;
+  margin-top: 20.5rem;
+  margin-left:1.5rem;
   width: 8rem;
-  border-radius: 5px;
-  margin-top: -1.5rem !important;
-  margin-left: 2rem !important;
-  font-size: 25px;
-  margin: 1rem;
-  height: 2rem;
-  flex-shrink: 0;
 }
 
 #inplevel {
-  display: flex;
+  position: absolute;
+  margin-top: 20.5rem;
+  margin-left: 10.5rem;
   width: 8rem;
-  border-radius: 5px;
-  margin-top: -6.06rem !important;
-  margin-left: 11rem !important;
-  font-size: 25px;
-  margin: 1rem;
-  height: 2rem;
-  flex-shrink: 0;
 }
 
 #grade2 {
-  width: 310px;
-  height: 280px;
-  margin-left: 350px !important;
+  width: 20rem;
+  height: 22rem;
+  margin-left: 23rem !important;
   margin: 20px;
-  margin-top: -395px;
+  margin-top: -26rem;
   flex-shrink: 0;
-  border-radius: 10px;
+  border-radius: 1rem;
   border: 2.5px solid var(--d_color1);
   background: rgba(217, 217, 217, 0.00);
 }
@@ -602,8 +571,8 @@ input
   border-radius: 1rem;
   height: 15rem;
   width: 20rem;
-  margin-top: -18.7rem;
-  margin-left: 42.5rem;
+  margin-top:-2rem;
+  margin-left: 44rem;
   flex-shrink: 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -623,23 +592,12 @@ input
   margin-top: 15px;
 
 }
-
-.barrap{
-  display: flex;
-  overflow: hidden;
+.progsup{
+background-color: var(--d_color4);
 }
 
-.progress .progsup{
-  width: 75%;
-  margin-right: 10%;
-  margin-top: 15px;
-  background-color: var(--d_color3);
-  float: right;
-}
-
-.progress-bar .progresso{
+.progresso{
   background-color: var(--d_color6);
-  border-radius: 25px;
 }
 
 .numprog{
@@ -648,14 +606,15 @@ input
   margin-top: 20px;
 }
 
-.prox{
+.btnprox{
   background-color: var(--d_color7);
-  border-radius: 5%;
-  width: 175px;
-  height: 75px;
+  border-radius: 1rem;
+  width: 10rem;
+  height: 5rem;
   text-align: center;
-  margin-top: 100%;
-  margin-left: 85%;
+  margin-top:-6rem;
+  margin-left:85rem;
+  position: absolute
 }
 
 /* 
