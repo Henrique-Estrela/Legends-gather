@@ -167,7 +167,7 @@ main.fluid {
 
 .cards{
   width: 13rem;
-  height: 17rem;
+  height: 19rem;
   background: rgba(104, 179, 247, 0.46);
   box-shadow: 8px 8px 6px 1px rgba(0, 0, 0, 0.25);
   border-radius: 7px;
@@ -176,7 +176,7 @@ main.fluid {
   justify-content: center;
   align-items: center;
   margin-bottom: 3rem;
-  /* overflow: hidden; */
+  overflow: hidden;
   z-index: 10;
 }
 
@@ -186,6 +186,7 @@ main.fluid {
   align-items: center;
   flex-direction: column;
 }
+
 .cards .img-person{
   width: 11rem;
   height: 11rem;
@@ -193,16 +194,32 @@ main.fluid {
   border-radius: 7px;
   margin: 1rem;
 }
+ 
 .cards p{
   font-size: 1.4em;
 }
+
 .ver-ficha{
-  position: relative;
+  margin-left: 8rem;
+  margin-top: -0.7rem;
   width: 3rem;
   height: 3rem;
   background-color: var(--d_color3);
   z-index: 100;
- 
+  font-size: 2em;
+  cursor: pointer;
+  color: #b0b0b0;
+  border-radius: 7px;
+}
+
+.cards:hover{
+  transform: scale(1.1);
+  transition: all .2s ease-out;
+}
+
+.more .cards:hover i{
+  transform: rotate(180deg);
+  transition: all .5s ease-out;
 }
 
 /* 
@@ -253,8 +270,6 @@ nav .config {
   bottom: 28px;
 
 }
-
-
 
 
 /* 
