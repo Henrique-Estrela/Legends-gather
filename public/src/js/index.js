@@ -10,9 +10,9 @@ const tema_btn = document.querySelector("#teste");
 
 const user_btn = document.querySelector("#userbtn");
 
-
 var collapsed = document.querySelector("#collapsed");
 
+var more_card = document.querySelector("#more");
 
 
 
@@ -45,7 +45,9 @@ user_btn.addEventListener("click", function () {
     };
 });
 
-
+more_card.addEventListener("click", function () {
+      functions.modal_card();
+});
 
 
 tema_btn.addEventListener("click", function () {
@@ -58,3 +60,8 @@ tema_btn.addEventListener("click", function () {
     };
 
 });
+
+// more_card.addEventListener("click", function () {
+// //   functions.modal_card;
+//     console.log("func");
+// });

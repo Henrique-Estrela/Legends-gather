@@ -28,5 +28,37 @@ export function check_width() {
     }
 }
 
+export function modal_card() {
+    Swal.fire({
+        title: "Qual tipo de ficha?",
+        showDenyButton: true,
+        background: "var(--d_color8)",
+        color:"#fff",
+        heightAuto: false,
+        confirmButtonColor:"var(--d_color5)",
+        denyButtonColor:"var(--d_color5)",
+        confirmButtonText: `
+        <img src="../src/img/logoD&D.png" alt="D&D">
+      `,
+        denyButtonText: `
+        <img src="../src/img/logoCC.png" alt="Call Of Cthulhu">
+
+        `
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location.href = "criar_personagem.html"
+        } else if (result.isDenied) {
+          Swal.fire({
+            title: "Em Desenvolvimento",
+            background: "var(--d_color8)",
+            color: "#fff",
+            confirmButtonColor: "var(--d_color5)",
+            icon: "info",
+            iconColor: "#fff"
+          });
+        }
+    });
+}
+
 
 
