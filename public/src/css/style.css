@@ -281,11 +281,11 @@ cadastro
 home
 --------------------------------------------- 
 */
-.bar {
+.bar{
   margin: 2rem;
 }
 
-.search input {
+.search input{
   width: 90%;
   height: 3rem;
   background: rgba(255, 255, 255, 0.48);
@@ -295,7 +295,7 @@ home
   padding-left: 2rem;
 }
 
-.search button {
+.search button{
   width: 8%;
   height: 3rem;
   border-radius: 20px;
@@ -307,12 +307,11 @@ home
   text-align: center;
 }
 
-.usuario {
+.usuario{
   position: absolute;
   right: 0;
 }
-
-.user {
+.user{
   display: flex;
   width: 90%;
   height: auto;
@@ -324,21 +323,20 @@ home
   z-index: 100;
 }
 
-.user img {
+.user img{
   width: 4rem;
   background: #ffffffba;
   position: relative;
   left: -12px;
   border-radius: 50%;
 }
-
-.user .name {
+.user .name{
   font-size: 0.9em;
   margin-left: -4%;
   position: relative;
 }
 
-.collapsed {
+.collapsed{
   display: flex;
   position: relative;
   z-index: 10;
@@ -355,14 +353,14 @@ home
   transition: all .4s ease-out;
 }
 
-#userbtn {
+#userbtn{
   position: relative;
   top: 0;
   transition: all .4s ease-out;
   cursor: pointer;
 }
 
-.active-userbtn {
+.active-userbtn{
   position: relative;
   top: 11rem !important;
   transform: rotate(180deg);
@@ -370,20 +368,20 @@ home
 
 }
 
-.collapsed-item {
+.collapsed-item{
   display: flex;
   align-items: flex-start;
   gap: 1.5rem;
   margin-top: 1rem;
 }
 
-.collapsed img {
+.collapsed img{
   width: 3rem;
   filter: invert(100%);
   object-fit: contain;
 }
 
-h1.title {
+h1.title{
   padding: 4rem;
 }
 
@@ -524,7 +522,7 @@ input {
   margin-top: -10px;
 }
 
-#grade3 {
+#grade3{
   border: 2.5px solid var(--d_color1);
   border-radius: 10px;
   height: 280px;
@@ -536,25 +534,24 @@ input {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.inpgrad3 {
-  margin-left: 10%;
+.inpgrad3{
   margin-top: 40px;
   width: 100px;
   margin-left: -30%;
 }
 
-.tex3 {
-  margin-left: 13%;
+.tex3{
+  margin-left: 50%;
   margin-top: 15px;
 
 }
 
-.barrap {
+.barrap{
   display: flex;
   overflow: hidden;
 }
 
-.progress progsup {
+.progress .progsup{
   width: 75%;
   margin-right: 10%;
   margin-top: 15px;
@@ -562,12 +559,12 @@ input {
   float: right;
 }
 
-.progress-bar progresso {
+.progress-bar .progresso{
   background-color: var(--d_color6);
   border-radius: 25px;
 }
 
-.numprog {
+.numprog{
   font-size: 40px;
   margin-left: 150px;
   margin-top: 20px;
@@ -590,8 +587,9 @@ ficha final
 --------------------------------------------- 
 */
 h1 {
+  margin-top: 10px;
   font-size: 45px;
-  margin: 1rem;
+  margin: 12px;
 }
 
 input {
@@ -599,257 +597,201 @@ input {
   border-radius: 5px;
   font-size: 25px;
   width: 230px;
-  display: flex;
   padding-left: 10px;
   color: white;
   height: 40px;
 }
 
-.img-avatar{
-  margin-top: 1.5rem;
-  margin-left: 18.5%;
-  background-color: transparent;
-  width: 60%;
-  height: 50%;
-}
-
 #imgdd {
-  width: 7.5rem;
+  width: 110px;
+  position: absolute;
   display: flex;
-  margin-top: -4.3rem;
-  margin-left: 13.5rem;
+  margin-top: -62px;
+  margin-left: 220px;
 }
 
 #bloco1 {
-  width: 20rem;
-  height: 24rem;
-  margin-left: 1.8rem;
-  margin-top: -0.5rem;
+  width: 310px;
+  height: 375px;
+  margin: 20px;
+  margin-top: 30px;
+  flex-shrink: 0;
   border-radius: 10px;
   border: 2.5px solid var(--d_color1);
   background: rgba(217, 217, 217, 0.00);
 
 }
 
-.bloco1-1 {
-  margin-left: 2.5rem;
-}
-
-
-.nick {
-  margin-top: 0.8rem;
-  margin-left: 0.5rem;
-}
-
-.bloco1-2 {
-  margin-left: 2.5rem;
+#nick {
+  margin: 25px;
+  margin-left: 40px;
+  position: absolute;
   display: flex;
-
+  margin-top: 220px;
 }
 
-.raça,
-.nivel {
-  margin-top: 0.5rem;
-  margin-left: 0.5rem;
+#raça {
+  margin: 25px;
+  margin-left: 40px;
+  display: flex;
+  margin-top: 0px
 }
 
-.inpnick {
-  margin-top: -0.8rem;
-
+#nivel {
+  margin-left: 185px;
+  margin-top: -82px;
 }
 
-.inpraça,
-.inpnivel {
-  margin-top: -1rem;
+#inptamanho1 {
+  border-radius: 5px;
+  margin-left: 30px !important;
+  margin-top: 240px !important;
+  font-size: 25px;
+  margin: 20px;
+  flex-shrink: 0;
 }
 
-.inpraça {
+#inpraça {
+  display: flex;
   width: 120px;
+  border-radius: 5px;
+  margin-top: -25px !important;
+  margin-left: 30px !important;
+  font-size: 25px;
+  margin: 20px;
+  height: 40px;
+  flex-shrink: 0;
 }
 
-.inpnivel {
+#inpnivel {
+  display: flex;
+  margin-left: 180px;
+  margin-top: -18px;
   width: 100px;
 }
 
-.bloco1-3 {
-  margin-left: 10px;
-}
-
-
-
 #bloco2 {
-  width: 18rem;
-  height: 17rem;
-  margin-left: 22rem !important;
+  width: 300px;
+  height: 280px;
+  margin-left: 350px !important;
   margin: 20px;
-  margin-top: -23rem;
+  margin-top: -395px;
+  flex-shrink: 0;
   border-radius: 10px;
   border: 2.5px solid var(--d_color1);
   background: rgba(217, 217, 217, 0.00);
 }
 
 .inf2 {
-  margin-left: 2rem;
-  margin-top: 1rem;
+  margin-left: 13%;
+  margin-top: 15px;
 }
 
 .inpbloc2 {
-  margin-left: 1.2rem;
-  margin-top: -0.8rem;
+  margin-left: 10%;
+  margin-top: -10px;
 }
 
-#bloco3 {
-  height: 3rem;
-  width: 12rem;
-  margin-top: 2rem;
+#bloco3{
+  height: 48px;
+  width: 200px;
   background-color: var(--d_color5);
   border: 1px black solid;
   border-radius: 5px;
-  margin-left: 28rem;
-
+  margin-left: 450px;
+  
 }
 
 .inspiracao {
   font-size: 20px;
   text-align: center;
-  margin-top: 0.5rem;
-
+  margin-top: 10px;
+  
 }
 
-.inpbloc3 {
+.inpbloc3{
   display: flex;
-  width: 4rem;
-  height: 3rem;
+  width: 60px;
+  height: 48px;
   border: 1px black solid;
-  margin-top: -3rem;
-  margin-left: 24.5rem;
+  margin-top: -48px;
+  margin-left: 395px;
   background-color: var(--d_color7);
 }
 
-#bloco4 {
-  height: 3rem;
-  width: 12rem;
+#bloco4{
+  height: 48px;
+  width: 200px;
   background-color: var(--d_color5);
   border: 1px black solid;
   border-radius: 5px;
-  margin-top: 2rem;
-  margin-left: 28rem;
+  margin-top: 30px;
+  margin-left: 450px;
 }
 
-.bonusprof {
+.bonusprof{
   text-align: center;
 }
 
-.inpbloc4 {
+.inpbloc4{
   display: flex;
-  width: 5rem;
-  height: 5rem;
+  width: 80px;
+  height: 80px;
   border: 1px black solid;
-  border-radius: 2.5rem;
-  margin-top: -4rem;
-  margin-left: 24rem;
+  border-radius: 38px;
+  margin-top: -65px;
+  margin-left: 390px;
   background-color: var(--d_color7);
 }
 
-#bloco5 {
-  margin-top: -3.5rem;
+.bloco5{
+  margin-top: -55px;
 }
 
-.ptsvida {
+.ptsvida{
   font-size: 30px;
-  margin-left: 20%;
+  margin-left: 60px;
 }
 
-.progress {
-  width: 92%;
-  height: 1.8rem;
+.progress{
+  width: 280px;
+  height: 25px;
   border-radius: 15px;
-  margin-top: -0.8rem;
-  margin-left: 1.8rem;
+  margin-top: -10px;
+  margin-left: 30px;
   background-color: #FFFFFF7A;
 }
 
-.progress-bar {
+.progress-bar{
   background-color: rgba(255, 0, 0, 0.48);
-  border-radius: 2rem;
 }
 
-.numvida {
-  margin-top: 1rem;
-  margin-left: 5.5rem;
+.numvida{
+  margin-top: 20px;
+  margin-left: 80px;
 }
 
-.inpbloc5,
-.inpbloc5-1,
-.inpbloc5-2 {
-  width: 5rem;
-  height: 2rem;
+.inpbloc5, .inpbloc5-1, .inpbloc5-2 {
+  width: 80px;
+  height: 30px;
   border: 1px solid black;
   border-radius: 0px;
 }
 
-.inpbloc5 {
+.inpbloc5{
   position: absolute;
-  margin-left: 4.9rem;
+  margin-left: 80px;
 }
 
-.inpbloc5-2 {
-  margin-top: 0.7rem;
-  margin-left: 8rem;
+.inpbloc5-2{
+  margin-top: 10px;
+  margin-left: 120px;
 }
 
-.pvtemp {
-  margin-left: 6.2rem;
-  font-size: 20px;
-  margin-top: 0.2rem;
+.pvtemp{
+  margin-left: 90px;
+font-size: 20px;
 }
-
-/* #bloco6{
-  margin-left: 500px;
-  margin-top: -150px;
-}
-
-.classArm{
-  font-size: 20px;
-
-}
-
-.inpbloc6{
-  display: flex;
-  width: 100px;
-  height: 100px;
-  border: 2px black solid;
-  border-radius: 50px;
-  margin-left: -5px;
-  margin-top: -15px;
-} */
-
- .sect2{
-  display: flex;
-  float: left;
-  justify-content: center;
-  margin-top: -38rem;
-  margin-left: 39rem;
-}
-
-#bloco7 {
-  height: 10rem;
-  width: 18rem;
-  border-radius: 10px;
-  border: 2.5px solid var(--d_color1);
-  background: rgba(217, 217, 217, 0.00);
-}
-
-.inpbloc7{
-  height: 5.5rem;
-  margin-left: 2rem;
-}
-
-.equipamen{
-  margin: 1rem;
-  margin-left: 5rem;
-}
-
 /* 
 ---------------------------------------------
 editar
