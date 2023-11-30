@@ -493,53 +493,53 @@ criar personagem
 */
 #grade1 {
   width: 20rem;
-  height: 27rem;
-  margin: 2rem;
-  margin-top: 4rem;
+  height: 30rem;
+  margin-left: 28rem;
+  margin-top: 5rem;
   flex-shrink: 0;
-  border-radius: 1rem;
+  border-radius: 10px;
   border: 2.5px solid var(--d_color1);
   background: rgba(217, 217, 217, 0.00);
   display: flex;
+  position: absolute;
 }
 
 #nome {
-  margin: 2rem;
   margin-left: 2rem;
   position: absolute;
   display: flex;
-  margin-top: 13.5rem;
+  margin-top: 16rem;
 }
 
 #raca {
-  margin-top: 19rem;
+  margin-top: 21.5rem;
   margin-left: 2rem;
   position: absolute;
 }
 
 #level {
-  margin-top: 19rem;
+  margin-top: 21.5rem;
   margin-left: 11rem;
   position: absolute;
 }
 
 #inpnome {
   position: absolute;
-  margin-top: 15rem;
+  margin-top: 18rem;
   margin-left: 1.5rem;
   width: 17rem;
 }
 
 #inpraca {
   position: absolute;
-  margin-top: 20.5rem;
+  margin-top: 23.5rem;
   margin-left:1.5rem;
   width: 8rem;
 }
 
 #inplevel {
   position: absolute;
-  margin-top: 20.5rem;
+  margin-top: 23.5rem;
   margin-left: 10.5rem;
   width: 8rem;
 }
@@ -547,13 +547,13 @@ criar personagem
 #grade2 {
   width: 20rem;
   height: 22rem;
-  margin-left: 23rem !important;
-  margin: 20px;
-  margin-top: -26rem;
+  margin-left: 50rem !important;
+  margin-top: 1rem;
   flex-shrink: 0;
   border-radius: 1rem;
   border: 2.5px solid var(--d_color1);
   background: rgba(217, 217, 217, 0.00);
+  position: absolute;
 }
 
 .tex2 {
@@ -568,14 +568,15 @@ criar personagem
 
 #grade3{
   border: 2.5px solid var(--d_color1);
-  border-radius: 1rem;
+  border-radius: 10px;
   height: 15rem;
   width: 20rem;
-  margin-top:-2rem;
-  margin-left: 44rem;
+  margin-top:25rem;
+  margin-left: 50rem;
   flex-shrink: 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  position: absolute;
 }
 
 .inpgrad3{
@@ -584,7 +585,7 @@ criar personagem
   height: 3.5rem;
   margin-left: -3rem;
   margin-top: 2.5rem;
-  border-radius: 1rem;
+  border-radius: 10px;
 }
 
 .tex3{
@@ -608,14 +609,20 @@ background-color: var(--d_color4);
 
 .btnprox{
   background-color: var(--d_color7);
-  border-radius: 1rem;
+  border-radius: 10px;
   width: 10rem;
   height: 5rem;
   text-align: center;
-  margin-top:-6rem;
+  margin-top:35rem;
   margin-left:85rem;
-  position: absolute
+  color: white;
+  font-size: 1.5em;
 }
+
+.progress-bar, .bg-info{
+  background-color: var(--d_color7);
+}
+
 
 /* 
 ---------------------------------------------
