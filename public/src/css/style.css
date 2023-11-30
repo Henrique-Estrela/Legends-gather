@@ -473,15 +473,16 @@ input
 }
 
 #grade1 {
-  width: 310px;
-  height: 375px;
-  margin: 20px;
-  margin-top: 30px;
+  width: 20rem;
+  height: 27rem;
+  margin: 2rem;
+  margin-top: 4rem;
   flex-shrink: 0;
-  border-radius: 10px;
+  border-radius: 1rem;
   border: 2.5px solid var(--d_color1);
   background: rgba(217, 217, 217, 0.00);
-
+  display: grid;
+  grid-column: auto;
 }
 
 #nome {
@@ -489,19 +490,19 @@ input
   margin-left: 40px;
   position: absolute;
   display: flex;
-  margin-top: 220px;
+  margin-top: 13.5rem;
 }
 
 #raca {
-  margin: 25px;
+  margin: 1.5rem;
   margin-left: 40px;
   display: flex;
   margin-top: 0px;
 }
 
 #level {
-  margin: 25px;
-  margin-left: 40px;
+  margin: 1.5rem;
+  margin-left: 12rem;
   display: flex;
   margin-top: 0px;
 }
@@ -529,9 +530,9 @@ input
 
 #inplevel {
   display: flex;
-  width: 7rem;
+  width: 8rem;
   border-radius: 5px;
-  margin-top: -1.5rem !important;
+  margin-top: -6.06rem !important;
   margin-left: 11rem !important;
   font-size: 25px;
   margin: 1rem;
@@ -622,136 +623,6 @@ input
   margin-left: 85%;
 }
 
-
-/* 
----------------------------------------------
-ficha final 
---------------------------------------------- 
-*/
-
-#imgdd {
-  width: 110px;
-  position: absolute;
-  display: flex;
-  margin-top: -62px;
-  margin-left: 220px;
-}
-#grade1 {
-  width: 310px;
-  height: 375px;
-  margin: 20px;
-  margin-top: 30px;
-  flex-shrink: 0;
-  border-radius: 10px;
-  border: 2.5px solid var(--d_color1);
-  background: rgba(217, 217, 217, 0.00);
-}
-#nome {
-  margin: 25px;
-  margin-left: 40px;
-  position: absolute;
-  display: flex;
-  margin-top: 220px;
-}
-#raca {
-  margin: 25px;
-  margin-left: 40px;
-  display: flex;
-  margin-top: 0px
-}
-#level {
-  margin-left: 185px;
-  margin-top: -82px;
-}
-#inpnome {
-  border-radius: 5px;
-  margin-left: 30px !important;
-  margin-top: 240px !important;
-  font-size: 25px;
-  margin: 20px;
-  flex-shrink: 0;
-}
-#inpraca {
-  display: flex;
-  width: 120px;
-  border-radius: 5px;
-  margin-top: -25px !important;
-  margin-left: 30px !important;
-  font-size: 25px;
-  margin: 20px;
-  height: 40px;
-  flex-shrink: 0;
-}
-#inplevel {
-  display: flex;
-  margin-left: 180px;
-  margin-top: -18px;
-  width: 100px;
-}
-#grade2 {
-  width: 310px;
-  height: 280px;
-  margin-left: 350px !important;
-  margin: 20px;
-  margin-top: -395px;
-  flex-shrink: 0;
-  border-radius: 10px;
-  border: 2.5px solid var(--d_color1);
-  background: rgba(217, 217, 217, 0.00);
-}
-.tex2 {
-  margin-left: 13%;
-  margin-top: 15px;
-}
-.inpgrad2 {
-  margin-left: 10%;
-  margin-top: -10px;
-}
-#grade3 {
-  border: 2.5px solid var(--d_color1);
-  border-radius: 10px;
-  height: 280px;
-  grid-template-columns: repeat(4, 1fr);
-}
-.inpgrad3 {
-  margin-left: 10%;
-  margin-top: 40px;
-  width: 100px;
-  margin-left: -30%;
-}
-
-.tex3 {
-  margin-left: 13%;
-  margin-top: 15px;
-}
-.barrap {
-  display: flex;
-  overflow: hidden;
-}
-.progress .progsup{
-  width: 75%;
-  margin-right: 10%;
-  margin-top: 15px;
-  float: right;
-}
-.progress-bar .progresso{
-  background-color: var(--d_color6);
-  border-radius: 25px;
-}
-.numprog {
-  font-size: 40px;
-  margin-left: 150px;
-  margin-top: 20px;
-}
-.prox{
-  background-color: var(--d_color7);
-  border-radius: 5%;
-  width: 175px;
-  height: 75px;
-  text-align: center;
-  margin-top: 100%;
-  margin-left: 85%;
-}
 /* 
 ---------------------------------------------
 ficha final 
