@@ -752,20 +752,7 @@ ficha final
 ficha final 
 --------------------------------------------- 
 */
-h1 {
-  font-size: 45px;
-  margin: 1rem;
-}
-input {
-  background-color: var(--d_color5);
-  border-radius: 5px;
-  font-size: 25px;
-  width: 230px;
-  display: flex;
-  padding-left: 10px;
-  color: white;
-  height: 40px;
-}
+
 #imgdd {
   width: 7.5rem;
   display: flex;
