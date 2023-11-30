@@ -617,7 +617,6 @@ ficha final
 --------------------------------------------- 
 */
 
-
 #imgdd {
   width: 110px;
   position: absolute;
@@ -625,8 +624,7 @@ ficha final
   margin-top: -62px;
   margin-left: 220px;
 }
-
-#bloco1 {
+#grade1 {
   width: 310px;
   height: 375px;
   margin: 20px;
@@ -635,30 +633,25 @@ ficha final
   border-radius: 10px;
   border: 2.5px solid var(--d_color1);
   background: rgba(217, 217, 217, 0.00);
-
 }
-
-#nick {
+#nome {
   margin: 25px;
   margin-left: 40px;
   position: absolute;
   display: flex;
   margin-top: 220px;
 }
-
-#raça {
+#raca {
   margin: 25px;
   margin-left: 40px;
   display: flex;
   margin-top: 0px
 }
-
-#nivel {
+#level {
   margin-left: 185px;
   margin-top: -82px;
 }
-
-#inptamanho1 {
+#inpnome {
   border-radius: 5px;
   margin-left: 30px !important;
   margin-top: 240px !important;
@@ -666,8 +659,7 @@ ficha final
   margin: 20px;
   flex-shrink: 0;
 }
-
-#inpraça {
+#inpraca {
   display: flex;
   width: 120px;
   border-radius: 5px;
@@ -678,16 +670,14 @@ ficha final
   height: 40px;
   flex-shrink: 0;
 }
-
-#inpnivel {
+#inplevel {
   display: flex;
   margin-left: 180px;
   margin-top: -18px;
   width: 100px;
 }
-
-#bloco2 {
-  width: 300px;
+#grade2 {
+  width: 310px;
   height: 280px;
   margin-left: 350px !important;
   margin: 20px;
@@ -697,120 +687,232 @@ ficha final
   border: 2.5px solid var(--d_color1);
   background: rgba(217, 217, 217, 0.00);
 }
-
-.inf2 {
+.tex2 {
   margin-left: 13%;
   margin-top: 15px;
 }
-
-.inpbloc2 {
+.inpgrad2 {
   margin-left: 10%;
   margin-top: -10px;
 }
+#grade3 {
+  border: 2.5px solid var(--d_color1);
+  border-radius: 10px;
+  height: 280px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.inpgrad3 {
+  margin-left: 10%;
+  margin-top: 40px;
+  width: 100px;
+  margin-left: -30%;
+}
 
-#bloco3{
-  height: 48px;
-  width: 200px;
+.tex3 {
+  margin-left: 13%;
+  margin-top: 15px;
+}
+.barrap {
+  display: flex;
+  overflow: hidden;
+}
+.progress .progsup{
+  width: 75%;
+  margin-right: 10%;
+  margin-top: 15px;
+  float: right;
+}
+.progress-bar .progresso{
+  background-color: var(--d_color6);
+  border-radius: 25px;
+}
+.numprog {
+  font-size: 40px;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+.prox{
+  background-color: var(--d_color7);
+  border-radius: 5%;
+  width: 175px;
+  height: 75px;
+  text-align: center;
+  margin-top: 100%;
+  margin-left: 85%;
+}
+/* 
+---------------------------------------------
+ficha final 
+--------------------------------------------- 
+*/
+h1 {
+  font-size: 45px;
+  margin: 1rem;
+}
+input {
+  background-color: var(--d_color5);
+  border-radius: 5px;
+  font-size: 25px;
+  width: 230px;
+  display: flex;
+  padding-left: 10px;
+  color: white;
+  height: 40px;
+}
+#imgdd {
+  width: 7.5rem;
+  display: flex;
+  margin-top: -4.3rem;
+  margin-left: 13.5rem;
+}
+#bloco1 {
+  width: 20rem;
+  height: 23rem;
+  margin-left: 1.8rem;
+  margin-top: -0.5rem;
+  border-radius: 10px;
+  border: 2.5px solid var(--d_color1);
+  background: rgba(217, 217, 217, 0.00);
+}
+.bloco1-1 {
+  margin-left: 2.5rem;
+}
+.nick {
+  margin-top: 13rem;
+  margin-left: 0.5rem;
+}
+.bloco1-2 {
+  margin-left: 2.5rem;
+  display: flex;
+}
+.raça,
+.nivel {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+.inpnick {
+  margin-top: -0.8rem;
+}
+.inpraça,
+.inpnivel {
+  margin-top: -1rem;
+}
+.inpraça {
+  width: 120px;
+}
+.inpnivel {
+  width: 100px;
+}
+.bloco1-3 {
+  margin-left: 10px;
+}
+#bloco2 {
+  width: 18rem;
+  height: 17rem;
+  margin-left: 22rem !important;
+  margin: 20px;
+  margin-top: -21.8rem;
+  border-radius: 10px;
+  border: 2.5px solid var(--d_color1);
+  background: rgba(217, 217, 217, 0.00);
+}
+.inf2 {
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.inpbloc2 {
+  margin-left: 1.2rem;
+  margin-top: -0.8rem;
+}
+#bloco3 {
+  height: 3rem;
+  width: 12rem;
+  margin-top: 2rem;
   background-color: var(--d_color5);
   border: 1px black solid;
   border-radius: 5px;
-  margin-left: 450px;
-  
+  margin-left: 28rem;
 }
-
 .inspiracao {
   font-size: 20px;
   text-align: center;
-  margin-top: 10px;
-  
+  margin-top: 0.5rem;
 }
-
-.inpbloc3{
+.inpbloc3 {
   display: flex;
-  width: 60px;
-  height: 48px;
+  width: 4rem;
+  height: 3rem;
   border: 1px black solid;
-  margin-top: -48px;
-  margin-left: 395px;
+  margin-top: -3rem;
+  margin-left: 24.5rem;
   background-color: var(--d_color7);
 }
-
-#bloco4{
-  height: 48px;
-  width: 200px;
+#bloco4 {
+  height: 3rem;
+  width: 12rem;
   background-color: var(--d_color5);
   border: 1px black solid;
   border-radius: 5px;
-  margin-top: 30px;
-  margin-left: 450px;
+  margin-top: 2rem;
+  margin-left: 28rem;
 }
-
-.bonusprof{
+.bonusprof {
   text-align: center;
 }
-
-.inpbloc4{
+.inpbloc4 {
   display: flex;
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   border: 1px black solid;
-  border-radius: 38px;
-  margin-top: -65px;
-  margin-left: 390px;
+  border-radius: 2.5rem;
+  margin-top: -4rem;
+  margin-left: 24rem;
   background-color: var(--d_color7);
 }
-
-.bloco5{
-  margin-top: -55px;
+#bloco5 {
+  margin-top: -4rem;
 }
-
-.ptsvida{
+.ptsvida {
   font-size: 30px;
-  margin-left: 60px;
+  margin-left: 20%;
 }
-
-.progress{
-  width: 280px;
-  height: 25px;
+.progress {
+  width: 92%;
+  height: 1.8rem;
   border-radius: 15px;
-  margin-top: -10px;
-  margin-left: 30px;
+  margin-top: -0.8rem;
+  margin-left: 1.8rem;
   background-color: #FFFFFF7A;
 }
-
-.progress-bar{
+.progress-bar {
   background-color: rgba(255, 0, 0, 0.48);
+  border-radius: 2rem;
 }
-
-.numvida{
-  margin-top: 20px;
-  margin-left: 80px;
+.numvida {
+  margin-top: 1rem;
+  margin-left: 5.5rem;
 }
-
-.inpbloc5, .inpbloc5-1, .inpbloc5-2 {
-  width: 80px;
-  height: 30px;
+.inpbloc5,
+.inpbloc5-1,
+.inpbloc5-2 {
+  width: 5rem;
+  height: 2rem;
   border: 1px solid black;
   border-radius: 0px;
 }
-
-.inpbloc5{
+.inpbloc5 {
   position: absolute;
-  margin-left: 80px;
+  margin-left: 4.9rem;
 }
-
-.inpbloc5-2{
-  margin-top: 10px;
-  margin-left: 120px;
+.inpbloc5-2 {
+  margin-top: 0.7rem;
+  margin-left: 8rem;
 }
-
-.pvtemp{
-  margin-left: 90px;
-font-size: 20px;
+.pvtemp {
+  margin-left: 6.2rem;
+  font-size: 20px;
+  margin-top: 0.2rem;
 }
-
-
-
 /* #bloco6{
   margin-left: 500px;
   margin-top: -150px;
@@ -827,13 +929,13 @@ font-size: 20px;
   margin-left: -5px;
   margin-top: -15px;
 } */
-.sect2{
+/* .sect2{
   display: flex;
-  float: left;
   justify-content: center;
-  margin-top: -38rem;
-  margin-left: 39rem;
-}
+  margin-top: -85vh;
+  margin-left: 20vh;
+} */
+
 #bloco7 {
   height: 10rem;
   width: 18rem;
