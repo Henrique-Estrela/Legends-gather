@@ -628,27 +628,41 @@ input
 ficha final 
 --------------------------------------------- 
 */
+.tituloFicha{
+  margin-top: 10rem;
+  font-size: 4rem;
+  margin: 12px;
+  margin: 1rem;
+}
 
 #imgdd {
-  width: 7.5rem;
+  width: 8.5rem;
   display: flex;
-  margin-top: -4.3rem;
-  margin-left: 13.5rem;
+  margin-top: -5.2rem;
+  margin-left: 19.8rem;
 }
 #bloco1 {
   width: 20rem;
-  height: 23rem;
+  height: 23.8rem;
   margin-left: 1.8rem;
-  margin-top: -0.5rem;
+  margin-top: 0.9rem;
   border-radius: 10px;
   border: 2.5px solid var(--d_color1);
   background: rgba(217, 217, 217, 0.00);
+}
+
+.img-avatar{
+  margin-top: 1.1rem;
+  margin-left: 18.5%;
+  background-color: transparent;
+  width: 12rem;
+  height: 11.5rem;
 }
 .bloco1-1 {
   margin-left: 2.5rem;
 }
 .nick {
-  margin-top: 13rem;
+  margin-top: 0.8rem;
   margin-left: 0.5rem;
 }
 .bloco1-2 {
@@ -661,7 +675,7 @@ ficha final
   margin-left: 0.5rem;
 }
 .inpnick {
-  margin-top: -0.8rem;
+  margin-top: -2rem;
 }
 .inpraça,
 .inpnivel {
@@ -679,29 +693,29 @@ ficha final
 #bloco2 {
   width: 18rem;
   height: 17rem;
-  margin-left: 22rem !important;
-  margin: 20px;
-  margin-top: -21.8rem;
+  margin-left: 5rem;
+  margin-top: -18.35rem;
   border-radius: 10px;
   border: 2.5px solid var(--d_color1);
   background: rgba(217, 217, 217, 0.00);
 }
 .inf2 {
-  margin-left: 2rem;
+  margin-left: 1.2rem;
   margin-top: 1rem;
 }
 .inpbloc2 {
-  margin-left: 1.2rem;
+  margin-left: 0.5rem;
+  display: flex;
   margin-top: -0.8rem;
 }
 #bloco3 {
   height: 3rem;
   width: 12rem;
-  margin-top: 2rem;
+  margin-top: 0;
   background-color: var(--d_color5);
   border: 1px black solid;
   border-radius: 5px;
-  margin-left: 28rem;
+  margin-left: -12rem;
 }
 .inspiracao {
   font-size: 20px;
@@ -714,7 +728,7 @@ ficha final
   height: 3rem;
   border: 1px black solid;
   margin-top: -3rem;
-  margin-left: 24.5rem;
+  margin-left: -15.5rem;
   background-color: var(--d_color7);
 }
 #bloco4 {
@@ -724,7 +738,7 @@ ficha final
   border: 1px black solid;
   border-radius: 5px;
   margin-top: 2rem;
-  margin-left: 28rem;
+  margin-left: -12rem;
 }
 .bonusprof {
   text-align: center;
@@ -736,22 +750,23 @@ ficha final
   border: 1px black solid;
   border-radius: 2.5rem;
   margin-top: -4rem;
-  margin-left: 24rem;
+  margin-left: -16.2rem;
   background-color: var(--d_color7);
 }
 #bloco5 {
-  margin-top: -4rem;
+  margin-top: -3rem;
+  margin-left: -38rem;
 }
 .ptsvida {
   font-size: 30px;
-  margin-left: 20%;
+  margin-left: 3.5rem;
 }
 .progress {
-  width: 92%;
+  width: 19rem;
   height: 1.8rem;
   border-radius: 15px;
   margin-top: -0.8rem;
-  margin-left: 1.8rem;
+  margin-left: 0.3rem;
   background-color: #FFFFFF7A;
 }
 .progress-bar {
@@ -767,20 +782,27 @@ ficha final
 .inpbloc5-2 {
   width: 5rem;
   height: 2rem;
+  margin-top: -1.5rem;
   border: 1px solid black;
   border-radius: 0px;
 }
 .inpbloc5 {
   position: absolute;
-  margin-left: 4.9rem;
+  margin-top: -0.4rem;
+  margin-left: 4.1rem;
 }
+
+.inpbloc5-1{
+margin-left: -0.8rem;
+}
+
 .inpbloc5-2 {
-  margin-top: 0.7rem;
-  margin-left: 8rem;
+  margin-top: 0.2rem;
+  margin-left: 7.2rem;
 }
 .pvtemp {
-  margin-left: 6.2rem;
-  font-size: 20px;
+  margin-left: 5.6rem;
+  font-size: 19px;
   margin-top: 0.2rem;
 }
 /* #bloco6{
@@ -806,7 +828,7 @@ ficha final
   margin-left: 20vh;
 } */
 
-#bloco7 {
+/* #bloco7 {
   height: 10rem;
   width: 18rem;
   border-radius: 10px;
@@ -820,7 +842,7 @@ ficha final
 .equipamen{
   margin: 1rem;
   margin-left: 5rem;
-}
+} */
 
 /* 
 ---------------------------------------------
