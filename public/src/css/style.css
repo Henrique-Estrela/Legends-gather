@@ -456,7 +456,13 @@ usuario
 criar personagem
 --------------------------------------------- 
 */
-input {
+input
+.inpnome
+.inplevel
+.inpraca
+.inpgrad2
+.inpgrad3
+{
   background-color: var(--d_color5);
   border-radius: 2rem;
   font-size: 10rem;
@@ -512,10 +518,10 @@ input {
   display: flex;
   width: 8rem;
   border-radius: 5px;
-  margin-top: -25px !important;
-  margin-left: 30px !important;
+  margin-top: -1.5rem !important;
+  margin-left: 2rem !important;
   font-size: 25px;
-  margin: 20px;
+  margin: 1rem;
   height: 2rem;
   flex-shrink: 0;
 }
@@ -524,7 +530,8 @@ input {
   display: flex;
   margin-left: 180px;
   margin-top: -18px;
-  width: 100px;
+  width: 6rem;
+  height: 2rem;
 }
 
 #grade2 {
