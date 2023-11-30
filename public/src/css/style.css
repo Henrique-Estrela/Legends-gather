@@ -458,20 +458,12 @@ criar personagem
 */
 input {
   background-color: var(--d_color5);
-  border-radius: 5px;
-  font-size: 25px;
-  width: 230px;
-  padding-left: 10px;
+  border-radius: 2rem;
+  font-size: 10rem;
+  width: 20rem;
+  padding-left: 2rem;
   color: white;
-  height: 40px;
-}
-
-#imgdd {
-  width: 110px;
-  position: absolute;
-  display: flex;
-  margin-top: -62px;
-  margin-left: 220px;
+  height: 5rem;
 }
 
 #grade1 {
@@ -503,7 +495,8 @@ input {
 
 #level {
   margin-left: 185px;
-  margin-top: -82px;
+  margin-top: -4.57rem;
+  border-radius: 1rem;
 }
 
 #inpnome {
@@ -517,13 +510,13 @@ input {
 
 #inpraca {
   display: flex;
-  width: 120px;
+  width: 8rem;
   border-radius: 5px;
   margin-top: -25px !important;
   margin-left: 30px !important;
   font-size: 25px;
   margin: 20px;
-  height: 40px;
+  height: 2rem;
   flex-shrink: 0;
 }
 
@@ -552,26 +545,29 @@ input {
 }
 
 .inpgrad2 {
-  margin-left: 10%;
-  margin-top: -10px;
+  margin-left: 2rem;
+  border-radius: 1rem;
 }
 
 #grade3{
   border: 2.5px solid var(--d_color1);
-  border-radius: 10px;
-  height: 280px;
-  width: 315px;
-  margin-top: -300px;
-  margin-left: 675px;
+  border-radius: 1rem;
+  height: 15rem;
+  width: 20rem;
+  margin-top: -18.7rem;
+  margin-left: 42.5rem;
   flex-shrink: 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 
 .inpgrad3{
-  margin-top: 40px;
-  width: 100px;
-  margin-left: -30%;
+  margin-top: 2rem;
+  width: 5rem;
+  height: 3.5rem;
+  margin-left: -3rem;
+  margin-top: 2.5rem;
+  border-radius: 1rem;
 }
 
 .tex3{
