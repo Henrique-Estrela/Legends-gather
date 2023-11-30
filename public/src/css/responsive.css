@@ -77,6 +77,14 @@
         width: 12%;
         margin-left: -10%;
     }
+
+    h1.title {
+        padding: unset;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        font-size: 3em;
+        text-align: center;
+    }
 }
       
       

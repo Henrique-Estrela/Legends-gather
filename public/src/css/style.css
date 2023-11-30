@@ -109,6 +109,30 @@ body {
   color: #fff;
 }
 
+.ligth ::-webkit-scrollbar {
+  width: 7px;              
+}
+
+.ligth ::-webkit-scrollbar-track {
+  background: var(--l_color1);      
+}
+.ligth ::-webkit-scrollbar-thumb {
+  background-color: var(--l_color3);
+  border-radius: 20px;       
+}
+
+::-webkit-scrollbar {
+  width: 7px;              
+}
+
+::-webkit-scrollbar-track {
+  background: var(--d_color1);      
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--d_color3);
+  border-radius: 20px;       
+}
+
 ::selection {
   background: var(--d_color3);
   color: #fff;
