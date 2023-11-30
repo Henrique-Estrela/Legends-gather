@@ -61,7 +61,3 @@ tema_btn.addEventListener("click", function () {
 
 });
 
-// more_card.addEventListener("click", function () {
-// //   functions.modal_card;
-//     console.log("func");
-// });

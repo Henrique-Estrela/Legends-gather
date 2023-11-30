@@ -272,8 +272,8 @@ input {
 }
 .swal2-actions{
   gap: 3rem;
-
 }
+
 /* 
 ---------------------------------------------
 header
@@ -289,6 +289,8 @@ nav.Navbar {
 
 nav .logo img {
   width: 4rem;
+  position: fixed;
+  margin-left: -2rem;
   border-radius: 10px;
   margin-top: 3rem;
   filter: unset;
@@ -309,8 +311,8 @@ nav img {
   content: " ";
   display: flex;
   position: absolute;
-  margin-top: -4.5rem;
-  left: 0;
+  margin-top: -4rem;
+  left: -1.4rem;
   height: 4.5rem;
   width: 0.3rem;
   background-color: #fff;
@@ -318,9 +320,13 @@ nav img {
 
 nav .config {
   display: flex;
-  position: absolute;
+  position: fixed;
   bottom: 28px;
+}
 
+nav .navgation{
+  position: fixed;
+  top: 14rem;
 }
 
 
