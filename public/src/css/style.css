@@ -666,6 +666,11 @@ ficha final
   margin-top: -5.2rem;
   margin-left: 19.8rem;
 }
+
+.part1-geral{
+  margin-left: 5rem;
+}
+
 #bloco1 {
   width: 20rem;
   height: 23.8rem;
@@ -719,7 +724,7 @@ ficha final
 #bloco2 {
   width: 18rem;
   height: 17rem;
-  margin-left: 5rem !important;
+  margin-left: 6rem !important;
   margin: 20px;
   margin-top: -18.35rem;
   border-radius: 10px;
@@ -782,7 +787,7 @@ ficha final
 }
 #bloco5 {
   margin-top: -3rem;
-  margin-left: -39.5rem;
+  margin-left: -40.5rem;
 }
 .ptsvida {
   font-size: 30px;
@@ -836,11 +841,8 @@ ficha final
 
 .part2{
   margin-left: 45rem;
-  
-}
-
-.classeArm{
-  font-size: 1.4rem;
+  display: flex;
+  margin-left: 52rem;
 }
 
 .bloco6{
@@ -898,6 +900,56 @@ ficha final
   height: 12rem;
 }
 
+.linhabloc6{
+  width: 8rem;
+  height: 0.3rem;
+  margin-top: -1.85rem;
+  margin-left: 6.5rem;
+  background-color: black;
+  border-radius: 0.15rem;
+  color: black;
+}
+
+.inpbloc6-3,.inpbloc6-4,.inpbloc6-5,.inpbloc6-6,.inpbloc6-7,.inpbloc6-8{
+  width: 1.7rem;
+  height: 1.7rem;
+  background-color: var(--d_color7);
+  border-radius: 5rem;
+  border: black solid 0.13rem;
+}
+
+.inpbloc6-3{
+  position: absolute;
+  margin-top: -4rem;
+  margin-left: 7.1rem;
+}
+.inpbloc6-4{
+  position: absolute;
+  margin-top: -4rem;
+  margin-left: 9.62rem;
+}
+.inpbloc6-5{
+  position: absolute;
+  margin-top: -4rem;
+  margin-left: 12.1rem;
+}
+
+.inpbloc6-6{
+  position: absolute;
+  margin-top: -1rem;
+  margin-left: 7.1rem;
+}
+
+.inpbloc6-7{
+  position: absolute;
+  margin-top: -1rem;
+  margin-left: 9.62rem;
+}
+.inpbloc6-8{
+  position: absolute;
+  margin-top: -1rem;
+  margin-left: 12.1rem;
+}
 .testmort6{
   font-size: 1.2rem;
   margin-top: 0.5rem;
@@ -910,8 +962,14 @@ ficha final
 }
 
 .bloco7{
-  margin-top: -35.8rem;
-  margin-left: 18rem;
+  margin-top: -32rem;
+  margin-left: 20.5rem;
+}
+
+
+.classeArm{
+  font-size: 1.4rem;
+  width: 7rem;
 }
 
 .inpbloc7{
@@ -951,15 +1009,17 @@ ficha final
   color: white;
 }
 
-.setinha{
-  width: 3rem;
+.btnSeta{
+  width: 5.5rem;
+  height: 3.5rem;
   margin-top: 2rem;
   background-color: var(--d_color5);
   border-radius: 10px;
+  margin-left: 21.5rem;
 }
-.setinhaProx{
-  margin-left: 20rem;
-  width: 10 rem;
+
+.setaproximo{
+  width: 3rem;
 }
 
 /* 
