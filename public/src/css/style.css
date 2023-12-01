@@ -667,6 +667,14 @@ ficha final
   margin-left: 19.8rem;
 }
 
+.btnCloseFF{
+  background-color: transparent;
+  position: absolute;
+  margin-left: 86rem;
+  margin-top: -3.2rem;
+  width: 5rem;
+}
+
 .part1-geral{
   margin-left: 5rem;
 }
@@ -1009,7 +1017,7 @@ ficha final
   color: white;
 }
 
-.btnSeta{
+.btnSetaFF{
   width: 5.5rem;
   height: 3.5rem;
   margin-top: 2rem;
