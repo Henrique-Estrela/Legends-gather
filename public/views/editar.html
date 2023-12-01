@@ -36,7 +36,7 @@
 </head>
 <body class="">
 
-    <header>
+    <header class="web">
         <nav class="Navbar">
             <div class="logo">
                 <a href="../../index.html">
@@ -45,13 +45,13 @@
             </div>
             <div class="navgation">
                 <ul class="itens">
-                    <a href="">
-                        <div class="nav-item">
+                    <a href="./home.html">
+                        <div  class="nav-item active">
                             <img src="../src/img/icon/icon-home.png" alt="Home" >                  
                         </div>
                     </a>
-                    <a href="">
-                        <div class="nav-item active">     
+                    <a href="./editar.html">
+                        <div class="nav-item">     
                                <img src="../src/img/icon/icon-edit.png" alt="Editar">
                         </div>
                     </a>
@@ -68,9 +68,88 @@
     </header>
         
 
-    <main>
 
+
+    <main class="main">
+        <div class="container">
+            <div class="row bar">
+                <div class="search col-sm-8 ">
+                    <input type="search" name="search" id="search" placeholder="Pesquise...">
+                    <button>
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                </div>
+
+                <div class="usuario col-sm-4 ">
+                    <div class="row ">
+                        <div class="user">
+                            <img src="../src/img/boneco2.png" alt="Usuario" >
+                            <div class="name">Nome do user</div>
+                            <div id="userbtn">
+                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="collapsed"  id="collapsed">
+                        <a href="usuario.html">
+                            <div class="collapsed-item">
+                                <img src="../src/img/icon/icon-editarimg.png" alt="Editar">
+                                <p>Editar</p>
+                            </div>
+                        </a>
+
+                        <a href="../../index.html">
+                            <div class="collapsed-item">
+                                <img src="../src/img/icon/icon-sair.png" alt="Sair">                               
+                                <p>Sair</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>  
+            </div>
+
+            <h1 class="title">Meus Personagens</h1>
+
+            <div class="cards-section row">
+                
+            </div>     
     </main>
+
+
+
+
+    <header class="mobile">
+        <nav class="Navbar">
+            <div class="logo">
+                <a href="../../index.html">
+                    <img  src="../src/img/logo-image.png" alt="Legends Gather">
+                </a>
+            </div>
+            <div class="navgation">
+                <ul class="itens">
+                    <a href="./home.html">
+                        <div  class="nav-item active">
+                            <img src="../src/img/icon/icon-home.png" alt="Home" >                  
+                        </div>
+                    </a>
+                    <a href="./editar.html">
+                        <div class="nav-item">     
+                               <img src="../src/img/icon/icon-edit.png" alt="Editar">
+                        </div>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="config">
+                <a href="./configuracao.html">
+                    <i class="fa fa-gear fa-3x"></i>            
+                </a>
+            </div>
+
+        </nav>
+    </header>
 
 </body>
 </html>

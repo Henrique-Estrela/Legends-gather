@@ -55,6 +55,10 @@
 
     }
     
+
+    nav .navgation {
+    position: unset;
+    }
     .active::after, nav .config, nav .logo img{
         content: unset; 
         position: unset;

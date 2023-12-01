@@ -310,9 +310,9 @@ nav img {
 .active::after {
   content: " ";
   display: flex;
-  position: absolute;
+  position: fixed;
   margin-top: -4rem;
-  left: -1.4rem;
+  left: 0;
   height: 4.5rem;
   width: 0.3rem;
   background-color: #fff;
