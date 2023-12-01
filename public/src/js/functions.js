@@ -76,8 +76,21 @@ export function pull_card(cardContainer, existingCards) {
 
 }
 
+export function push_card(){
+  const info_card = {
+    img: '../src/img/boneco1.png',
+    href: '',
+    name: 'Cleiton',
+  };
+
+  return info_card;
+}
+
 export function Make_card(cardContainer, existingCards) {
+
   
+    var info_card = push_card();
+
     // Criar um novo elemento div para representar o card
     const newCard = document.createElement('div');
     newCard.classList.add('cards-container', 'col-lg-3', 'col-sm-6');
@@ -86,10 +99,10 @@ export function Make_card(cardContainer, existingCards) {
     newCard.innerHTML = `
       <div class="cards">
         <div class="img-person">
-          <img src="../src/img/boneco1.png" alt="Nome personagem">
+          <img src="`+ info_card.img +`" alt="Nome personagem">
         </div>
-        <p>Nome personagem</p>
-        <a href="">
+        <p>`+ info_card.name +`</p>
+        <a href="`+ info_card.href +`">
           <div class="ver-ficha">
             <i class="fa-solid fa-circle-info"></i>
           </div>
@@ -105,7 +118,6 @@ export function Make_card(cardContainer, existingCards) {
 
     saveCardsToLocalStorage(existingCards)
 }
-
 
 export function removeCard(cardContainer,existingCards, index){
 
