@@ -144,11 +144,11 @@ body {
 }
 
 .preLoad{
-  width: 10rem;
-  height: 10rem;
+  width: 30rem;
+  height: 30rem;
   overflow: hidden;
   background: var(--d_color1);
-  background-image: url("https://i.gifer.com/XVo6.gif");
+  background-image: url("../img/logo-icon.png");
   background-position: center;
   background-size: contain;
   animation: load 2s infinite linear;

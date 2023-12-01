@@ -7,9 +7,8 @@ Variáveis
 */
 
 
-// const loadingElement = functions.showLoading();
 
-const tema_btn = document.querySelector("#teste");
+const theme_btn = document.querySelector("#toggletheme");
 
 const user_btn = document.querySelector("#userbtn");
 
@@ -38,11 +37,16 @@ const User = {
 chamar funções
 --------------------------------------------- 
 */
+
 functions.loadtema();
+
 functions.Loading();
+
 window.onload = functions.pull_card(cardContainer,existingCards);
+
 window.onload = functions.check_width;
 window.onresize = functions.check_width;
+
 
 /* 
 ---------------------------------------------
@@ -55,11 +59,11 @@ window.addEventListener('load', function() {
     setTimeout(() => {
       const telaLoadElement = document.querySelector('.telaLoad');
       functions.hideLoading(telaLoadElement);
-    }, 1000);
+    }, 500);
 });
 
 
-user_btn.addEventListener("click", function () {
+user_btn.addEventListener('click', function () {
     if (collapsed.style.height == "15rem") {
         collapsed.style.height = "1rem";
         user_btn.classList.remove("active-userbtn");
@@ -70,19 +74,23 @@ user_btn.addEventListener("click", function () {
     };
 });
 
-more_card.addEventListener("click", function () {
+
+more_card.addEventListener('click', function () {
     functions.modal_card();
 });
 
-delete_card.addEventListener("click", function() {
-    functions.removeCard(cardContainer,existingCards, 0);
-})
 
-make_card.addEventListener("click", function () {
+delete_card.addEventListener('click', function() {
+    functions.removeCard(cardContainer,existingCards, 0);
+});
+
+
+make_card.addEventListener('click', function () {
     functions.Make_card(cardContainer,existingCards);
 });
 
-tema_btn.addEventListener("click", function () {
+
+theme_btn.addEventListener('click', function () {
     functions.toggle_ligth_mode();
 
     localStorage.removeItem("ligth");
@@ -90,6 +98,5 @@ tema_btn.addEventListener("click", function () {
     if (document.body.classList.contains("ligth")) {
         localStorage.setItem("ligth", 1);
     };
-
 });
 
