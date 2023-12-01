@@ -6,6 +6,9 @@ Variáveis
 --------------------------------------------- 
 */
 
+
+// const loadingElement = functions.showLoading();
+
 const tema_btn = document.querySelector("#teste");
 
 const user_btn = document.querySelector("#userbtn");
@@ -22,7 +25,11 @@ const cardContainer = document.querySelector('.cards-section');
 
 const existingCards = JSON.parse(localStorage.getItem('cards')) || [];
 
-
+const User = {
+    nome: '',
+    email:'',
+    senha:'',
+}
 
 
 
@@ -32,6 +39,7 @@ chamar funções
 --------------------------------------------- 
 */
 functions.loadtema();
+functions.Loading();
 window.onload = functions.pull_card(cardContainer,existingCards);
 window.onload = functions.check_width;
 window.onresize = functions.check_width;
@@ -42,6 +50,13 @@ Ações
 --------------------------------------------- 
 */
 
+  
+window.addEventListener('load', function() {  
+    setTimeout(() => {
+      const telaLoadElement = document.querySelector('.telaLoad');
+      functions.hideLoading(telaLoadElement);
+    }, 1000);
+});
 
 
 user_btn.addEventListener("click", function () {

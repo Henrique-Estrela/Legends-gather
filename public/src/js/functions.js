@@ -1,3 +1,28 @@
+export function Loading() {
+  // Crie e adicione o HTML de loading ao DOM
+  const telaLoad = document.createElement('div');
+  telaLoad.classList.add('telaLoad');
+
+  const preLoad = document.createElement('div');
+  preLoad.classList.add('preLoad');
+
+  telaLoad.appendChild(preLoad);
+  document.body.appendChild(telaLoad);
+  document.body.style.overflow = 'hidden';
+
+  return telaLoad;  // Retorne o elemento criado para referência futura
+}
+
+export function hideLoading(element) {
+  // Remova o HTML de loading do DOM
+  if (element && element.parentNode) {
+    element.parentNode.removeChild(element);
+    document.body.style.overflow = 'auto';
+
+  }
+}
+
+
 export function toggle_ligth_mode(){
     document.body.classList.toggle("ligth");
 }

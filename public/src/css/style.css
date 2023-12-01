@@ -143,6 +143,29 @@ body {
   color: #fff;
 }
 
+.preLoad{
+  width: 10rem;
+  height: 10rem;
+  overflow: hidden;
+  background: var(--d_color1);
+  background-image: url("https://i.gifer.com/XVo6.gif");
+  background-position: center;
+  background-size: contain;
+  animation: load 2s infinite linear;
+}
+
+.telaLoad{
+  width: 100%;
+  height: 100%;
+  background: var(--d_color1);
+  z-index: 1000;
+  overflow: hidden;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 header {
   margin-left: 28px;
