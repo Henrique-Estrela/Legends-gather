@@ -14,7 +14,11 @@ var collapsed = document.querySelector("#collapsed");
 
 var more_card = document.querySelector("#more");
 
+const cardContainer = document.querySelector('.cards-section');
 
+const existingCards = JSON.parse(localStorage.getItem('cards')) || [];
+
+var apagar = document.querySelector(".testeapagar");
 
 
 /* 
@@ -22,7 +26,9 @@ var more_card = document.querySelector("#more");
 chamar funções
 --------------------------------------------- 
 */
-functions.loadtema()
+functions.loadtema();
+window.onload = functions.pull_card(cardContainer,existingCards);
+
 
 window.onload = functions.check_width;
 window.onresize = functions.check_width;
@@ -32,6 +38,11 @@ window.onresize = functions.check_width;
 Ações
 --------------------------------------------- 
 */
+
+
+apagar.addEventListener("click", function() {
+    functions.removeCard(cardContainer,existingCards, 0);
+})
 
 
 user_btn.addEventListener("click", function () {
@@ -46,7 +57,8 @@ user_btn.addEventListener("click", function () {
 });
 
 more_card.addEventListener("click", function () {
-      functions.modal_card();
+    //   functions.modal_card();
+    functions.Make_card(cardContainer,existingCards);
 });
 
 

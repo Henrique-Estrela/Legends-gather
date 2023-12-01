@@ -60,5 +60,62 @@ export function modal_card() {
     });
 }
 
+export function saveCardsToLocalStorage(existingCards){
+  localStorage.setItem('cards', JSON.stringify(existingCards));
+}
+
+export function pull_card(cardContainer, existingCards) {
+
+    // Adicionar os cards existentes ao carregar a página
+    existingCards.forEach(card => {
+      const cardElement = document.createElement('div');
+      cardElement.classList.add('cards-container', 'col-lg-3', 'col-sm-6');
+      cardElement.innerHTML = card;
+      cardContainer.appendChild(cardElement);
+    });
+
+}
+
+export function Make_card(cardContainer, existingCards) {
+  
+    // Criar um novo elemento div para representar o card
+    const newCard = document.createElement('div');
+    newCard.classList.add('cards-container', 'col-lg-3', 'col-sm-6');
+
+    // Adicionar o conteúdo específico ao card
+    newCard.innerHTML = `
+      <div class="cards">
+        <div class="img-person">
+          <img src="../src/img/boneco1.png" alt="Nome personagem">
+        </div>
+        <p>Nome personagem</p>
+        <a href="">
+          <div class="ver-ficha">
+            <i class="fa-solid fa-circle-info"></i>
+          </div>
+        </a>
+      </div>
+    `;
+
+    // Adicionar o novo card ao contêiner de cards
+    cardContainer.appendChild(newCard);
+
+    // Adicionar o novo card ao array de cards existentes
+    existingCards.push(newCard.outerHTML);
+
+    saveCardsToLocalStorage(existingCards)
+}
 
 
+export function removeCard(cardContainer,existingCards, index){
+
+  // Função para remover um card com base no índice
+  // Remover o card do DOM
+  cardContainer.removeChild(cardContainer.children[index+1]);
+
+  // Remover o card do array de cards existentes
+  existingCards.splice(index, 1);
+
+  // Salvar os cards atualizados no localStorage
+  saveCardsToLocalStorage(existingCards);
+};
