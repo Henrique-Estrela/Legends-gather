@@ -799,6 +799,39 @@ Criar Ficha pag3
 
 
 
+.pericias-grid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-row-gap: 3rem;
+  width: 70rem;
+}
+
+.nome-pericia{
+  border: 1.5px solid var(--d_color1);
+  width: 10rem;
+  height: 3.5rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.inp-pericia{
+  height: 3.5rem;
+  width: 5rem;
+  margin-left: -7rem;
+}
+
+.final-criar{
+  margin-left: 4rem;
+  color: white;
+  font-size: 2em;
+  height: 6rem;
+}
+
+.uso{
+  position: absolute; 
+  margin-left: 10rem;
+}
+
 /* 
 ---------------------------------------------
 ficha final 
