@@ -673,6 +673,7 @@ background-color: var(--d_color4);
 Criar Ficha pag2
 --------------------------------------------- 
 */
+
 .apoiopag2{
   display: grid;
   grid-template-columns: repeat(4,1fr);
@@ -749,24 +750,44 @@ Criar Ficha pag2
 }
 
 .div6pag2{
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  font-size: 2em;
+  height: 28rem;
+  width: 35rem;
 }
 
 .perigrid{
   width: 3rem;
   height: 3rem;
   border: 2.5px solid var(--d_color1);
-  margin-left: -0.5rem;
+  margin-left: -0.2rem;
   background-color: var(--d_color7);
+}
+
+#peritotulo{
+  text-align: center;
+}
+
+.perimetro{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  font-size: 2em;
+  grid-row-gap: 4rem;
+  margin-left: 3rem;
 }
 
 .perilabel{
   background-color: var(--d_color5);
   height: 3rem;
   border: 2.5px solid var(--d_color1);
+  text-align: center;
 }
+
+/* 
+---------------------------------------------
+Criar Ficha pag3
+--------------------------------------------- 
+*/
+
+
 
 /* 
 ---------------------------------------------
