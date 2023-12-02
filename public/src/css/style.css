@@ -524,6 +524,11 @@ usuario
 criar personagem
 --------------------------------------------- 
 */
+.criarmain{
+  width: 100%;
+  height: calc(100vh - 56px);
+}
+
 #grade1 {
   width: 20rem;
   height: 30rem;
@@ -676,10 +681,34 @@ Criar Ficha pag2
 
 .div1pag2{
   border: 2.5px solid var(--d_color1);
-  border-color: #000;
   border-radius: 10px;
-  width: 25rem;
-  height: 28rem;
+  width: 23rem;
+  height: 26rem;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+#origeminp{
+  height: 10rem;
+}
+
+.inps2d1{
+  width: 18rem;
+  height: 4rem;
+}
+
+.div2pag2{
+  border: 2.5px solid var(--d_color1);
+  border-radius: 10px;
+  width: 23rem;
+  height: 26rem;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.inps2d2{
+  width: 18rem;
+  height: 9.8rem;
 }
 
 /* 
