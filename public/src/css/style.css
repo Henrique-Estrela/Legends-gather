@@ -688,7 +688,7 @@ Criar Ficha pag2
 .div1pag2{
   width: 23rem;
   height: 30rem;
-  margin: 2rem;
+  margin: 2carac
 }
 
 #origeminp{
@@ -754,7 +754,7 @@ Criar Ficha pag2
   width: 35rem;
 }
 
-.perigrid{
+.caracgrid{
   width: 3rem;
   height: 3rem;
   border: 2.5px solid var(--d_color1);
@@ -762,7 +762,7 @@ Criar Ficha pag2
   background-color: var(--d_color7);
 }
 
-#peritotulo{
+#caractotulo{
   text-align: center;
 }
 
@@ -774,14 +774,14 @@ Criar Ficha pag2
   margin-left: 3rem;
 }
 
-.perilabel{
+.caraclabel{
   background-color: var(--d_color5);
   height: 3rem;
   border: 2.5px solid var(--d_color1);
   text-align: center;
 }
 
-.periballs{
+.caracballs{
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 5rem;
