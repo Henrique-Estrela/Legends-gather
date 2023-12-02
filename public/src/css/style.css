@@ -524,11 +524,6 @@ usuario
 criar personagem
 --------------------------------------------- 
 */
-.criarmain{
-  width: 100%;
-  height: calc(100vh - 56px);
-}
-
 #grade1 {
   width: 20rem;
   height: 30rem;
@@ -678,13 +673,20 @@ background-color: var(--d_color4);
 Criar Ficha pag2
 --------------------------------------------- 
 */
+.apoiopag2{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
 
-.div1pag2{
+.divpag{
   border: 2.5px solid var(--d_color1);
   border-radius: 10px;
-  width: 23rem;
-  height: 26rem;
   padding: 2rem;
+}
+
+.div1pag2{
+  width: 23rem;
+  height: 30rem;
   margin: 2rem;
 }
 
@@ -698,17 +700,72 @@ Criar Ficha pag2
 }
 
 .div2pag2{
-  border: 2.5px solid var(--d_color1);
-  border-radius: 10px;
   width: 23rem;
-  height: 26rem;
-  padding: 2rem;
+  height: 28rem;
   margin: 2rem;
 }
 
 .inps2d2{
   width: 18rem;
   height: 9.8rem;
+}
+
+.div3pag2{
+  width: 23rem;
+  height: 18rem;
+  margin: 2rem;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.inps2d3{
+  width: 18rem;
+  height: 12rem;
+}
+
+.div4pag2{
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.inps2d4{
+  height: 7rem;
+  width: 7rem;
+  border-radius: 5rem;
+  border: 0.17rem black solid;
+}
+
+.div5pag2{
+  width: 23rem;
+  height: 31rem;
+  margin: 2rem;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.inps2d5{
+  width: 18rem;
+  height: 9.8rem;
+}
+
+.div6pag2{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  font-size: 2em;
+}
+
+.perigrid{
+  width: 3rem;
+  height: 3rem;
+  border: 2.5px solid var(--d_color1);
+  margin-left: -0.5rem;
+  background-color: var(--d_color7);
+}
+
+.perilabel{
+  background-color: var(--d_color5);
+  height: 3rem;
+  border: 2.5px solid var(--d_color1);
 }
 
 /* 
