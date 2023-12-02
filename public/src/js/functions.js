@@ -148,7 +148,7 @@ export function removeCard(cardContainer,existingCards, index){
 
   // Função para remover um card com base no índice
   // Remover o card do DOM
-  cardContainer.removeChild(cardContainer.children[index+1]);
+  cardContainer.removeChild(cardContainer.children[index]);
 
   // Remover o card do array de cards existentes
   existingCards.splice(index, 1);

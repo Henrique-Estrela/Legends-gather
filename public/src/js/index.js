@@ -74,12 +74,6 @@ user_btn.addEventListener('click', function () {
     };
 });
 
-
-more_card.addEventListener('click', function () {
-    functions.modal_card();
-});
-
-
 delete_card.addEventListener('click', function() {
     functions.removeCard(cardContainer,existingCards, 0);
 });
@@ -88,6 +82,11 @@ delete_card.addEventListener('click', function() {
 make_card.addEventListener('click', function () {
     functions.Make_card(cardContainer,existingCards);
 });
+
+more_card.addEventListener('click', function () {
+    functions.modal_card();
+});
+
 
 
 theme_btn.addEventListener('click', function () {
