@@ -166,6 +166,9 @@ body {
   align-items: center;
 }
 
+.none{
+  display: none;
+}
 
 header {
   margin-left: 28px;
