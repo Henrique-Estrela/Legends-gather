@@ -795,7 +795,7 @@ ficha final
   width: 5rem;
 }
 
-.part1-geral{
+.part1{
   margin-left: 5rem;
 }
 
@@ -967,11 +967,11 @@ ficha final
   margin-top: 0.2rem;
 }
 
-.part2{
+/* .part2{
   margin-left: 45rem;
   display: flex;
   margin-left: 52rem;
-}
+} */
 
 .bloco6{
   margin-top: -23.6rem;
@@ -1149,6 +1149,84 @@ ficha final
 .setaproximo{
   width: 3rem;
 }
+/* 
+---------------------------------------------
+part2 - Ficha Final
+--------------------------------------------- 
+*/
+.part2-bloco1{
+  border-radius: 10px;
+  border: 2.5px solid var(--d_color1);
+  background: rgba(217, 217, 217, 0.00);
+  margin-top: 2rem !important;
+  margin: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: fit-content;
+}
+
+.part2-bloco1-2, .part2-bloco1-3,.part2-bloco1-4{
+  display: flex;
+  flex-flow: column;
+}
+
+.part2-inpbloc1-2, .part2-inpbloc1-3, .part2-inpbloc1-4{
+  margin-left: 1rem;
+  margin-top: 1rem;
+  height: 3rem;
+  border: black solid 0.05rem;
+  border-radius: 0rem;
+  }
+
+  .part2-inpbloc1-3{
+    width: 8rem;
+  }
+
+.labnome, .labbonus, .labdanotipo, .AtakMagia{
+  font-size: 1.5rem;
+  margin: auto;
+}
+
+.atak-magia-container {
+  order: 1;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.part2-bloco2{
+  border-radius: 10px;
+  border: 2.5px solid var(--d_color1);
+  background: rgba(217, 217, 217, 0.00);
+  margin-top: 2rem !important;
+  margin: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: fit-content;
+  height: 25rem;
+}
+
+.part2-inpbloc2{
+  height: 13rem;
+  width: 22rem;
+  margin-left: -3rem;
+  border: black solid 0.05rem;
+  border-radius: 0rem;
+}
+
+.colunass{
+  display: flex;
+  
+}
+
+.IdiomaPref, .AliadosOrgani{
+  display: flex;
+  margin: auto;
+  font-size: 1.2rem;
+}
+
+
 
 /* 
 ---------------------------------------------
