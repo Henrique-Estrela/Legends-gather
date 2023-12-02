@@ -768,7 +768,7 @@ Criar Ficha pag2
 
 .perimetro{
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(6,1fr);
   font-size: 2em;
   grid-row-gap: 4rem;
   margin-left: 3rem;
@@ -779,6 +779,16 @@ Criar Ficha pag2
   height: 3rem;
   border: 2.5px solid var(--d_color1);
   text-align: center;
+}
+
+.periballs{
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 5rem;
+  border: 0.17rem black solid;
+  background-color: var(--d_color7);
+  margin-left: -3rem;
+  margin-top: 2rem;
 }
 
 /* 
