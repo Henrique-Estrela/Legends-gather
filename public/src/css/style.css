@@ -666,6 +666,20 @@ background-color: var(--d_color4);
 
 /* 
 ---------------------------------------------
+Criar Ficha pag2
+--------------------------------------------- 
+*/
+
+.div1pag2{
+  border: 2.5px solid var(--d_color1);
+  border-color: #000;
+  border-radius: 10px;
+  width: 25rem;
+  height: 28rem;
+}
+
+/* 
+---------------------------------------------
 ficha final 
 --------------------------------------------- 
 */
