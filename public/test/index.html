@@ -35,52 +35,188 @@
         <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css" rel="stylesheet">
 </head>
 <body class="">
-    <main class="fluid">
-        
-        <button type="button" class="btnCloseFF"><a href="\public\views\home.html"><img src="\public\src\img\icon\Fechar.png" alt="" class="setaproximo"></a></button>
-        
-        
-        <section class="pagina1">
-            <section id="barraprog">  
-                <p class="numprog">1/3</p>
-              </section>
-            <div class="" id="grade1">
-                <img src="/public/src/img/exemplo-avatar.png" alt="pudim" id="pudimdecria">
-                <img src="/public/src/img/Pena.png" alt="pena" id="pena">
-                <p id="nome">Nome:</p>
-                <input type="text" name="" id="inpnome" readonly>
-                <p id="raca">Raça:</p>
-                <input type="text" name="" id="inpraca" readonly>
-                <p id="level">Nível:</p>
-                <input type="text" name="" id="inplevel" readonly>
+    <main class="fluid criarmain">
+        <form action="">
+            <section class="none pagina1" id="pag1">
+                <section id="barraprog">  
+                    <p class="numprog">1/3</p>
+                  </section>
+                <div class="" id="grade1">
+                    <img src="/public/src/img/exemplo-avatar.png" alt="pudim" id="pudimdecria">
+                    <img src="/public/src/img/Pena.png" alt="pena" id="pena">
+                    <p id="nome">Nome:</p>
+                    <input type="text" name="" id="inpnome" readonly>
+                    <p id="raca">Raça:</p>
+                    <input type="text" name="" id="inpraca" readonly>
+                    <p id="level">Nível:</p>
+                    <input type="text" name="" id="inplevel" readonly>
+                </div>
+                <div class="container" id="grade2">
+                    <p class="tex2">Classe:</p>
+                    <input type="text" name="" class="inpgrad2" id="" readonly>
+                    <p class="tex2">Tendência:</p>
+                    <input type="text" name="" class="inpgrad2" id="" readonly>
+                    <p class="tex2">Antecedentes:</p>
+                    <input type="text" name="" class="inpgrad2" id="" readonly>
+                </div>
+                <div class="container" id="grade3">
+                    <p class="tex3">Idade:</p>
+                    <input type="text" name="" class="inpgrad3" readonly>
+                    <p class="tex3">Peso:</p>
+                    <input type="text" name="" id="" class="inpgrad3" readonly>
+                    <p class="tex3">Altura:</p>
+                    <input type="text" name="" id="" class="inpgrad3" readonly>
+                    <p class="tex3">Gênero:</p>
+                    <input type="text" name="" id="" class="inpgrad3" readonly>
+                </div>
+                <button class="btn2 btn-criar">Próximo</button>
+            </section>
+        <section class= "none" id="pag2">
+            <p class="numprog">2/3</p>
+            <button type="button" class="btnCloseFF"><a href="\public\views\home.html"><img src="\public\src\img\icon\Fechar.png" alt="" class="setaproximo"></a></button>
+            <div class="apoiopag2">
+                <div class="divpag div1pag2">
+                    <label for="origeminp">História de Origem: </label><br>
+                    <input type="text" name="origeminp" id="origeminp" class="inps2d1"><br><br>
+                    <label for="persoinp">Personalidade: </label><br>
+                    <input type="text" name="persoinp" id="persoinp" class="inps2d1"><br><br>
+                    <label for="motivoinp">Motivação: </label><br>
+                    <input type="text" name="motivoinp" id="motivoinp" class="inps2d1">
+                </div>
+                <div class="divpag div2pag2">
+                    <label for="traumasinp">Traumas: </label><br>
+                    <input type="text" name="traumasinp" id="traumasinp" class="inps2d2"><br><br>
+                    <label for="fraquezasinp">Fraquezas: </label><br>
+                    <input type="text" name="fraquezasinp" id="fraquezasinp" class="inps2d2">
+                </div>
+                <div class="divpag div3pag2">
+                    <label for="equipinp">Equipamentos: </label><br>
+                    <input type="text" name="equipinp" id="equipinp" class="inps2d3">
+                </div>
+                <div class="div4pag2">
+                    <label for="classearmor">Classe de armadura</label><br>
+                    <input type="number" name="classearmor" id="classearmor" class="inps2d4">
+                </div>
+                <div class="divpag div5pag2">
+                    <label for="habi">Hablilidades: </label><br>
+                    <input type="text" name="habi" id="habi" class="inps2d5"><br><br>
+                    <label for="powers">Poderes: </label><br>
+                    <input type="text" name="powers" id="powers" class="inps2d5">
+                </div>
+                <div class="divpag div6pag2">
+                    <h3 id="caractotulo">Perícias</h3><br>
+                    <div class="perimetro">
+                        <label for="FOR" class="caraclabel">FOR</label>
+                        <input type="number" name="FOR" id="FOR" class="caracgrid">
+                        <input type="number" name="" id="forball" class="caracballs">
+                        
+                        <label for="INT" class="caraclabel">INT</label>
+                        <input type="number" name="INT" id="INT" class="caracgrid">
+                        <input type="number" name="" id="intball" class="caracballs">
+                        
+                        <label for="DES" class="caraclabel">DES</label>
+                        <input type="number" name="DES" id="DES" class="caracgrid">
+                        <input type="number" name="" id="desball" class="caracballs">
+                        
+                        <label for="SAB" class="caraclabel">SAB</label>
+                        <input type="text" name="SAB" id="SAB" class="caracgrid">
+                        <input type="number" name="" id="sabball" class="caracballs">
+                        
+                        <label for="CAR" class="caraclabel">CAR</label>
+                        <input type="text" name="CAR" id="CAR" class="caracgrid">
+                        <input type="number" name="" id="carball" class="caracballs">
+
+                        <label for="CON" class="caraclabel">CON</label>
+                        <input type="text" name="CON" id="CON" class="caracgrid">
+                        <input type="number" name="" id="conball" class="caracballs">
+                    </div>
+                </div>
             </div>
-            <div class="container" id="grade2">
-                <p class="tex2">Classe:</p>
-                <input type="text" name="" class="inpgrad2" id="" readonly>
-                <p class="tex2">Tendência:</p>
-                <input type="text" name="" class="inpgrad2" id="" readonly>
-                <p class="tex2">Antecedentes:</p>
-                <input type="text" name="" class="inpgrad2" id="" readonly>
-            </div>
-            <div class="container" id="grade3">
-                <p class="tex3">Idade:</p>
-                <input type="text" name="" class="inpgrad3" readonly>
-                <p class="tex3">Peso:</p>
-                <input type="text" name="" id="" class="inpgrad3" readonly>
-                <p class="tex3">Altura:</p>
-                <input type="text" name="" id="" class="inpgrad3" readonly>
-                <p class="tex3">Gênero:</p>
-                <input type="text" name="" id="" class="inpgrad3" readonly>
-            </div>
+            <button class="btn2 btn-criar">Próximo</button>
+        </section>
+        
+        <section class="" id="pag3">
+             <p class="numprog">3/3</p>
+             <button type="button" class="btnCloseFF"><a href="\public\views\home.html"><img src="\public\src\img\icon\Fechar.png" alt="" class="setaproximo"></a></button>
+
+             <label for="pericias-grid"><h2>Pontos de perícia: </h2></label>
+             <div class="pericias-grid divpag">
+                <label for="acrobacia" class="nome-pericia caraclabel">Acrobacia</label>
+                <input type="number" name="acrobacia" id="acrobacia" class="inp-pericia caracgrid">
+                <p class="uso">CAR</p>
+
+                <label for="intuicao" class="nome-pericia caraclabel">Intuíção</label>
+                <input type="number" name="intuicao" id="intuicao" class="inp-pericia caracgrid">
+                <p class="uso">INT</p>
+
+                <label for="adestramento" class="nome-pericia caraclabel">Adestramento</label>
+                <input type="number" name="adestramento" id="adestramento" class="inp-pericia caracgrid">
+
+
+                <label for="investigacao" class="nome-pericia caraclabel">Investigação</label>
+                <input type="number" name="investigacao" id="investigacao" class="inp-pericia caracgrid">
+                
+
+                <label for="arcanismo" class="nome-pericia caraclabel">Arcanismo</label>
+                <input type="number" name="arcanismo" id="arcanismo" class="inp-pericia caracgrid">
+                
+                <label for="medicina" class="nome-pericia caraclabel">Medicina</label>
+                <input type="number" name="medicina" id="medicina" class="inp-pericia caracgrid">
+               
+
+                <label for="atletismo" class="nome-pericia caraclabel">Atletismo</label>
+                <input type="number" name="atletismo" id="atletismo" class="inp-pericia caracgrid">
+                
+
+                <label for="natureza" class="nome-pericia caraclabel">Natureza</label>
+                <input type="number" name="natureza" id="natureza" class="inp-pericia caracgrid">
+               
+
+                <label for="atuacao" class="nome-pericia caraclabel">Atuação</label>
+                <input type="number" name="atuacao" id="atuacao" class="inp-pericia caracgrid">
+                
+
+                <label for="percepcao" class="nome-pericia caraclabel">Percepção</label>
+                <input type="number" name="percepcao" id="percepcao" class="inp-pericia caracgrid">
+               
+
+                <label for="blefar" class="nome-pericia caraclabel">Blefar</label>
+                <input type="number" name="blefar" id="blefar" class="inp-pericia caracgrid">
+                
+
+                <label for="persuacao" class="nome-pericia caraclabel">Persuação</label>
+                <input type="number" name="persuacao" id="persuacao" class="inp-pericia caracgrid">
+               
+
+                <label for="furtividade" class="nome-pericia caraclabel">Furtividade</label>
+                <input type="number" name="furtividade" id="furtividade" class="inp-pericia caracgrid">
+                
+
+                <label for="prestidigitacao" class="nome-pericia caraclabel">Prestidigitação</label>
+                <input type="number" name="prestidigitacao" id="prestidigitacao" class="inp-pericia caracgrid">
+               
+
+                <label for="historia" class="nome-pericia caraclabel">História</label>
+                <input type="number" name="historia" id="historia" class="inp-pericia caracgrid">
+                
+
+                <label for="religiao" class="nome-pericia caraclabel">Religião</label>
+                <input type="number" name="religiao" id="religiao" class="inp-pericia caracgrid">
+               
+
+                <label for="intimidacao" class="nome-pericia caraclabel">Intimidação</label>
+                <input type="number" name="intimidacao" id="intimidacao" class="inp-pericia caracgrid">
+                
+
+                <label for="sobrevivencia" class="nome-pericia caraclabel">Sobrevivência</label>
+                <input type="number" name="sobrevivencia" id="sobrevivencia" class="inp-pericia caracgrid">
+
+             </div>
+             <button type="submit" class="btn2 btn-criar">Terminar</button>
         </section>
 
-        <section class="pagina2">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, iusto voluptate deleniti rerum rem molestias ipsam dignissimos omnis, iste tempore est quo eaque dolorum perspiciatis dolore maxime! Nemo, ea inventore.</p>
-        </section>
-        
-       <button class="btnprox"><a href="/public/views/fichaD&D.html">Proximo</a></button>
+        </form>
     </main>
 
 </body>
 </html>
-
