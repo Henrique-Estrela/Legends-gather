@@ -167,8 +167,7 @@ body {
 }
 
 .none{
-  display: none;
-  
+  display: none; 
 }
 
 header {
@@ -1374,9 +1373,15 @@ editar
 --------------------------------------------- 
 */
 
+.edit, .edit div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-
-
+.imgedit{
+  width: 23rem;
+}
 
 /* 
 ---------------------------------------------

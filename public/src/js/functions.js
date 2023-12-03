@@ -157,22 +157,24 @@ export function removeCard(cardContainer,existingCards, index){
   saveCardsToLocalStorage(existingCards);
 };
 
-export function editEmpty(existingCards) {
+export function editEmpty(cardContainer, existingCards) {
   // Verifica se a lista está vazia
   if (existingCards.length === 0) {
-    const caminhoDaImagem = '/public/src/img/boneco1.png';
+    const caminhoDaImagem = '/public/src/img/editEmpty.png';
 
     // Criação da div
     const divElement = document.createElement('div');
 
     // Criação da imagem
     const imagemElement = document.createElement('img');
+    imagemElement.classList.add("imgedit");
+    
     imagemElement.src = caminhoDaImagem;
 
     // Adiciona a imagem à div
     divElement.appendChild(imagemElement);
 
-    // Adiciona a div ao corpo do documento
-    document.body.appendChild(divElement);
+    cardContainer.appendChild(divElement);
+
   } 
 }

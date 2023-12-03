@@ -61,7 +61,7 @@ window.addEventListener('load', function() {
       functions.hideLoading(telaLoadElement);
     }, 500);
 
-    functions.editEmpty(existingCards);
+    functions.editEmpty(cardContainer, existingCards);
 });
 
 
