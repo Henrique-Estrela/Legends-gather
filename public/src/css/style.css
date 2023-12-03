@@ -1252,12 +1252,6 @@ part2 - Ficha Final
   margin: auto;
 }
 
-.atak-magia-container {
-  order: 1;
-  margin: auto;
-  margin-top: 1rem;
-}
-
 .part2-bloco2{
   border-radius: 10px;
   border: 2.5px solid var(--d_color1);
@@ -1268,20 +1262,19 @@ part2 - Ficha Final
   flex-flow: row wrap;
   justify-content: space-around;
   width: fit-content;
-  height: 25rem;
+  padding: 1rem;
 }
 
-.part2-inpbloc2{
+.AtakMagia{
+  text-align: center;
+}
+
+.part2-inpbloc2, .part2-inpbloc2{
   height: 13rem;
   width: 22rem;
-  margin-left: -3rem;
   border: black solid 0.05rem;
   border-radius: 0rem;
-}
-
-.colunass{
-  display: flex;
-  
+  margin: 0.5rem;
 }
 
 .IdiomaPref, .AliadosOrgani{
@@ -1290,8 +1283,91 @@ part2 - Ficha Final
   font-size: 1.2rem;
 }
 
+.AliadosOrgani{
+  flex-direction:row-reverse;
+}
 
+.part2-bloco3{
+  border-radius: 10px;
+  border: 2.5px solid var(--d_color1);
+  background: rgba(217, 217, 217, 0.00);
+  margin-top: 2rem !important;
+  margin: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: fit-content;
+  padding: 1rem;
+}
 
+.part2-inpbloc3, .part2-inpbloc3-2, .part2-inpbloc3-3{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.part2-inpbloc3{
+  height: 11rem;
+  width: 20rem;
+  border: black solid 0.05rem;
+  border-radius: 0rem;
+  margin: 0.5rem;
+}
+
+.legenbloc3, .legenbloc4{
+  font-size: 1.3rem;
+  display: flex;
+}
+
+.part2-inpbloc3-2{
+  height: 5rem;
+  width: 20rem;
+  border: black solid 0.05rem;
+  border-radius: 0rem;
+  margin: 0.5rem;
+}
+
+.part2-inpbloc3-3{
+  height: 3rem;
+  width: 20rem;
+  border: black solid 0.05rem;
+  border-radius: 0rem;
+  margin: 0.5rem;
+}
+
+.part2-bloco4{
+  border-radius: 10px;
+  border: 2.5px solid var(--d_color1);
+  background: rgba(217, 217, 217, 0.00);
+  margin-top: 2rem !important;
+  margin: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: fit-content;
+  padding: 1rem;
+}
+
+.part2-inpbloc4 {
+  height: 7rem;
+  width: 20rem;
+  border: black solid 0.05rem;
+  border-radius: 0rem;
+  margin: 0.5rem;
+}
+
+.btnSetaFF-2, .btnSetaFF-3{
+  width: 5.5rem;
+  height: 3.5rem;
+  background-color: var(--d_color5);
+  border-radius: 10px;
+  margin: 0.5rem;
+
+}
+
+.setaproximo2{
+  width: 3rem;
+  transform: scale(-1);
+}
 /* 
 ---------------------------------------------
 editar
