@@ -1369,6 +1369,73 @@ part2 - Ficha Final
 }
 /* 
 ---------------------------------------------
+part3 - Ficha Final
+--------------------------------------------- 
+*/
+
+.legenptshabili{
+  text-align: center;
+}
+
+.part3-bloco1{
+  height: 28rem;
+  width: 70rem;
+  margin: 2rem;
+}
+
+.part3-bloco1-2{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  font-size: 2em;
+  grid-row-gap: 4rem;
+  margin-left: 3rem;
+}
+
+.part3-inpbloc1{
+  width: 3rem;
+  height: 3rem;
+  border: 2.5px solid var(--d_color1);
+  margin-left: -0.2rem;
+  background-color: var(--d_color7);
+}
+
+.caracballs{
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 5rem;
+  border: 0.17rem black solid;
+  background-color: var(--d_color7);
+  margin-left: -9rem;
+  margin-top: 2rem;
+}
+
+.part3-bloco2{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-row-gap: 3rem;
+  width: 70rem;
+  margin: 2rem;
+}
+
+.pericia-name{
+  border: 1.5px solid var(--d_color1);
+  width: 10rem;
+  height: 3.5rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.part3-inpbloc2{
+  height: 3.5rem;
+  width: 5rem;
+  margin-left: -7rem;
+}
+
+.marginbtnFF{
+  transform: translateX(1100%);
+}
+/* 
+---------------------------------------------
 editar
 --------------------------------------------- 
 */
