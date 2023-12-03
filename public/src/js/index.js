@@ -60,7 +60,10 @@ window.addEventListener('load', function() {
       const telaLoadElement = document.querySelector('.telaLoad');
       functions.hideLoading(telaLoadElement);
     }, 500);
+
+    functions.editEmpty(existingCards);
 });
+
 
 
 user_btn.addEventListener('click', function () {
@@ -98,4 +101,5 @@ theme_btn.addEventListener('click', function () {
         localStorage.setItem("ligth", 1);
     };
 });
+
 
