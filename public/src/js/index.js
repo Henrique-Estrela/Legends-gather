@@ -12,15 +12,18 @@ const theme_btn = document.querySelector("#toggletheme");
 
 const user_btn = document.querySelector("#userbtn");
 
-var collapsed = document.querySelector("#collapsed");
+const collapsed = document.querySelector("#collapsed");
 
-var more_card = document.querySelector("#more");
+const more_card = document.querySelector("#more");
 
-var delete_card = document.querySelector(".delete-card");
+const delete_card = document.querySelector(".delete-card");
 
-var make_card = document.querySelector(".make-card");
+const make_card = document.querySelector(".make-card");
 
 const cardContainer = document.querySelector('.cards-section');
+
+const cardContaineredit = document.querySelector('.edit');
+
 
 const existingCards = JSON.parse(localStorage.getItem('cards')) || [];
 
@@ -61,7 +64,7 @@ window.addEventListener('load', function() {
       functions.hideLoading(telaLoadElement);
     }, 500);
 
-    functions.editEmpty(cardContainer, existingCards);
+    functions.editEmpty(cardContaineredit, existingCards);
 });
 
 
