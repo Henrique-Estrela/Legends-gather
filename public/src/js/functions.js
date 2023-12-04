@@ -164,7 +164,7 @@ export function editEmpty(cardContainer, existingCards) {
 
     const imagemElement = document.createElement('img');
     
-    imagemElement.classList.add("imgedit");
+    imagemElement.classList.add("imgeditempty");
 
     imagemElement.src = '/public/src/img/editEmpty.png';
 

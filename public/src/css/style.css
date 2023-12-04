@@ -1527,8 +1527,8 @@ editar
   align-items: center;
 }
 
-.imgedit{
-  width: 23rem;
+.imgeditempty{
+  width: 23rem !important;
 }
 
 /* 
