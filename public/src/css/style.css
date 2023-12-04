@@ -260,7 +260,7 @@ input {
 }
 
 
-.cards-container, .ver-ficha{
+.center, .cards-container, .ver-ficha{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -650,20 +650,10 @@ criar personagem
 }
 
 .grade1 {
-  width: 25rem;
+  width: 30rem;
   height: auto;
 }
 
-.nome {
-}
-
-.raca {
-  
-}
-
-.level {
-
-}
 
 #inpnome {
   width: 17rem;
@@ -683,11 +673,11 @@ criar personagem
 }
 
 #pena{
-  width: 3rem;  
+  width: 3rem;
   position: absolute;
   z-index: 10;
-  margin-bottom: -3rem;
-  margin-right: -2rem;
+  margin-top: -5rem;
+  margin-left: 10.5rem;
 }
 
 #grade2 {
