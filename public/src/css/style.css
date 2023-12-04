@@ -877,7 +877,10 @@ Criar Ficha pag3
 --------------------------------------------- 
 */
 
-
+.divpag3{
+  width: 65rem;
+  height: 75rem;
+}
 
 .pericias-grid{
   display: grid;
@@ -897,7 +900,7 @@ Criar Ficha pag3
 .inp-pericia{
   height: 3.5rem;
   width: 5rem;
-  margin-left: -7rem;
+  margin-left: -7.8rem;
 }
 
 .btn-criar{
@@ -905,6 +908,7 @@ Criar Ficha pag3
   color: white;
   font-size: 2em;
   height: 6rem;
+  margin-top: 5rem;
 }
 
 .uso{
