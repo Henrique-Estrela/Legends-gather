@@ -35,43 +35,65 @@
         <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css" rel="stylesheet">
 </head>
 <body class="">
-    <main class="fluid criarmain">
+    <main class="fluid-ficha">
         <form action="" method="post">
-            <section class="  pagina1" id="pag1">
-                <section id="barraprog">  
-                    <p class="numprog">1/3</p>
-                  </section>
-                <div class="" id="grade1">
-                    <img src="/public/src/img/exemplo-avatar.png" alt="pudim" id="pudimdecria">
-                    <img src="/public/src/img/Pena.png" alt="pena" id="pena">
-                    <p id="nome">Nome:</p>
-                    <input type="text" name="" id="inpnome" readonly>
-                    <p id="raca">Raça:</p>
-                    <input type="text" name="" id="inpraca" readonly>
-                    <p id="level">Nível:</p>
-                    <input type="text" name="" id="inplevel" readonly>
+            <section class="pagina1" id="pag1">
+                <div class="container">
+                    <div class="row">
+                        <div id="barraprog">  
+                            <p class="numprog">1/3</p>
+                        </div>
+                        <div class="progress-bar">
+
+                        </div>
+                    </div>
                 </div>
-                <div class="container" id="grade2">
-                    <p class="tex2">Classe:</p>
-                    <input type="text" name="" class="inpgrad2" id="" readonly>
-                    <p class="tex2">Tendência:</p>
-                    <input type="text" name="" class="inpgrad2" id="" readonly>
-                    <p class="tex2">Antecedentes:</p>
-                    <input type="text" name="" class="inpgrad2" id="" readonly>
+
+                <div class="grade grade1" id=" grade1">
+                    <div>
+                        <img src="/public/src/img/exemplo-avatar.png" alt="pudim" id="pudimdecria">
+                        <img src="/public/src/img/Pena.png" alt="pena" id="pena">
+                    </div>
+                    <div>
+                        <label for="nome" class="nome">Nome:</label>
+                        <input type="text" name="nome" id="inpnome" required>
+                    </div>
+                    <div class="flex">
+                        <div>
+                            <label for="raca" class="raca">Raça:</label>
+                            <input type="text" name="raca" id="inpraca" required>
+                        </div>
+                        <div>
+                            <label for="level" class="level">Nível:</label>
+                            <input type="number" name="level" id="inplevel" required>
+                        </div>
+                    </div>
+                    
                 </div>
-                <div class="container" id="grade3">
-                    <p class="tex3">Idade:</p>
-                    <input type="text" name="" class="inpgrad3" readonly>
-                    <p class="tex3">Peso:</p>
-                    <input type="text" name="" id="" class="inpgrad3" readonly>
-                    <p class="tex3">Altura:</p>
-                    <input type="text" name="" id="" class="inpgrad3" readonly>
-                    <p class="tex3">Gênero:</p>
-                    <input type="text" name="" id="" class="inpgrad3" readonly>
+
+                <div class="container grade" id=" grade2">
+                    <label for="" class="tex2">Classe:</label>
+                    <input type="text" name="" class="inpgrad2" id="" required>
+                    <label for="" class="tex2">Tendência:</label>
+                    <input type="text" name="" class="inpgrad2" id="" required>
+                    <label for="" class="tex2">Antecedentes:</label>
+                    <input type="text" name="" class="inpgrad2" id="" required>
                 </div>
+
+                <div class="container grade" id=" grade3">
+                    <label for="" class="tex3">Idade:</label>
+                    <input type="text" name="" class="inpgrad3" required>
+                    <label for="" class="tex3">Peso:</label>
+                    <input type="text" name="" id="" class="inpgrad3" required>
+                    <label for="" class="tex3">Altura:</label>
+                    <input type="text" name="" id="" class="inpgrad3" required>
+                    <label for="" class="tex3">Gênero:</label>
+                    <input type="text" name="" id="" class="inpgrad3" required>
+                </div>
+
                 <button class="btn2 btn-criar">Próximo</button>
             </section>
-        <section class= "" id="pag2">
+        <section class= "none" id="pag2">
             <p class="numprog">2/3</p>
             <button type="button" class="btnCloseFF"><a href="\public\views\home.html"><img src="\public\src\img\icon\Fechar.png" alt="" class="setaproximo"></a></button>
             <div class="apoiopag2">
@@ -135,7 +157,7 @@
             <button class="btn2 btn-criar">Próximo</button>
         </section>
         
-        <section class="" id="pag3">
+        <section class="none" id="pag3">
              <p class="numprog">3/3</p>
              <button type="button" class="btnCloseFF"><a href="\public\views\home.html"><img src="\public\src\img\icon\Fechar.png" alt="" class="setaproximo"></a></button>
 

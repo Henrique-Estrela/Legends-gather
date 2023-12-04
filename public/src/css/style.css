@@ -70,6 +70,18 @@ img {
   overflow: hidden;
 }
 
+
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
 /* 
 ---------------------------------------------
 global style
@@ -523,57 +535,65 @@ usuario
 criar personagem
 --------------------------------------------- 
 */
-#grade1 {
-  width: 20rem;
-  height: 30rem;
-  margin-left: 28rem;
-  margin-top: 5rem;
+
+.grade {
+  width: auto;
+  height: auto;
   flex-shrink: 0;
   border-radius: 10px;
   border: 2.5px solid var(--d_color1);
   background: rgba(217, 217, 217, 0.00);
   display: flex;
-  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
 }
-
-#nome {
-  margin-left: 2rem;
-  position: absolute;
+.grade .flex{
   display: flex;
-  margin-top: 16rem;
+  flex-direction: row;
+  gap: 1rem;
 }
 
-#raca {
-  margin-top: 21.5rem;
-  margin-left: 2rem;
-  position: absolute;
+.grade1 {
+  width: 25rem;
+  height: auto;
 }
 
-#level {
-  margin-top: 21.5rem;
-  margin-left: 11rem;
-  position: absolute;
+.nome {
+}
+
+.raca {
+  
+}
+
+.level {
+
 }
 
 #inpnome {
-  position: absolute;
-  margin-top: 18rem;
-  margin-left: 1.5rem;
   width: 17rem;
 }
 
 #inpraca {
-  position: absolute;
-  margin-top: 23.5rem;
-  margin-left:1.5rem;
   width: 8rem;
 }
 
 #inplevel {
-  position: absolute;
-  margin-top: 23.5rem;
-  margin-left: 10.5rem;
   width: 8rem;
+}
+
+#pudimdecria{
+  width: 12rem;
+  margin-bottom: 3rem;
+}
+
+#pena{
+  width: 3rem;  
+  position: absolute;
+  z-index: 10;
+  margin-bottom: -3rem;
+  margin-right: -2rem;
 }
 
 #grade2 {
@@ -585,7 +605,7 @@ criar personagem
   border-radius: 1rem;
   border: 2.5px solid var(--d_color1);
   background: rgba(217, 217, 217, 0.00);
-  position: absolute;
+  
 }
 
 .tex2 {
@@ -608,7 +628,6 @@ criar personagem
   flex-shrink: 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  position: absolute;
 }
 
 .inpgrad3{
@@ -651,21 +670,7 @@ background-color: var(--d_color4);
   font-size: 1.5em;
 }
 
-#pudimdecria{
-  width: 12rem;
-  height: 12rem;
-  margin: 2rem;
-  margin-left: 4rem;
-}
 
-#pena{
-  width: 3rem;
-  height: 3rem;
-  display: flex;
-  margin: 12rem;
-  margin-left: 14rem;
-  position: absolute;
-}
 
 /* 
 ---------------------------------------------
