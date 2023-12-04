@@ -531,6 +531,82 @@ usuario
 
 
 /* 
+/* 
+---------------------------------------------
+usuario-editar
+--------------------------------------------- 
+*/
+.imgusuario{
+  position: absolute;
+  width: 20rem;
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
+.inputname{
+  background-color: #5A2CA0;
+  border-radius: 10px;
+  display: flex;
+  width: 20rem;
+  height: 4rem;
+  text-align:right ;
+  margin-left:5rem;
+  margin-top: 25rem;
+  position: absolute;
+  color: white;
+  font-size: 2.5em;
+  justify-content: center;
+}
+.inputemail{
+  background-color: #5A2CA0;
+  border-radius: 10px;
+  position: absolute;
+  display: flex;
+  width: 30rem;
+  height: 5rem;
+  margin-left: 50rem;
+  margin-top: 15rem;
+  font-size: 2.5em;
+  justify-content: center;
+}
+.inputsenha{
+  background-color: #5A2CA0;
+  position: absolute;
+  border-radius: 10px;
+  display: flex;
+  width: 30rem;
+  height: 5rem;
+  margin-left: 50rem;
+  margin-top: 25rem;
+  font-size: 2.5em;
+  justify-content: center;
+}
+.imgedit{
+  position: absolute;
+  margin-left: 5rem;
+  margin-top:  33rem;
+  height: 5rem;
+  width: 3rem;
+}
+.email{
+  position: absolute;
+  margin-top: 11rem;
+  margin-left: 50rem;
+  font-size: 2.5em;
+}
+.senha{
+  position: absolute;
+  margin-top: 21rem;
+  margin-left: 50rem;
+  font-size: 2.5em;
+}
+.sair{
+  position: absolute;
+  width: 3rem;
+  margin-left: 82rem;
+  margin-top: 1rem;
+}
+/* 
+
 ---------------------------------------------
 criar personagem
 --------------------------------------------- 
