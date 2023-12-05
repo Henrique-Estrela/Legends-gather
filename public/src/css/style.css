@@ -919,54 +919,18 @@ Criar Ficha pag2
 --------------------------------------------- 
 */
 
-.apoiopag2{
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-}
 
-.divpag{
-  border: 2.5px solid var(--d_color1);
-  border-radius: 10px;
-  padding: 2rem;
-}
 
-.div1pag2{
-  width: 23rem;
-  height: 30rem;
-  margin: 2carac
-}
 
-#origeminp{
-  height: 10rem;
-}
-
-.inps2d1{
-  width: 18rem;
-  height: 4rem;
-}
 
 .div2pag2{
-  width: 23rem;
   height: 28rem;
-  margin: 2rem;
 }
-
-.inps2d2{
-  width: 18rem;
-  height: 9.8rem;
-}
-
 .div3pag2{
-  width: 23rem;
   height: 18rem;
   margin: 2rem;
   text-align: center;
   font-size: 1.5em;
-}
-
-.inps2d3{
-  width: 18rem;
-  height: 12rem;
 }
 
 .div4pag2{
@@ -974,30 +938,47 @@ Criar Ficha pag2
   font-size: 1.5em;
 }
 
-.inps2d4{
-  height: 7rem;
-  width: 7rem;
-  border-radius: 5rem;
-  border: 0.17rem black solid;
-}
-
 .div5pag2{
-  width: 23rem;
   height: 31rem;
   margin: 2rem;
   text-align: center;
   font-size: 1.5em;
 }
 
+.div6pag2{
+  height: 28rem;
+}
+
+.inps2d2{
+  height: 9.8rem;
+}
+
+#origeminp{
+  height: 10rem;
+}
+
+.inps2d1{
+  height: 4rem;
+}
+
+.inps2d3{
+  width: 18rem;
+  height: 12rem;
+}
+
+
+.inps2d4{
+  height: 7rem;
+  border-radius: 5rem;
+  border: 0.17rem black solid;
+}
+
+
 .inps2d5{
   width: 18rem;
   height: 9.8rem;
 }
 
-.div6pag2{
-  height: 28rem;
-  width: 35rem;
-}
 
 .caracgrid{
   width: 3rem;
@@ -1011,7 +992,7 @@ Criar Ficha pag2
   text-align: center;
 }
 
-.perimetro{
+ .perimetro{
   display: grid;
   grid-template-columns: repeat(6,1fr);
   font-size: 2em;
@@ -1034,7 +1015,7 @@ Criar Ficha pag2
   background-color: var(--d_color7);
   margin-left: -3rem;
   margin-top: 2rem;
-}
+} 
 
 /* 
 ---------------------------------------------
