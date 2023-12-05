@@ -37,16 +37,19 @@
 <body class="">
     <main class="fluid-ficha">
         <form action="" method="post">
-            <section class="pagina1" id="pag1">
+            <section class="none" id="pag1">
                 <div class="container">
                     <div class="progress-bar-container row">
-                        <div class="col-2" id="barraprog">  
+                        <div class="col-1" id="barraprog">  
                             <p class="numprog">1/3</p>
                         </div>
                         <div class="progress-bar-card col-10">
                             <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
                                 <div class="progress-bar" style="width: 33%"></div>
                             </div>
+                        </div>
+                        <div class="col-1 center">
+                            <button type="button" class="btnCloseFF"><a href="\public\views\home.html"><img src="\public\src\img\icon\Fechar.png" alt="" class="setaproximo"></a></button>
                         </div>
                     </div>
                     <div class="row">
@@ -76,179 +79,236 @@
                         </div>
 
                         <div class="col-lg-6">
-                            <div class="grade grade2" id=" grade2">
-                                <label for="" class="tex2">Classe:</label>
-                                <input type="text" name="" class="inpgrad2" id="" required>
-                                <label for="" class="tex2">Tendência:</label>
-                                <input type="text" name="" class="inpgrad2" id="" required>
-                                <label for="" class="tex2">Antecedentes:</label>
-                                <input type="text" name="" class="inpgrad2" id="" required>
+                            <div class="grade grade2" id=" grade2">  
+                                <div class="col-12">
+                                    <label for="classe" class="tex2">Classe:</label>
+                                    <input type="text" name="classe" class="w-100" id="" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="tendencia" class="tex2">Tendência:</label>
+                                    <input type="text" name="tendencia" class="w-100" id="" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="Antecedentes" class="tex2">Antecedentes:</label>
+                                    <input type="text" name="Antecedentes" class="Antecedentes" id="" required>
+                                </div>
                             </div>
                         </div>
                         
                         <div class="col-lg-6">
 
-                            <div class="grade" id=" grade3">
-                                <label for="" class="tex3">Idade:</label>
-                                <input type="text" name="" class="inpgrad3" required>
-                                <label for="" class="tex3">Peso:</label>
-                                <input type="text" name="" id="" class="inpgrad3" required>
-                                <label for="" class="tex3">Altura:</label>
-                                <input type="text" name="" id="" class="inpgrad3" required>
-                                <label for="" class="tex3">Gênero:</label>
-                                <input type="text" name="" id="" class="inpgrad3" required>
+                            <div class="grade grade3" id=" grade3">
+                                <div class="flex">
+                                    <div>
+                                        <label for="idade" class="tex3">Idade:</label>
+                                        <input type="text" name="idade" class="inpgrad3" id="idade" required>
+                                    </div>
+                                    <div>
+                                        <label for="peso" class="tex3">Peso:</label>
+                                        <input type="text" name="peso" id="" class="inpgrad3" required>
+                                    </div>
+                                </div>
+                                <div class="flex">
+                                    <div>
+                                        <label for="altura" class="tex3">Altura:</label>
+                                        <input type="text" name="altura" id="altura" class="inpgrad3" required>
+                                    </div>
+                                    <div>
+                                        <label for="genero" class="tex3">Gênero:</label>
+                                        <input type="text" name="genero" id="" class="inpgrad3" required>
+                                    </div>
+                                </div>
+                               
                             </div>
                         </div>
 
                         <div class="center col-sm-6">
-                            <button class="col-sm-6 btn2 btn-criar">Próximo</button>
+                            <button class="btn2 btn-criar">Próximo</button>
                         </div>
                     </div>
                 </div>
             </section>
-        <section class= "none" id="pag2">
-            <p class="numprog">2/3</p>
-            <button type="button" class="btnCloseFF"><a href="\public\views\home.html"><img src="\public\src\img\icon\Fechar.png" alt="" class="setaproximo"></a></button>
-            <div class="apoiopag2">
-                <div class="divpag div1pag2">
-                    <label for="origeminp">História de Origem: </label><br>
-                    <input type="text" name="origeminp" id="origeminp" class="inps2d1"><br><br>
-                    <label for="persoinp">Personalidade: </label><br>
-                    <input type="text" name="persoinp" id="persoinp" class="inps2d1"><br><br>
-                    <label for="motivoinp">Motivação: </label><br>
-                    <input type="text" name="motivoinp" id="motivoinp" class="inps2d1">
-                </div>
-                <div class="divpag div2pag2">
-                    <label for="traumasinp">Traumas: </label><br>
-                    <input type="text" name="traumasinp" id="traumasinp" class="inps2d2"><br><br>
-                    <label for="fraquezasinp">Fraquezas: </label><br>
-                    <input type="text" name="fraquezasinp" id="fraquezasinp" class="inps2d2">
-                </div>
-                <div class="divpag div3pag2">
-                    <label for="equipinp">Equipamentos: </label><br>
-                    <input type="text" name="equipinp" id="equipinp" class="inps2d3">
-                </div>
-                <div class="div4pag2">
-                    <label for="classearmor">Classe de armadura</label><br>
-                    <input type="number" name="classearmor" id="classearmor" class="inps2d4">
-                </div>
-                <div class="divpag div5pag2">
-                    <label for="habi">Hablilidades: </label><br>
-                    <input type="text" name="habi" id="habi" class="inps2d5"><br><br>
-                    <label for="powers">Poderes: </label><br>
-                    <input type="text" name="powers" id="powers" class="inps2d5">
-                </div>
-                <div class="divpag div6pag2">
-                    <h3 id="caractotulo">Perícias</h3><br>
-                    <div class="perimetro">
-                        <label for="FOR" class="caraclabel">FOR</label>
-                        <input type="number" name="FOR" id="FOR" class="caracgrid">
-                        <input type="number" name="" id="forball" class="caracballs">
-                        
-                        <label for="INT" class="caraclabel">INT</label>
-                        <input type="number" name="INT" id="INT" class="caracgrid">
-                        <input type="number" name="" id="intball" class="caracballs">
-                        
-                        <label for="DES" class="caraclabel">DES</label>
-                        <input type="number" name="DES" id="DES" class="caracgrid">
-                        <input type="number" name="" id="desball" class="caracballs">
-                        
-                        <label for="SAB" class="caraclabel">SAB</label>
-                        <input type="text" name="SAB" id="SAB" class="caracgrid">
-                        <input type="number" name="" id="sabball" class="caracballs">
-                        
-                        <label for="CAR" class="caraclabel">CAR</label>
-                        <input type="text" name="CAR" id="CAR" class="caracgrid">
-                        <input type="number" name="" id="carball" class="caracballs">
 
-                        <label for="CON" class="caraclabel">CON</label>
-                        <input type="text" name="CON" id="CON" class="caracgrid">
-                        <input type="number" name="" id="conball" class="caracballs">
+            <section class="" id="pag2">
+                <div class="container">
+                    <div class="progress-bar-container row">
+                        <div class="col-1" id="barraprog">  
+                            <p class="numprog">2/3</p>
+                        </div>
+                        <div class="progress-bar-card col-10">
+                            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar" style="width: 66%"></div>
+                            </div>
+                        </div>
+                        <div class="col-1 center">
+                            <button type="button" class="btnCloseFF"><a href="\public\views\home.html"><img src="\public\src\img\icon\Fechar.png" alt="" class="setaproximo"></a></button>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="apoiopag2">
+                            <div class="divpag div1pag2">
+                                <label for="origeminp">História de Origem: </label><br>
+                                <input type="text" name="origeminp" id="origeminp" class="inps2d1"><br><br>
+                                <label for="persoinp">Personalidade: </label><br>
+                                <input type="text" name="persoinp" id="persoinp" class="inps2d1"><br><br>
+                                <label for="motivoinp">Motivação: </label><br>
+                                <input type="text" name="motivoinp" id="motivoinp" class="inps2d1">
+                            </div>
+                            <div class="divpag div2pag2">
+                                <label for="traumasinp">Traumas: </label><br>
+                                <input type="text" name="traumasinp" id="traumasinp" class="inps2d2"><br><br>
+                                <label for="fraquezasinp">Fraquezas: </label><br>
+                                <input type="text" name="fraquezasinp" id="fraquezasinp" class="inps2d2">
+                            </div>
+                            <div class="divpag div3pag2">
+                                <label for="equipinp">Equipamentos: </label><br>
+                                <input type="text" name="equipinp" id="equipinp" class="inps2d3">
+                            </div>
+                            <div class="div4pag2">
+                                <label for="classearmor">Classe de armadura</label><br>
+                                <input type="number" name="classearmor" id="classearmor" class="inps2d4">
+                            </div>
+                            <div class="divpag div5pag2">
+                                <label for="habi">Hablilidades: </label><br>
+                                <input type="text" name="habi" id="habi" class="inps2d5"><br><br>
+                                <label for="powers">Poderes: </label><br>
+                                <input type="text" name="powers" id="powers" class="inps2d5">
+                            </div>
+                            <div class="divpag div6pag2">
+                                <h3 id="caractotulo">Perícias</h3><br>
+                                <div class="perimetro">
+                                    <label for="FOR" class="caraclabel">FOR</label>
+                                    <input type="number" name="FOR" id="FOR" class="caracgrid">
+                                    <input type="number" name="" id="forball" class="caracballs">
+                                    
+                                    <label for="INT" class="caraclabel">INT</label>
+                                    <input type="number" name="INT" id="INT" class="caracgrid">
+                                    <input type="number" name="" id="intball" class="caracballs">
+                                    
+                                    <label for="DES" class="caraclabel">DES</label>
+                                    <input type="number" name="DES" id="DES" class="caracgrid">
+                                    <input type="number" name="" id="desball" class="caracballs">
+                                    
+                                    <label for="SAB" class="caraclabel">SAB</label>
+                                    <input type="text" name="SAB" id="SAB" class="caracgrid">
+                                    <input type="number" name="" id="sabball" class="caracballs">
+                                    
+                                    <label for="CAR" class="caraclabel">CAR</label>
+                                    <input type="text" name="CAR" id="CAR" class="caracgrid">
+                                    <input type="number" name="" id="carball" class="caracballs">
+    
+                                    <label for="CON" class="caraclabel">CON</label>
+                                    <input type="text" name="CON" id="CON" class="caracgrid">
+                                    <input type="number" name="" id="conball" class="caracballs">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <button class="btn2 btn-criar">Próximo</button>
+                            </div>
                     </div>
                 </div>
-            </div>
-            <button class="btn2 btn-criar">Próximo</button>
-        </section>
+            </section>
+            
+            <section class="none" id="pag3">
+                <div class="container">
+                    <div class="progress-bar-container row">
+                        <div class="col-1" id="barraprog">  
+                            <p class="numprog">2/3</p>
+                        </div>
+                        <div class="progress-bar-card col-10">
+                            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar" style="width: 66%"></div>
+                            </div>
+                        </div>
+                        <div class="col-1 center">
+                            <button type="button" class="btnCloseFF"><a href="\public\views\home.html"><img src="\public\src\img\icon\Fechar.png" alt="" class="setaproximo"></a></button>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <label for="pericias-grid"><h2>Pontos de perícia: </h2></label>
+                        <div class="pericias-grid divpag">
+                            <label for="acrobacia" class="nome-pericia caraclabel">Acrobacia</label>
+                            <input type="number" name="acrobacia" id="acrobacia" class="inp-pericia caracgrid">
+                            <p class="uso">CAR</p>
         
-        <section class="none" id="pag3">
-             <p class="numprog">3/3</p>
-             <button type="button" class="btnCloseFF"><a href="\public\views\home.html"><img src="\public\src\img\icon\Fechar.png" alt="" class="setaproximo"></a></button>
+                            <label for="intuicao" class="nome-pericia caraclabel">Intuíção</label>
+                            <input type="number" name="intuicao" id="intuicao" class="inp-pericia caracgrid">
+                            <p class="uso">INT</p>
+        
+                            <label for="adestramento" class="nome-pericia caraclabel">Adestramento</label>
+                            <input type="number" name="adestramento" id="adestramento" class="inp-pericia caracgrid">
+        
+        
+                            <label for="investigacao" class="nome-pericia caraclabel">Investigação</label>
+                            <input type="number" name="investigacao" id="investigacao" class="inp-pericia caracgrid">
+                            
+        
+                            <label for="arcanismo" class="nome-pericia caraclabel">Arcanismo</label>
+                            <input type="number" name="arcanismo" id="arcanismo" class="inp-pericia caracgrid">
+                            
+                            <label for="medicina" class="nome-pericia caraclabel">Medicina</label>
+                            <input type="number" name="medicina" id="medicina" class="inp-pericia caracgrid">
+                        
+        
+                            <label for="atletismo" class="nome-pericia caraclabel">Atletismo</label>
+                            <input type="number" name="atletismo" id="atletismo" class="inp-pericia caracgrid">
+                            
+        
+                            <label for="natureza" class="nome-pericia caraclabel">Natureza</label>
+                            <input type="number" name="natureza" id="natureza" class="inp-pericia caracgrid">
+                        
+        
+                            <label for="atuacao" class="nome-pericia caraclabel">Atuação</label>
+                            <input type="number" name="atuacao" id="atuacao" class="inp-pericia caracgrid">
+                            
+        
+                            <label for="percepcao" class="nome-pericia caraclabel">Percepção</label>
+                            <input type="number" name="percepcao" id="percepcao" class="inp-pericia caracgrid">
+                        
+        
+                            <label for="blefar" class="nome-pericia caraclabel">Blefar</label>
+                            <input type="number" name="blefar" id="blefar" class="inp-pericia caracgrid">
+                            
+        
+                            <label for="persuacao" class="nome-pericia caraclabel">Persuação</label>
+                            <input type="number" name="persuacao" id="persuacao" class="inp-pericia caracgrid">
+                        
+        
+                            <label for="furtividade" class="nome-pericia caraclabel">Furtividade</label>
+                            <input type="number" name="furtividade" id="furtividade" class="inp-pericia caracgrid">
+                            
+        
+                            <label for="prestidigitacao" class="nome-pericia caraclabel">Prestidigitação</label>
+                            <input type="number" name="prestidigitacao" id="prestidigitacao" class="inp-pericia caracgrid">
+                        
+        
+                            <label for="historia" class="nome-pericia caraclabel">História</label>
+                            <input type="number" name="historia" id="historia" class="inp-pericia caracgrid">
+                            
+        
+                            <label for="religiao" class="nome-pericia caraclabel">Religião</label>
+                            <input type="number" name="religiao" id="religiao" class="inp-pericia caracgrid">
+                        
+        
+                            <label for="intimidacao" class="nome-pericia caraclabel">Intimidação</label>
+                            <input type="number" name="intimidacao" id="intimidacao" class="inp-pericia caracgrid">
+                            
+        
+                            <label for="sobrevivencia" class="nome-pericia caraclabel">Sobrevivência</label>
+                            <input type="number" name="sobrevivencia" id="sobrevivencia" class="inp-pericia caracgrid">
+        
+                        </div>
+                        <div class="col-lg-6">
+                            <button type="submit" class="btn2 btn-criar">Terminar</button>
+                        </div>
+                    </div>
 
-             <label for="pericias-grid"><h2>Pontos de perícia: </h2></label>
-             <div class="pericias-grid divpag">
-                <label for="acrobacia" class="nome-pericia caraclabel">Acrobacia</label>
-                <input type="number" name="acrobacia" id="acrobacia" class="inp-pericia caracgrid">
-                <p class="uso">CAR</p>
-
-                <label for="intuicao" class="nome-pericia caraclabel">Intuíção</label>
-                <input type="number" name="intuicao" id="intuicao" class="inp-pericia caracgrid">
-                <p class="uso">INT</p>
-
-                <label for="adestramento" class="nome-pericia caraclabel">Adestramento</label>
-                <input type="number" name="adestramento" id="adestramento" class="inp-pericia caracgrid">
-
-
-                <label for="investigacao" class="nome-pericia caraclabel">Investigação</label>
-                <input type="number" name="investigacao" id="investigacao" class="inp-pericia caracgrid">
+                </div>
                 
-
-                <label for="arcanismo" class="nome-pericia caraclabel">Arcanismo</label>
-                <input type="number" name="arcanismo" id="arcanismo" class="inp-pericia caracgrid">
-                
-                <label for="medicina" class="nome-pericia caraclabel">Medicina</label>
-                <input type="number" name="medicina" id="medicina" class="inp-pericia caracgrid">
-               
-
-                <label for="atletismo" class="nome-pericia caraclabel">Atletismo</label>
-                <input type="number" name="atletismo" id="atletismo" class="inp-pericia caracgrid">
-                
-
-                <label for="natureza" class="nome-pericia caraclabel">Natureza</label>
-                <input type="number" name="natureza" id="natureza" class="inp-pericia caracgrid">
-               
-
-                <label for="atuacao" class="nome-pericia caraclabel">Atuação</label>
-                <input type="number" name="atuacao" id="atuacao" class="inp-pericia caracgrid">
-                
-
-                <label for="percepcao" class="nome-pericia caraclabel">Percepção</label>
-                <input type="number" name="percepcao" id="percepcao" class="inp-pericia caracgrid">
-               
-
-                <label for="blefar" class="nome-pericia caraclabel">Blefar</label>
-                <input type="number" name="blefar" id="blefar" class="inp-pericia caracgrid">
-                
-
-                <label for="persuacao" class="nome-pericia caraclabel">Persuação</label>
-                <input type="number" name="persuacao" id="persuacao" class="inp-pericia caracgrid">
-               
-
-                <label for="furtividade" class="nome-pericia caraclabel">Furtividade</label>
-                <input type="number" name="furtividade" id="furtividade" class="inp-pericia caracgrid">
-                
-
-                <label for="prestidigitacao" class="nome-pericia caraclabel">Prestidigitação</label>
-                <input type="number" name="prestidigitacao" id="prestidigitacao" class="inp-pericia caracgrid">
-               
-
-                <label for="historia" class="nome-pericia caraclabel">História</label>
-                <input type="number" name="historia" id="historia" class="inp-pericia caracgrid">
-                
-
-                <label for="religiao" class="nome-pericia caraclabel">Religião</label>
-                <input type="number" name="religiao" id="religiao" class="inp-pericia caracgrid">
-               
-
-                <label for="intimidacao" class="nome-pericia caraclabel">Intimidação</label>
-                <input type="number" name="intimidacao" id="intimidacao" class="inp-pericia caracgrid">
-                
-
-                <label for="sobrevivencia" class="nome-pericia caraclabel">Sobrevivência</label>
-                <input type="number" name="sobrevivencia" id="sobrevivencia" class="inp-pericia caracgrid">
-
-             </div>
-             <button type="submit" class="btn2 btn-criar">Terminar</button>
-        </section>
+            </section>
 
         </form>
     </main>
