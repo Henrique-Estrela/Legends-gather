@@ -442,28 +442,22 @@ login
   border: 2px black solid;
   font-size: 2rem;
   color: white;
-  width: 9vw;
-  height: 6vh;
+  width: fit-content;
+  height: fit-content;
 }
 
-#pagDeLogin footer > .texto {
-  color: rgba(0, 0, 0);
-  font-size: 1.5rem;
+#pagDeLogin .texto {
+  color: white;
+  font-size: 1.1rem;
   font-weight: 400;
-  margin-top: 20vh;
+  margin-bottom: 3vh;
 }
 
-#pagDeLogin footer a.texto{
-  color: #275cee;
+#pagDeLogin a.texto{
+  color: #6d94ff;
 }
 
 @media (max-width: 1280px){
-  #pagDeLogin footer > .texto{
-    margin-top: 12vh;
-  }
-  #pagDeLogin main > form > button{
-    width: 18vh;
-  }
   #pagDeLogin main > form > input{
     width: 35vw;
   }
@@ -473,27 +467,38 @@ login
   }
 }
 
-@media (max-width: 720px){
-  #pagDeLogin footer > .texto{
-    margin-top: 10vh;
-  }
-  #pagDeLogin main > form > input{
-    width: 45vw;
-  }
-}
-
-@media (max-height: 480px){
-  #pagDeLogin main > form > button{
-    height: 10vh;
-  }
-  #pagDeLogin footer > .texto{
-    font-size: 1.1rem;
-    margin-top: 25vh;
+@media (max-width: 750px){
+  #pagDeLogin main > form > input {
+    padding: 7px;
+    margin-bottom: 2vh;
+    width: 40vw;
+    height: 4vh;
   }
 }
 
-
-
+@media (min-height: 1600px){
+  #pagDeLogin main > .titulo {
+    font-size: 8em;
+    margin-bottom: 5vh;
+  }
+  #pagDeLogin main > form > input {
+    padding: 7px;
+    margin-bottom: 2vh;
+    border-radius: 5px;
+    width: 60vw;
+    height: 4vh;
+  }
+  #pagDeLogin .texto {
+    font-size: 2rem;
+  }
+  #pagDeLogin main > form > button {
+    font-size: 5rem;
+    width: 30vw;
+  }
+  input::placeholder{
+    font-size: 2rem;
+  }
+}
 
 
 /* 
@@ -502,8 +507,12 @@ cadastro
 --------------------------------------------- 
 */
 
-
-
+@media (min-height: 1600px){
+  #pagDeLogin .botaoCadastrar {
+    font-size: 5rem;
+    width: fit-content;
+  }
+}
 
 /* 
 ---------------------------------------------
