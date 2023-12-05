@@ -1,0 +1,80 @@
+/* Confguração responsiva da tela de fundo
+* Afetas as páginas:
+* - Cadastrar
+* - Erro
+* - Login
+*/
+
+#pagDeErro, #pagDeCadastro, #pagDeLogin{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+#pagDeErro *, #pagDeCadastro *, #pagDeLogin *{
+    margin: 0;
+    padding: 0;
+}
+
+/* Configuração de Cabeçalho */
+
+#pagDeErro > header, #pagDeCadastro > header, #pagDeLogin > header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: fit-content;
+    height: fit-content;
+}
+
+#pagDeErro #lua, #pagDeCadastro #lua, #pagDeLogin #lua{
+    width: 15vw;
+}
+
+@media (max-width: 1280px){
+    #pagDeErro #lua, #pagDeCadastro #lua, #pagDeLogin #lua{
+        width: 20vw;
+    }
+}
+
+@media (max-width: 720px){
+    #pagDeErro #lua, #pagDeCadastro #lua, #pagDeLogin #lua{
+        width: 35vw;
+    }
+}
+
+/* Configuração de Estrelas */
+#pagDeErro #estrelas, #pagDeCadastro #estrelas, #pagDeLogin #estrelas{
+    position: fixed;
+    right: 0;
+    background-image: url("../img/estrelas.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80vw;
+    height: 70vh;
+}
+
+/* Configuração do Dragão */
+#pagDeErro #dragao, #pagDeCadastro #dragao, #pagDeLogin #dragao{
+    position: fixed;
+    right: 2vw;
+    bottom: 2vh;
+    width: 48vw;
+    z-index: 1;
+}
+
+/* Configuração de Rodapé */
+
+#pagDeErro > footer, #pagDeCadastro > footer, #pagDeLogin > footer{
+    position: fixed;
+    bottom: 0;
+    background-image: url("../img/ondas.png");
+    background-size: cover;
+    width: 100vw;
+    height: 30vh
+}
+
+@media (max-width: 1280px){
+    #pagDeErro > footer, #pagDeCadastro > footer, #pagDeLogin > footer{
+        height: 15vh;
+    }
+}

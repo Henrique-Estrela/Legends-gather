@@ -16,11 +16,12 @@
         <script defer src="./public/bootstrap/js/bootstrap.js"></script>
         
     <!-- CSS -->
-        <link rel="stylesheet" href="/public/src/css/style.css">
-        <link rel="stylesheet" href="/public/src/css/responsive.css">
+        <link rel="stylesheet" href="public/src/css/style.css">
+        <link rel="stylesheet" href="public/src/css/responsive.css">
+        <link rel="stylesheet" href="public/src/css/shared-style.css">
         
     <!-- JS -->
-        <script type="module" src="/public/src/js/index.js" defer></script>
+        <script type="module" src="public/src/js/index.js" defer></script>
 
     <!-- Font -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,9 +32,31 @@
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.all.min.js"></script>
         <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css" rel="stylesheet">
 </head>
-<body class="">
 
-     
+
+<body id="pagDeLogin">
+
+    <header>
+        <img id="lua" src="public/src/img/lua.png" alt="Lua no Céu">
+    </header>
+
+    <div id="estrelas">
+    </div>
+
+    <img id="dragao" src="public/src/img/dragao.png" alt="">
+
+    <main>
+        <h1 class="titulo">Legends Gather</h1>
+        <form >
+            <input type="text" placeholder="E-mail">
+            <input type="text" placeholder="Senha">
+            <button type="submit">Entrar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p class="texto">Não possui cadastro?<a class="texto" href="public/views/cadastrar.html"> Clique aqui</a></p>
+    </footer>
 
 </body>
 </html>

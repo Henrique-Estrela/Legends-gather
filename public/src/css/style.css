@@ -379,6 +379,118 @@ nav .navgation{
 login
 --------------------------------------------- 
 */
+#pagDeLogin, #pagDeLogin main, #pagDeLogin form, #pagDeLogin footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#pagDeLogin .texto, #pagDeLogin .titulo{
+  word-wrap: break-word;
+}
+
+#pagDeLogin main, #pagDeLogin form {
+  width: fit-content;
+  height: fit-content;
+}
+
+#pagDeLogin input, #pagDeLogin .texto, input::placeholder{
+  font-family: Inter;
+}
+
+#pagDeLogin main {
+  z-index: 1;
+  background: none;
+}
+
+#pagDeLogin main > .titulo {
+  font-size: 6em;
+  font-family: MedievalSharp;
+  font-weight: 500;
+}
+
+#pagDeLogin form, #pagDeLogin form > input, #pagDeLogin form > button{
+  box-shadow: 8px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+#pagDeLogin main > form {
+  background: rgba(100, 31, 112, 0.30);
+  border-radius: 10px;
+  padding: 60px;
+}
+
+#pagDeLogin main > form > input {
+  background: rgba(255, 255, 255, 0.48);
+  border-radius: 3px;
+  border: 1px black solid;
+  padding: 15px;
+  margin-bottom: 3vh;
+  width: 20vw;
+  height: 6vh;
+}
+
+#pagDeLogin main > form > input::placeholder{
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#pagDeLogin main > form > button {
+  background: #6F37CC;
+  border-radius: 10px;
+  border: 2px black solid;
+  font-size: 2rem;
+  color: white;
+  width: 9vw;
+  height: 6vh;
+}
+
+#pagDeLogin footer > .texto {
+  color: rgba(0, 0, 0);
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 20vh;
+}
+
+#pagDeLogin footer a.texto{
+  color: #275cee;
+}
+
+@media (max-width: 1280px){
+  #pagDeLogin footer > .texto{
+    margin-top: 12vh;
+  }
+  #pagDeLogin main > form > button{
+    width: 18vh;
+  }
+  #pagDeLogin main > form > input{
+    width: 35vw;
+  }
+  #pagDeLogin main > .titulo{
+    font-size: 4em;
+    margin-top: 5vh;
+  }
+}
+
+@media (max-width: 720px){
+  #pagDeLogin footer > .texto{
+    margin-top: 10vh;
+  }
+  #pagDeLogin main > form > input{
+    width: 45vw;
+  }
+}
+
+@media (max-height: 480px){
+  #pagDeLogin main > form > button{
+    height: 10vh;
+  }
+  #pagDeLogin footer > .texto{
+    font-size: 1.1rem;
+    margin-top: 25vh;
+  }
+}
 
 
 
@@ -509,6 +621,81 @@ h1.title{
 erro
 --------------------------------------------- 
 */
+#pagDeErro > main {
+  background: none;
+  width: 100vw;
+  height: fit-content;
+  text-align: center;
+  margin-top: 15vh;
+  z-index: 1;
+}
+
+#pagDeErro > main > .titulo{
+  color: white;
+  font-size: 10em;
+  font-family: MedievalSharp;
+  font-weight: 500;
+  word-wrap: break-word
+}
+
+#pagDeErro > #bonecoDeAviso{
+  position: fixed;
+  bottom: 1vh;
+  left: 2vw;
+  width: 30vw;
+  z-index: 1;
+}
+
+#pagDeErro #botaoVoltarImg{
+  position: fixed;
+  right: 0;
+  bottom: 1vh;
+  width: 20vw;
+  transition: transform 0.5s, filter 0.5s;
+}
+
+#pagDeErro #botaoVoltarImg:hover{
+  transform: scale(1.01);
+  filter: brightness(1.5);
+}
+
+@media (max-width: 1000px){
+  #pagDeErro #botaoVoltarImg{
+    width: 30vw;
+  }
+  #pagDeErro > #bonecoDeAviso{
+    width: 40vw;
+  }
+  #pagDeErro > main > .titulo{
+    font-size: 6em;
+    margin-top: 15vh;
+  }
+}
+
+@media (max-width: 720px){
+  #pagDeErro #botaoVoltarImg{
+    width: 40vw;
+  }
+  #pagDeErro > #bonecoDeAviso{
+    width: 60vw;
+  }
+  #pagDeErro > main > .titulo{
+    font-size: 3em;
+    margin-top: 15vh;
+  }
+}
+
+@media (max-height: 480px){
+  #pagDeErro > #bonecoDeAviso{
+    width: 30vw;
+  }
+  #pagDeErro > main > .titulo{
+    font-size: 4em;
+  }
+  #pagDeErro #botaoVoltarImg{
+    width: 20vw;
+  }
+}
 
 
 
