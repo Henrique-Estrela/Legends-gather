@@ -174,3 +174,37 @@ export function editEmpty(cardContainer, existingCards) {
 
   } 
 }
+
+
+export function nextforms(nextform,formcont) {
+
+  if (nextform[formcont].value == 1) {
+      pag2.classList.add("none");
+      pag3.classList.remove("none");
+  } else if (nextform[formcont].value == 0) {
+      pag1.classList.add("none");
+      pag2.classList.remove("none");
+  }
+  
+  return formcont++;
+}
+
+
+
+
+export function verificarCamposPreenchidos() {
+    var campos = document.querySelectorAll('#forms-card input');
+
+
+    for (var i = 0; i < campos.length; i++) {
+        // Verifica se o tipo de campo é texto e se está vazio
+        if (campos[i].type === 'text' && campos[i].value.trim() === '') {
+            pag1.classList.remove("none");
+            pag3.classList.add("none");
+            return false; // Retorna falso se algum campo estiver vazio
+            
+        }
+    }
+
+    return true; // Retorna verdadeiro se todos os campos estiverem preenchidos
+}
