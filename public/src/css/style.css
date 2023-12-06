@@ -203,7 +203,8 @@ main {
 
 main.fluid {
   width: 100%;
-  height: calc(100vh - 56px);
+  height: calc(100vh - 56px) auto;
+  padding-bottom: 28px;
   background-color: var(--d_color3);
   transition: all .5s;
   border-radius: 20px;
@@ -731,18 +732,41 @@ configuração
   border-radius: 1rem;
   border: 2.5px solid var(--d_color1);
   background: rgba(217, 217, 217, 0.00);
-  width: 40rem;
+  width: auto;
   height: 30rem;
-  margin-left: 1rem;
+ }
+.grademusic{
+  flex-shrink: 0;
+  border-radius: 1rem;
+  border: 2.5px solid var(--d_color1);
+  background: rgba(217, 217, 217, 0.00);
+  width: 35rem;
+  height: 3.5rem;
+  margin-left: 3rem;
+}
+.letramusic{
+  font-size: 2rem;
+  color: #000;
+  justify-content: center;
+  display: flex;
+  margin-top: 0.5rem;
+
 }
 .tema1{
   font-size: 3rem;
   margin-left: 2rem;
   
 } 
+.gradeconf img{
+  width: 14rem;
 
-
-
+}
+.gradeconf div{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
 
 /* 
 /* 
