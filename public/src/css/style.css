@@ -788,13 +788,43 @@ usuario
   font-size: 2.5em;
   justify-content: center;
 }
+
+.fontEditar{
+  font-size: 2.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-top: 0.3rem;
+  margin-left: 2rem;
+}
+
+.peninhaedit{
+  width: auto;
+  height: 3.5rem;
+  margin: 0.3rem;
+}
+
 .imgedit{
   position: absolute;
   margin-left: 5rem;
   margin-top:  33rem;
-  height: 5rem;
-  width: 3rem;
+  border-radius: 0.2rem;
+  background: var(--d_color5);
+  height: 4rem;
+  width: 15rem;
+  display: flex;
 }
+
+.inputname::placeholder, .inputemail::placeholder, .inputsenha::placeholder{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.imgedit:active{
+  transform: scale(0.9);
+}
+
 .email{
   position: absolute;
   margin-top: 11rem;
