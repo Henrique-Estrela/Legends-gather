@@ -16,12 +16,14 @@
         <script defer src="./public/bootstrap/js/bootstrap.js"></script>
         
     <!-- CSS -->
-        <link rel="stylesheet" href="public/src/css/style.css">
-        <link rel="stylesheet" href="public/src/css/responsive.css">
-        <link rel="stylesheet" href="public/src/css/shared-style.css">
+        <link rel="stylesheet" href="./public/src/css/style.css">
+        <link rel="stylesheet" href="./public/src/css/responsive.css">
+        <link rel="stylesheet" href="./public/src/css/shared-style.css">
         
     <!-- JS -->
-        <script type="module" src="public/src/js/index.js" defer></script>
+        <script type="module" src="./public/src/js/login.js" defer></script>
+        <script type="module" src="./public/src/js/cadastro.js" defer></script>
+
 
     <!-- Font -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,16 +49,46 @@
 
     <main>
         <h1 class="titulo">Legends Gather</h1>
-        <form >
-            <input type="text" placeholder="E-mail">
-            <input type="password" placeholder="Senha">
-            <p class="texto">Não possui cadastro?<a class="texto" href="public/views/cadastrar.html"> Clique aqui</a></p>
-            <button type="submit">Entrar</button>
+        <form class=""  id="loginForm">
+            <input type="email" placeholder="E-mail" id="loginEmail" required>
+            <input type="password" placeholder="Senha" id="loginPassword" required>
+
+            <p class="texto">Não possui cadastro?<a class="texto" id="tosingup"> Clique aqui</a></p>
+            
+            <button class="botaoCadastrar"  type="submit">Entrar</button>
+        </form>
+        <form class="none-transition" id="signupForm">
+            <input type="text" placeholder="Nome de usuário" id="signupNickname" required>
+            <input type="email" placeholder="E-mail" id="signupEmail" required>
+            <input type="password" placeholder="Senha" id="signupPassword" required>
+            <input type="password" placeholder="Confirme a senha" id="confirmPassword" required>
+            <p class="texto">Já possui cadastro?<a class="texto" id="tologin"> Clique aqui</a></p>
+
+            <button class="botaoCadastrar" type="submit">Cadastrar</button>
         </form>
     </main>
 
+
+    
     <footer>
     </footer>
 
+    <script>
+        var login = document.querySelector("#loginForm");
+        var singup = document.querySelector("#signupForm");
+        var to = document.querySelectorAll("form p a");
+        var title = document.querySelector(".titulo")
+
+        to[0].addEventListener('click', function() {
+            login.classList.add("none-transition");
+            singup.classList.remove("none-transition");
+            title.textContent = "Cadastre-se";
+        });
+        to[1].addEventListener('click', function() {
+            login.classList.remove("none-transition");
+            singup.classList.add("none-transition");
+            title.textContent = "Legends Gather";
+        })
+    </script>
 </body>
 </html>

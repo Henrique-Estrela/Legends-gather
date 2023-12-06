@@ -179,7 +179,7 @@ body {
 }
 
 .none{
-  display: none; 
+  display: none !important; 
 }
 
 header {
@@ -454,6 +454,11 @@ nav .navgation{
 login
 --------------------------------------------- 
 */
+.none-transition{
+  display: none !important;
+  transition: all 5s ease-out;
+}
+
 #pagDeLogin, #pagDeLogin main, #pagDeLogin form, #pagDeLogin footer {
   display: flex;
   flex-direction: column;
@@ -516,6 +521,7 @@ login
   border-radius: 10px;
   border: 2px black solid;
   font-size: 2rem;
+  padding: 0.5rem;
   color: white;
   width: fit-content;
   height: fit-content;
@@ -530,6 +536,7 @@ login
 
 #pagDeLogin a.texto{
   color: #6d94ff;
+  cursor: pointer;
 }
 
 @media (max-width: 1280px){

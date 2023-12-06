@@ -4,14 +4,16 @@ var edituser = document.querySelector(".edituser");
 
 var inputfile = document.querySelector('#input1');
 
+var valorExistente1 = document.querySelector(".imgusuario").src;
+var valorExistente2 = document.querySelector(".inputname").value;
+var valorExistente3 = document.querySelector(".inputemail").value;
+var valorExistente4 = document.querySelector(".inputsenha").value;
+
+
 
 edituser.addEventListener("click", function() {
     
-    var valorExistente1 = '../src/img/logo-image.png';
-    var valorExistente2 = 'Informação existente 1';
-    var valorExistente3 = 'Informação existente 2';
-    var valorExistente4 = 'adsdadw';
-    
+  
     
     
     Swal.fire({
