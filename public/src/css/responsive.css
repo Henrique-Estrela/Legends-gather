@@ -89,6 +89,16 @@
         font-size: 3em;
         text-align: center;
     }
+    .perimetro{
+        grid-template-columns: repeat(3,0fr);
+        grid-row-gap: 2rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+
+    }
+    .caracballs {
+        margin-left: -3rem;
+    }
 }
       
       
@@ -98,6 +108,11 @@
     nav.Navbar, .navgation ul{
         gap: 8vw;
     }
+    .perimetro{
+        margin-right: 0;
+        margin-left: 0;
+    }
+   
 }
 
 @media (max-width: 350px) {
