@@ -832,9 +832,13 @@ criar personagem
   box-shadow: 8px 8px 6px 1px rgba(0, 0, 0, 0.15);
 
 }
+
 .progress-bar-container .progress-bar{
   background-color: var(--d_color7);
   animation: progress 1000ms ease-in 1;
+}
+.progress-bar-card{
+  width: 60%;
 }
 
 @keyframes progress {
@@ -1077,9 +1081,10 @@ ficha final
 
 .btnCloseFF{
   background-color: transparent;
-  position: absolute;
-  margin-left: 9rem;
-  width: 5rem;
+  position: fixed;
+  margin-left: 2rem;
+  margin-top: -1rem;
+  width: 6rem;
 }
 
 .part1{
@@ -1435,7 +1440,7 @@ ficha final
 }
 
 .setaproximo{
-  width: 3rem;
+  width: 3.5rem;
 }
 /* 
 ---------------------------------------------

@@ -37,7 +37,7 @@
 <body class="">
     <main class="fluid-ficha">
         <form action="" method="post">
-            <section class="none " id="pag1">
+            <section class=" " id="pag1">
                 <div class="container">
                     <div class="progress-bar-container row">
                         <div class="col-1" id="barraprog">  
@@ -123,7 +123,7 @@
                         </div>
 
                         <div class="center col-sm-6">
-                            <button class="btn2 btn-criar">Próximo</button>
+                            <button id="nextform" class="btn2 btn-criar">Próximo</button>
                         </div>
                     </div>
                 </div>
@@ -229,28 +229,29 @@
                                     </div>
                                 </div>
                                 <div class="w-100 center">
-                                        <button class="btn2 btn-criar">Próximo</button>
+                                        <button id="nextform" class="btn2 btn-criar">Próximo</button>
                                 </div>
                         </div>                              
                     </div>
                 </div>
             </section>
             
-            <section class="" id="pag3">
-                <div class="container">
-                    <div class="progress-bar-container row">
-                        <div class="col-1" id="barraprog">  
-                            <p class="numprog">3/3</p>
-                        </div>
-                        <div class="progress-bar-card col-10">
-                            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar" style="width: 100%"></div>
-                            </div>
-                        </div>
-                        <div class="col-1 center">
-                            <button type="button" class="btnCloseFF"><a href="\public\views\home.html"><img src="\public\src\img\icon\Fechar.png" alt="" class="setaproximo"></a></button>
+            <section class="none" id="pag3">
+                <div class="progress-bar-container ">
+                    <div class="" id="barraprog">  
+                        <p class="numprog">3/3</p>
+                    </div>
+                    <div class="progress-bar-card">
+                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 100%"></div>
                         </div>
                     </div>
+                    <div class=" center">
+                        <button type="button" class="btnCloseFF"><a href="\public\views\home.html"><img src="\public\src\img\icon\Fechar.png" alt="" class="setaproximo"></a></button>
+                    </div>
+                </div>
+                <div class="container">
+                    
                     <div class="row center">
                         <label class="center" for="pericias-grid">
                             <h2>Pontos de perícia: </h2>

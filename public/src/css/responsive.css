@@ -138,20 +138,23 @@
         padding-left: 5rem;
         padding-right: 2rem;
       
-      }
+    }
       
-      .nome-pericia{
+    .nome-pericia{
         width: 11rem;
         height: 4rem;
         font-size: 1.5em;
         padding-top: 1rem;
-      }
+    }
       
-      .inp-pericia{
+    .inp-pericia{
         height: 4rem;
         width: 5rem;
         margin-left: -7.5rem;
-      }
+    }
+    .numprog {
+        font-size: 2em;
+    }
     
    
 }
@@ -169,7 +172,13 @@
         padding-left: 3rem;
         padding-right: 0;
       
-      }
+    }
+    .numprog {
+        font-size: 1em;
+    }
+    .setaproximo {
+        width: 2rem;
+    }
 }
 
 @media (max-width: 150px) {
