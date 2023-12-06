@@ -1,5 +1,4 @@
 import * as functions from "./functions.js";
-import * as forms from "./getforms.js";
 
 
 /* 
@@ -28,9 +27,7 @@ const cardContaineredit = document.querySelector('.edit');
 
 const existingCards = JSON.parse(localStorage.getItem('cards')) || [];
 
-var nextform = document.querySelectorAll("#nextform");
 
-var formulario = document.getElementById('forms-card');
 
 
 const User = {
@@ -74,31 +71,6 @@ window.addEventListener('load', function() {
 });
 
 
-formulario.addEventListener('submit', function(event) {
-    if (!functions.verificarCamposPreenchidos()) {
-        event.preventDefault();
-        Swal.fire({
-            title: "Por favor, preencha todos os campos antes de enviar o formulário.",
-            focusConfirm: false,
-            confirmButtonText: `
-              Ok
-            `,
-            background: "var(--d_color8)",
-            color:"#fff"
-        });
-          
-    }
-});
-
-nextform[0].addEventListener('click', function() {
-    functions.nextforms(nextform, 0);
-});
-
-nextform[1].addEventListener('click', function() {
-    functions.nextforms(nextform, 1);
-});
-
-
 user_btn.addEventListener('click', function () {
     if (collapsed.style.height == "15rem") {
         collapsed.style.height = "1rem";
@@ -109,17 +81,16 @@ user_btn.addEventListener('click', function () {
         
     };
 });
-
-
+ 
 
 more_card.addEventListener('click', function () {
     functions.modal_card();
 });
 
+
 delete_card.addEventListener('click', function() {
     functions.removeCard(cardContainer,existingCards, 0);
 });
-
 
 make_card.addEventListener('click', function () {
     functions.Make_card(cardContainer,existingCards);
