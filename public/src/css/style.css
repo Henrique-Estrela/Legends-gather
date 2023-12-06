@@ -822,7 +822,7 @@ criar personagem
 .progress-bar-container{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   margin: 2rem;
 }
 .progress-bar-container .progress{
@@ -1023,23 +1023,28 @@ Criar Ficha pag3
 
 .pericias-grid{
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4,0fr);
   grid-row-gap: 3rem;
-  width: 70rem;
+  grid-column-gap: 7rem;
+  margin-left: 1rem;
+  padding-left: 7rem;
+
 }
 
 .nome-pericia{
   border: 1.5px solid var(--d_color1);
-  width: 10rem;
-  height: 3.5rem;
+  width: 11rem;
+  height: 4rem;
+  font-size: 1.5em;
   text-align: center;
   padding-top: 1rem;
 }
 
 .inp-pericia{
-  height: 3.5rem;
+  height: 4rem;
   width: 5rem;
-  margin-left: -7.8rem;
+  text-align: center;
+  margin-left: -7.5rem;
 }
 
 .btn-criar{

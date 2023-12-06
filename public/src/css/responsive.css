@@ -13,6 +13,13 @@
     .user .name {
         font-size: 0.5em;
     }
+    .pericias-grid{
+        grid-column-gap: 3rem;
+        padding-left: 3rem;
+      }
+      .inp-pericia{
+        margin-left: -3.5rem;
+      }
 }
 
 @media (max-width: 750px) {
@@ -99,6 +106,20 @@
     .caracballs {
         margin-left: -3rem;
     }
+    .nome-pericia {
+        width: 8rem;
+        height: 3rem;
+        font-size: 1em;
+    }
+    .pericias-grid{
+        grid-column-gap: 3rem;
+        padding-left: 3rem;
+    }
+      .inp-pericia{
+        margin-left: -3.5rem;
+        height: 3rem;
+        width: 4rem;
+      }
 }
       
       
@@ -108,10 +129,30 @@
     nav.Navbar, .navgation ul{
         gap: 8vw;
     }
-    .perimetro{
-        margin-right: 0;
-        margin-left: 0;
-    }
+    .pericias-grid{
+        display: grid;
+        grid-template-columns: repeat(2,0fr);
+        grid-row-gap: 3rem;
+        grid-column-gap: 7rem;
+        margin-left: 1rem;
+        padding-left: 5rem;
+        padding-right: 2rem;
+      
+      }
+      
+      .nome-pericia{
+        width: 11rem;
+        height: 4rem;
+        font-size: 1.5em;
+        padding-top: 1rem;
+      }
+      
+      .inp-pericia{
+        height: 4rem;
+        width: 5rem;
+        margin-left: -7.5rem;
+      }
+    
    
 }
 
@@ -119,6 +160,16 @@
     nav.Navbar, .navgation ul{
         gap: 2vw;
     }
+    .pericias-grid{
+        display: grid;
+        grid-template-columns: repeat(2,0fr);
+        grid-row-gap: 3rem;
+        grid-column-gap: 7rem;
+        margin-left: 1rem;
+        padding-left: 3rem;
+        padding-right: 0;
+      
+      }
 }
 
 @media (max-width: 150px) {
