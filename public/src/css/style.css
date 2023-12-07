@@ -1147,6 +1147,15 @@ Criar Ficha pag2
   margin-left: -3rem;
   margin-top: 2rem;
 } 
+.caracballs2{
+  height: 3rem;
+  width: 3rem;
+  border-radius: 5rem;
+  border: 0.17rem black solid;
+  background-color: var(--d_color7);
+  margin-left: -9rem;
+  margin-top: 2rem;
+} 
 
 /* 
 ---------------------------------------------
@@ -1201,16 +1210,28 @@ ficha final
 */
 .tituloFicha{
   margin-top: 10rem;
-  font-size: 4rem;
+  font-size: 5rem;
   margin: 12px;
   margin: 1rem;
+} 
+
+#bloco2,#bloco3,#bloco4,#bloco5,#bloco6-1,#bloco6-2,#bloco6-3,.bloco7{
+  width: 90%;
+  height: auto;
+
 }
 
-#imgdd {
-  width: 8.5rem;
+.finalflex{
   display: flex;
-  margin-top: -5.2rem;
-  margin-left: 19.8rem;
+  align-items: center;
+}
+
+
+#imgdd {
+  width: 10rem;
+  height: 5rem;
+  margin: 0;
+
 }
 
 .btnCloseFF{
@@ -1220,148 +1241,96 @@ ficha final
   width: 6rem;
 }
 
-.part1{
-  margin-left: 5rem;
-}
 
-#bloco1 {
-  width: 20rem;
-  height: 23.8rem;
-  margin-left: 1.8rem;
-  margin-top: 0.9rem;
-  border-radius: 10px;
-  border: 2.5px solid var(--d_color1);
-  background: rgba(217, 217, 217, 0.00);
-}
 
-.img-avatar{
-  margin-top: 1.1rem;
-  margin-left: 18.5%;
-  background-color: transparent;
-  width: 12rem;
-  height: 11.5rem;
-}
 
-.bloco1-1 {
-  margin-left: 2.5rem;
-}
-.nick {
-  margin-top: 0.8rem;
-  margin-left: 0.5rem;
-}
-.bloco1-2 {
-  margin-left: 2.5rem;
-  display: flex;
-}
-.raça,
-.nivel {
-  margin-top: 0.5rem;
-  margin-left: 0.5rem;
-}
-.inpnick {
-  margin-top: -2rem;
-}
-.inpraça,
-.inpnivel {
-  margin-top: -1rem;
-}
-.inpraça {
-  width: 120px;
-}
-.inpnivel {
-  width: 100px;
-}
-.bloco1-3 {
-  margin-left: 10px;
-}
-#bloco2 {
-  width: 18rem;
-  height: 17rem;
-  margin-left: 6rem !important;
-  margin: 20px;
-  margin-top: -18.35rem;
-  border-radius: 10px;
-  border: 2.5px solid var(--d_color1);
-  background: rgba(217, 217, 217, 0.00);
-}
-.inf2 {
-  margin-left: 1.2rem;
-  margin-top: 1rem;
-}
 .inpbloc2 {
-  margin-left: 0.5rem;
   display: flex;
-  margin-top: -0.8rem;
 }
 #bloco3 {
-  height: 3rem;
-  width: 12rem;
+  height: 4rem;
+  width: 17rem;
   margin-top: 0;
   background-color: var(--d_color5);
   border: 1px black solid;
   border-radius: 5px;
-  margin-left: -13.3rem;
 }
 .inspiracao {
   font-size: 20px;
   text-align: center;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }
 .inpbloc3 {
   display: flex;
-  width: 4rem;
-  height: 3rem;
+  width: 5rem;
+  height: 4rem;
   border: 1px black solid;
-  margin-top: -3rem;
-  margin-left: -16.8rem;
+  margin-top: -3.95rem;
+  margin-left: -4rem;
   background-color: var(--d_color7);
 }
 #bloco4 {
-  height: 3rem;
-  width: 12rem;
+  height: 5rem;
+  width: 18rem;
   background-color: var(--d_color5);
   border: 1px black solid;
   border-radius: 5px;
   margin-top: 2rem;
-  margin-left: -13.3rem;
 }
 .bonusprof {
   text-align: center;
+  margin-top: 0.5rem;
+  font-size: 1.4em;
 }
 .inpbloc4 {
   display: flex;
-  width: 5rem;
-  height: 5rem;
+  width: 7rem;
+  height: 7rem;
   border: 1px black solid;
-  border-radius: 2.5rem;
-  margin-top: -4rem;
-  margin-left: -17.5rem;
+  border-radius: 5.5rem;
+  margin-top: -6rem;
+  margin-left: -3.5rem;
   background-color: var(--d_color7);
 }
-#bloco5 {
-  margin-top: -3rem;
-  margin-left: -40.5rem;
+#bloco5, #bloco8, .bloco7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(217, 217, 217, 0.00);
+    padding: 1rem;
+    margin: 1rem;
+  
 }
-.ptsvida {
-  font-size: 30px;
-  margin-left: 3.5rem;
+#bloco8 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding: 2rem;
+  gap: 4rem;
+  
 }
 
+.ptsvida {
+  font-size: 30px;
+}
 .progress {
   width: 19rem;
   height: 1.8rem;
   border-radius: 15px;
   margin-top: -0.8rem;
-  margin-left: 0.3rem;
   background-color: #FFFFFF7A;
 }
+
 .progress-bar {
   background-color: rgba(255, 0, 0, 0.48);
   border-radius: 2rem;
 }
 .numvida {
   margin-top: 1rem;
-  margin-left: 5.5rem;
 }
 .inpbloc5,
 .inpbloc5-1,
@@ -1372,93 +1341,40 @@ ficha final
   margin-top: -1.5rem; 
   border-radius: 0px;
 }
-.inpbloc5 {
-  position: absolute;
-  margin-top: -0.4rem;
-  margin-left: 4.1rem;
-}
 
-.inpbloc5-1{
-  margin-left: -0.8rem;
-  }
-  
+
+.inpbloc5 {
+  margin-top: -0.4rem;
+}
 
 .inpbloc5-2 {
-  margin-top: 0.2rem;
-  margin-left: 7.2rem;
+  margin-top: 0.5rem;
 }
 .pvtemp {
-  margin-left: 5.6rem;
   font-size: 19px;
-  margin-top: 0.2rem;
+  margin-top: 0.5rem;
 }
 
-/* .part2{
-  margin-left: 45rem;
-  display: flex;
-  margin-left: 52rem;
-} */
 
-.bloco6{
-  margin-top: -23.6rem;
-  margin-left: -3rem;
-}
 
-.bloco6-1{
-  border-radius: 10px;
-  border: 2.5px solid var(--d_color1);
-  background: rgba(217, 217, 217, 0.00);
-  width: 17rem;
-  height: 9rem;
-}
-
-.inpbloc6{
-  height: 5rem;
-  margin-left: 1rem;
-  margin-top: -0.8rem;
-}
 
 .equip6{
   font-size: 1.5rem;
-  margin-top: 0.5rem;
-  margin-left: 3.5rem;
 }
 
-.bloco6-2{
-  border-radius: 10px;
-  border: 2.5px solid var(--d_color1);
-  background: rgba(217, 217, 217, 0.00);
-  margin-top: 1.2rem;
-  width: 17rem;
-  height: 12rem;
+.inpbloc6-1, .inpbloc6{
+  height: 10rem;
 }
 
-.inpbloc6-1{
-  height: 8rem;
-  margin-left: 1.15rem;
-  margin-top: -0.8rem;
-}
-
-.habili6{
+.habili6, .testmort6{
   font-size: 1.5rem;
-  margin-top: 0.5rem;
-  margin-left: 4.1rem;
-}
-
-.bloco6-3{
-  border-radius: 10px;
-  border: 2.5px solid var(--d_color1);
-  background: rgba(217, 217, 217, 0.00);
-  margin-top: 1.2rem;
-  width: 17rem;
-  height: 12rem;
 }
 
 .linhabloc6{
   width: 8rem;
   height: 0.3rem;
-  margin-top: -1.85rem;
-  margin-left: 6.5rem;
+  margin-top: -1.95rem;
+  margin-left: 4.5rem;
   background-color: black;
   border-radius: 0.15rem;
   color: black;
@@ -1504,39 +1420,36 @@ ficha final
   margin-top: -1rem;
   margin-left: 12.1rem;
 }
-.testmort6{
-  font-size: 1.2rem;
-  margin-top: 0.5rem;
-  margin-left: 2.5rem;
+.bloco6-3-2{
+  margin-left: -16rem;
 }
 
 .sucess6, .fracass6{
-  margin-left: 1rem;
+  margin-left: -12rem;
   margin-top: 2rem;
 }
 
-.bloco7{
-  margin-top: -32rem;
-  margin-left: 20.5rem;
+.classeArm{
+  font-size: 2rem;
+  margin-bottom: -2rem;
 }
 
-
-.classeArm{
-  font-size: 1.4rem;
-  width: 7rem;
+.bloco7{
+  margin-top: 8rem;
+  gap: 5rem;
 }
 
 .inpbloc7{
-  height: 7rem;
-  width: 7rem;
+  height: 10rem;
+  width: 10rem;
   border-radius: 5rem;
   margin-top: -1rem;
   border: 0.17rem black solid;
 }
 
 .inpbloc7-1, .inpbloc7-2{
-  height: 7rem;
-  width: 7rem;
+  height: 10rem;
+  width: 10rem;
   border-radius: 0rem;
   border: 0.17rem black solid;
 }
@@ -1550,16 +1463,16 @@ ficha final
 }
 
 .LegenIni{
-  font-size: 1.22rem;
-  margin-top: -1.8rem;
-  margin-left: 1rem;
+  text-align: center;
+  font-size: 1.4rem;
+  margin-top: -1.9rem;
   color: white;
 }
 
 .LegenDesloc{
-  font-size: 0.9rem;
-  margin-top: -1.5rem;
-  margin-left: 0.6rem;
+  text-align: center;
+  font-size: 1.4rem;
+  margin-top: -1.9rem;
   color: white;
 }
 
@@ -1574,6 +1487,16 @@ ficha final
 
 .setaproximo{
   width: 3.5rem;
+}
+.btnprox1{
+  display: flex;
+  align-items: end;
+  margin: 2rem;
+}
+.btnprox2 {
+  display: flex;
+  margin: 2rem;
+  justify-content: space-around;
 }
 /* 
 ---------------------------------------------
@@ -1651,7 +1574,6 @@ part2 - Ficha Final
 
 .part2-bloco3{
   border-radius: 10px;
-  border: 2.5px solid var(--d_color1);
   background: rgba(217, 217, 217, 0.00);
   margin-top: 2rem !important;
   margin: 1rem;

@@ -38,57 +38,67 @@
 
 <body class="">
 
-    <main class="fluid">
-        <h1 class="tituloFicha">Ficha Final</h1>
-        <img class="container" id="imgdd" src="\public\src\img\logoD&D.png" alt="">
+    <main class="fluid-ficha">
 
-        <button type="button" class="btnCloseFF"><a href="\public\views\home.html"><img
-                    src="\public\src\img\icon\Fechar.png" alt="" class="setaproximo"></a></button>
+        <section class="final none part1" id="part1">
+            <div class="container">
+                <div class="progress-bar-container row">
+                    <div class="col-10" id="barraprog"> 
+                        <div class="finalflex">
+                            <h1 class="tituloFicha">Ficha Final</h1>
+                            <img class="container" id="imgdd" src="\public\src\img\logoD&D.png" alt="">
+                        </div> 
 
-
-        <section class="none part1" id="part1">
-            <div class="" id="bloco1">
-
-                <input type="image" class="img-avatar" src="\public\src\img\exemplo-avatar.png" alt="">
-
-                <div class="bloco1-1">
-                    <p class="nick">Nickname:</p>
-                    <input type="text" name="" class="inpnick" id="" readonly>
+                    </div>
+                    
+                    <div class="col-2 center">
+                        <button type="button" class="btnCloseFF"><a href="\public\views\home.html"><img src="\public\src\img\icon\Fechar.png" alt="" class="setaproximo"></a></button>
+                    </div>
                 </div>
-                <div class="bloco1-2">
-                    <div>
-                        <p class="raça">Raça:</p>
-                        <input type="text" name="" class="inpraça" id="" readonly>
-                    </div>
-                    <div class="bloco1-3">
-                        <p class="nivel">nível:</p>
-                        <input type="number" name="" class="inpnivel" id="" readonly>
-                    </div>
-
-                    <div class="container" id="bloco2">
-                        <p class="inf2">Classe:</p>
-                        <input type="text" name="" class="inpbloc2" id="" readonly>
-                        <p class="inf2">Tendência:</p>
-                        <input type="text" name="" class="inpbloc2" id="" readonly>
-                        <p class="inf2">Antecedentes:</p>
-                        <input type="text" name="" class="inpbloc2" id="" readonly>
-                    </div>
-
-                    <div>
-                        <div class="container" id="bloco3">
-                            <p class="inspiracao">Inspiração</p>
-                        </div>
-                        <div>
-                            <input type="number" class="inpbloc3" name="" id="" readonly>
-                        </div>
-
-                        <div>
-                            <div class="container" id="bloco4">
-                                <p class="bonusprof">Bônus de <br>Proeficiência</p>
-                            </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="grade grade1" id=" grade1">
                             <div>
-                                <input type="number" name="" class="inpbloc4" id="" readonly>
+                                <img src="/public/src/img/exemplo-avatar.png" alt="pudim" id="pudimdecria">
                             </div>
+                            <div class="col-12">
+                                <label for="nome" class="nome">Nome:</label>
+                                <input type="text" name="nome" id="inpnome" >
+                            </div>
+                            <div class="flex">
+                                <div>
+                                    <label for="raca" class="raca">Raça:</label>
+                                    <input type="text" name="raca" id="inpraca" >
+                                </div>
+                                <div>
+                                    <label for="level" class="level">Nível:</label>
+                                    <input type="number" name="level" id="inplevel" >
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grade grade3" id=" grade3">
+                            <div class="flex">
+                                <div>
+                                    <label for="idade" class="tex3">Idade:</label>
+                                    <input type="text" name="idade" class="inpgrad3" id="idade" >
+                                </div>
+                                <div>
+                                    <label for="peso" class="tex3">Peso:</label>
+                                    <input type="text" name="peso" id="" class="inpgrad3" >
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div>
+                                    <label for="altura" class="tex3">Altura:</label>
+                                    <input type="text" name="altura" id="altura" class="inpgrad3" >
+                                </div>
+                                <div>
+                                    <label for="genero" class="tex3">Gênero:</label>
+                                    <input type="text" name="genero" id="" class="inpgrad3" >
+                                </div>
+                            </div>
+                           
                         </div>
 
                         <div id="bloco5">
@@ -105,22 +115,22 @@
                             <p class="pvtemp">PV Temporário</p>
                         </div>
 
-                        <div class="bloco6">
-                            <div class="bloco6-1">
+                            <div class="grade bloco6-1">
                                 <p class="equip6">Equipamentos:</p>
                                 <input type="text" class="inpbloc6" name="" id="" readonly>
                             </div>
-                            <div class="bloco6-2">
+                            <div class="grade bloco6-2">
                                 <p class="habili6">Habilidades:</p>
                                 <input type="text" class="inpbloc6-1" name="" id="" readonly>
                             </div>
-                            <div class="bloco6-3">
+
+                            <div class="grade bloco6-3">
                                 <p class="testmort6">Testes contra a morte</p>
                                 <p class="sucess6">Sucessos</p>
                                 <div class="linhabloc6"></div>
                                 <p class="fracass6">Fracassos</p>
                                 <div class="linhabloc6"></div>
-                                <div class="bloco 6-3-2">
+                                <div class="bloco6-3-2">
                                     <div>
                                         <input type="number" class="inpbloc6-3" name="" id="" readonly>
                                         <input type="number" class="inpbloc6-4" name="" id="" readonly>
@@ -132,303 +142,416 @@
                                         <input type="number" class="inpbloc6-8" name="" id="" readonly>
                                     </div>
                                 </div>
-                                <div class="bloco7">
-                                    <p class="classeArm">Classe de <br> Armadura</p>
-                                    <div>
-                                        <input type="number" class="inpbloc7" name="" id="" readonly>
-                                    </div>
-                                    <div>
-                                        <input type="number" class="inpbloc7-1" name="" id="" readonly>
-                                        <p class="LegenIni">Iniciativa</p>
-                                    </div>
-                                    <div>
-                                        <input type="number" class="inpbloc7-2" name="" id="" readonly>
-                                        <p class="LegenDesloc">Deslocamento</p>
-                                    </div>
-                                </div>
-                                <div>
-                                    <button type="button" class="btnSetaFF"><a href="">
-                                            <img src="\public\src\img\icon\Seta.png" alt=""
-                                                class="setaproximo"></a></button>
-                                </div>
-        </section>
-
-        <section class="none part2" id="part2">
-
-            <div class="">
-                <div class="part2-bloco1">
-
-                    <div class="part2-bloco1-2">
-                        <label for="" class="labnome">Nome:</label>
-                        <input type="text" class="part2-inpbloc1-2" name="" id="" readonly>
-                        <input type="text" class="part2-inpbloc1-2" name="" id="" readonly>
-                        <input type="text" class="part2-inpbloc1-2" name="" id="" readonly>
-                        <input type="text" class="part2-inpbloc1-2" name="" id="" readonly>
-                    </div>
-                    <div class="part2-bloco1-3">
-                        <label for="" class="labbonus">Bônus:</label>
-                        <input type="text" class="part2-inpbloc1-3" name="" id="" readonly>
-                        <input type="text" class="part2-inpbloc1-3" name="" id="" readonly>
-                        <input type="text" class="part2-inpbloc1-3" name="" id="" readonly>
-                        <input type="text" class="part2-inpbloc1-3" name="" id="" readonly>
-                    </div>
-                    <div class="part2-bloco1-4">
-                        <label for="" class="labdanotipo">Dano/tipo:</label>
-                        <input type="text" class="part2-inpbloc1-4" name="" id="" readonly>
-                        <input type="text" class="part2-inpbloc1-4" name="" id="" readonly>
-                        <input type="text" class="part2-inpbloc1-4" name="" id="" readonly>
-                        <input type="text" class="part2-inpbloc1-4" name="" id="" readonly>
-                    </div>
-                    <div class="container">
-                        <p class="AtakMagia">Ataques e Magias</p>
-                    </div>
-                </div>
-
-                <div class="part2-bloco2">
-                    <div>
-                        <label for="" class="IdiomaPref">Idiomas e outras <br> preferências:</label>
-                        <input type="text" class="part2-inpbloc2" name="" id="" readonly>
-                    </div>
-                    <div>
-                        <label for="" class="AliadosOrgani">Aliados e <br>Organizações:</label>
-                        <input type="text" class="part2-inpbloc2" name="" id="" readonly>
-                    </div>
-                </div>
-
-                <div class="part2-bloco3">
-                    <div>
-                        <label for="" class="legenbloc3">Historia de Origem:</label>
-                        <input type="text" class="part2-inpbloc3" name="" id="" readonly>
-                        <label for="" class="legenbloc3">Personalidade:</label>
-                        <input type="text" class="part2-inpbloc3-2" name="" id="" readonly>
-                        <label for="" class="legenbloc3">Motivação:</label>
-                        <input type="text" class="part2-inpbloc3-3" name="" id="" readonly>
-                    </div>
-
-                    <div class="part2-bloco4">
-                        <div>
-                            <div>
-                                <label for="" class="legenbloc4">Traumas:</label>
-                                <input type="text" class="part2-inpbloc4" name="" id="" readonly>
                             </div>
 
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="grade grade2" id=" grade2">  
+                            <div class="col-12">
+                                <label for="classe" class="tex2">Classe:</label>
+                                <input type="text" name="classe" class="w-100" id="" >
+                            </div>
+                            <div class="col-12">
+                                <label for="tendencia" class="tex2">Tendência:</label>
+                                <input type="text" name="tendencia" class="w-100" id="" >
+                            </div>
+                            <div class="col-12">
+                                <label for="Antecedentes" class="tex2">Antecedentes:</label>
+                                <input type="text" name="Antecedentes" class="Antecedentes" id="" >
+                            </div>
+                        </div>
+
+                        <div class=""  id="bloco8">
+                            <div class="container" id="bloco3">
+                                <p class="inspiracao">Inspiração</p>
+                                <div>
+                                    <input type="number" class="inpbloc3" name="" id="" readonly>
+                                </div>
+                            </div>
+                        
+
                             <div>
-                                <label for="" class="legenbloc4">fraquezas:</label>
-                                <input type="text" class="part2-inpbloc4" name="" id="" readonly>
+                                <div class="container" id="bloco4">
+                                    <p class="bonusprof">Bônus de <br>Proeficiência</p>
+                                </div>
+                                <div>
+                                    <input type="number" name="" class="inpbloc4" id="" readonly>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="bloco7">
+                            <p class="classeArm">Classe de <br> Armadura</p>
+                            <div>
+                                <input type="number" class="inpbloc7" name="" id="" readonly>
+                            </div>
+                            <div>
+                                <input type="number" class="inpbloc7-1" name="" id="" readonly>
+                                <p class="LegenIni">Iniciativa</p>
+                            </div>
+                            <div>
+                                <input type="number" class="inpbloc7-2" name="" id="" readonly>
+                                <p class="LegenDesloc">Deslocamento</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+
+                    <div class="center col-12 btnprox1">
+                        <div>
+                            <button type="button" class="btnSetaFF">
+                                <img src="\public\src\img\icon\Seta.png" alt="" class="setaproximo">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="none final part2" id="part2">
+            <div class="container">
+                <div class="progress-bar-container row">
+                    <div class="col-10" id="barraprog"> 
+                        <div class="finalflex">
+                            <h1 class="tituloFicha">Ficha Final</h1>
+                            <img class="container" id="imgdd" src="\public\src\img\logoD&D.png" alt="">
+                        </div> 
+    
+                    </div>
+                    
+                    <div class="col-2 center">
+                        <button type="button" class="btnCloseFF"><a href="\public\views\home.html"><img src="\public\src\img\icon\Fechar.png" alt="" class="setaproximo"></a></button>
+                    </div>
+                </div>
+
+                <div class="row center">
+                    <div class="part2-bloco1 col-12">
+    
+                        <div class="part2-bloco1-2">
+                            <label for="" class="labnome">Nome:</label>
+                            <input type="text" class="part2-inpbloc1-2" name="" id="" readonly>
+                            <input type="text" class="part2-inpbloc1-2" name="" id="" readonly>
+                            <input type="text" class="part2-inpbloc1-2" name="" id="" readonly>
+                            <input type="text" class="part2-inpbloc1-2" name="" id="" readonly>
+                        </div>
+                        <div class="part2-bloco1-3">
+                            <label for="" class="labbonus">Bônus:</label>
+                            <input type="text" class="part2-inpbloc1-3" name="" id="" readonly>
+                            <input type="text" class="part2-inpbloc1-3" name="" id="" readonly>
+                            <input type="text" class="part2-inpbloc1-3" name="" id="" readonly>
+                            <input type="text" class="part2-inpbloc1-3" name="" id="" readonly>
+                        </div>
+                        <div class="part2-bloco1-4">
+                            <label for="" class="labdanotipo">Dano/tipo:</label>
+                            <input type="text" class="part2-inpbloc1-4" name="" id="" readonly>
+                            <input type="text" class="part2-inpbloc1-4" name="" id="" readonly>
+                            <input type="text" class="part2-inpbloc1-4" name="" id="" readonly>
+                            <input type="text" class="part2-inpbloc1-4" name="" id="" readonly>
+                        </div>
+                        <div class="container">
+                            <p class="AtakMagia">Ataques e Magias</p>
+                        </div>
+                    </div>
+    
+                    <div class="part2-bloco2 col-12">
+                        <div>
+                            <label for="" class="IdiomaPref">Idiomas e outras <br> preferências:</label>
+                            <input type="text" class="part2-inpbloc2" name="" id="" readonly>
+                        </div>
+                        <div>
+                            <label for="" class="AliadosOrgani">Aliados e <br>Organizações:</label>
+                            <input type="text" class="part2-inpbloc2" name="" id="" readonly>
+                        </div>
+                    </div>
+    
+                    <div class="part2-bloco3 col-12">
+                        <div class="grade">
+                            <label for="" class="legenbloc3">Historia de Origem:</label>
+                            <input type="text" class="part2-inpbloc3" name="" id="" readonly>
+                            <label for="" class="legenbloc3">Personalidade:</label>
+                            <input type="text" class="part2-inpbloc3-2" name="" id="" readonly>
+                            <label for="" class="legenbloc3">Motivação:</label>
+                            <input type="text" class="part2-inpbloc3-3" name="" id="" readonly>
+                        </div>
+    
+                        <div class="part2-bloco4">
+                            <div>
+                                <div>
+                                    <label for="" class="legenbloc4">Traumas:</label>
+                                    <input type="text" class="part2-inpbloc4" name="" id="" readonly>
+                                </div>
+    
+                                <div>
+                                    <label for="" class="legenbloc4">fraquezas:</label>
+                                    <input type="text" class="part2-inpbloc4" name="" id="" readonly>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div>
-                        <button type="button" class="btnSetaFF-2"><a href="">
-                                <img src="\public\src\img\icon\Seta.png" alt="" class="setaproximo2"></a></button>
+                    <div class="col-12 btnprox2">
+                        <div>
+                            <button type="button" class="btnSetaFF-2"><a href="">
+                                    <img src="\public\src\img\icon\Seta.png" alt="" class="setaproximo2"></a></button>
+                        </div>
+                        <div>
+                            <button type="button" class="btnSetaFF-3"><a href="">
+                                    <img src="\public\src\img\icon\Seta.png" alt="" class="setaproximo"></a></button>
+                        </div>
                     </div>
-                    <div>
-                        <button type="button" class="btnSetaFF-3"><a href="">
-                                <img src="\public\src\img\icon\Seta.png" alt="" class="setaproximo"></a></button>
-                    </div>
+                    
+                </div>
+            </div>
         </section>
 
 
         <section class="none part3" id="part3">
-            <div class="part3-bloco1 divpag">
+            <div class="progress-bar-container row">
+                <div class="col-10" id="barraprog"> 
+                    <div class="finalflex">
+                        <h1 class="tituloFicha">Ficha Final</h1>
+                        <img class="container" id="imgdd" src="\public\src\img\logoD&D.png" alt="">
+                    </div> 
 
-                <h2 class="legenptshabili">Pontos de Habilidade</h2><br>
-                <div class="part3-bloco1-2">
-                    <label for="FOR" class="caraclabel">FOR</label>
-                    <input type="number" name="FOR" id="FOR" class="part3-inpbloc1 caracgrid" readonly>
-                    <input type="number" name="" id="forball" class="caracballs" readonly>
+                </div>
+                
+                <div class="col-2 center">
+                    <button type="button" class="btnCloseFF"><a href="\public\views\home.html"><img src="\public\src\img\icon\Fechar.png" alt="" class="setaproximo"></a></button>
+                </div>
+            </div>
+            <div class="container">
+                <div class="center row">
+                    <div class="grade div6pag2">
+                        <h3 id="caractotulo">Perícias</h3>
+                        <div class="center">
+                            <div class="perimetro">
+                                
+                                <label for="FOR" class="caraclabel">FOR</label>
+                                <input type="number" name="FOR" id="FOR" class="caracgrid">
+                                <input type="number" name="" id="forball" class="caracballs2">
+                                
+                                <label for="INT" class="caraclabel">INT</label>
+                                <input type="number" name="INT" id="INT" class="caracgrid">
+                                <input type="number" name="" id="intball" class="caracballs2">
+                                
+                                <label for="DES" class="caraclabel">DES</label>
+                                <input type="number" name="DES" id="DES" class="caracgrid">
+                                <input type="number" name="" id="desball" class="caracballs2">
+                                
+                                <label for="SAB" class="caraclabel">SAB</label>
+                                <input type="text" name="SAB" id="SAB" class="caracgrid">
+                                <input type="number" name="" id="sabball" class="caracballs2">
+                                
+                                <label for="CAR" class="caraclabel">CAR</label>
+                                <input type="text" name="CAR" id="CAR" class="caracgrid">
+                                <input type="number" name="" id="carball" class="caracballs2">
 
-                    <label for="INT" class="caraclabel">INT</label>
-                    <input type="number" name="INT" id="INT" class="part3-inpbloc1" readonly>
-                    <input type="number" name="" id="intball" class="caracballs" readonly>
+                                <label for="CON" class="caraclabel">CON</label>
+                                <input type="text" name="CON" id="CON" class="caracgrid">
+                                <input type="number" name="" id="conball" class="caracballs2">
+                            </div>
+                        </div>
+                    </div>
+        
+        
+                    <label class="center" for="pericias-grid">
+                        <h2>Pontos de perícia: </h2>
+                    </label>
+                    <div class="center">
+                        <div>
+                            <div class="pericias-grid grade">
+                                <label for="acrobacia" class="nome-pericia caraclabel">Acrobacia</label>
+                                <input type="number" name="acrobacia" id="acrobacia" class="inp-pericia caracgrid">
+            
+                                <label for="intuicao" class="nome-pericia caraclabel">Intuíção</label>
+                                <input type="number" name="intuicao" id="intuicao" class="inp-pericia caracgrid">
+            
+                                <label for="adestramento" class="nome-pericia caraclabel">Adestramento</label>
+                                <input type="number" name="adestramento" id="adestramento" class="inp-pericia caracgrid">
+            
+            
+                                <label for="investigacao" class="nome-pericia caraclabel">Investigação</label>
+                                <input type="number" name="investigacao" id="investigacao" class="inp-pericia caracgrid">
+                                
+            
+                                <label for="arcanismo" class="nome-pericia caraclabel">Arcanismo</label>
+                                <input type="number" name="arcanismo" id="arcanismo" class="inp-pericia caracgrid">
+                                
+                                <label for="medicina" class="nome-pericia caraclabel">Medicina</label>
+                                <input type="number" name="medicina" id="medicina" class="inp-pericia caracgrid">
+                            
+            
+                                <label for="atletismo" class="nome-pericia caraclabel">Atletismo</label>
+                                <input type="number" name="atletismo" id="atletismo" class="inp-pericia caracgrid">
+                                
+            
+                                <label for="natureza" class="nome-pericia caraclabel">Natureza</label>
+                                <input type="number" name="natureza" id="natureza" class="inp-pericia caracgrid">
+                            
+            
+                                <label for="atuacao" class="nome-pericia caraclabel">Atuação</label>
+                                <input type="number" name="atuacao" id="atuacao" class="inp-pericia caracgrid">
+                                
+            
+                                <label for="percepcao" class="nome-pericia caraclabel">Percepção</label>
+                                <input type="number" name="percepcao" id="percepcao" class="inp-pericia caracgrid">
+                            
+            
+                                <label for="blefar" class="nome-pericia caraclabel">Blefar</label>
+                                <input type="number" name="blefar" id="blefar" class="inp-pericia caracgrid">
+                                
+            
+                                <label for="persuacao" class="nome-pericia caraclabel">Persuação</label>
+                                <input type="number" name="persuacao" id="persuacao" class="inp-pericia caracgrid">
+                            
+            
+                                <label for="furtividade" class="nome-pericia caraclabel">Furtividade</label>
+                                <input type="number" name="furtividade" id="furtividade" class="inp-pericia caracgrid">
+                                
+            
+                                <label for="prestidigitacao" class="nome-pericia caraclabel">Prestidigitação</label>
+                                <input type="number" name="prestidigitacao" id="prestidigitacao" class="inp-pericia caracgrid">
+                            
+            
+                                <label for="historia" class="nome-pericia caraclabel">História</label>
+                                <input type="number" name="historia" id="historia" class="inp-pericia caracgrid">
+                                
+            
+                                <label for="religiao" class="nome-pericia caraclabel">Religião</label>
+                                <input type="number" name="religiao" id="religiao" class="inp-pericia caracgrid">
+                            
+            
+                                <label for="intimidacao" class="nome-pericia caraclabel">Intimidação</label>
+                                <input type="number" name="intimidacao" id="intimidacao" class="inp-pericia caracgrid">
+                                
+            
+                                <label for="sobrevivencia" class="nome-pericia caraclabel">Sobrevivência</label>
+                                <input type="number" name="sobrevivencia" id="sobrevivencia" class="inp-pericia caracgrid">
+            
+                            </div>
+                        </div>
+                    </div>
 
-                    <label for="DES" class="caraclabel">DES</label>
-                    <input type="number" name="DES" id="DES" class="part3-inpbloc1" readonly>
-                    <input type="number" name="" id="desball" class="caracballs" readonly>
-
-                    <label for="SAB" class="caraclabel">SAB</label>
-                    <input type="text" name="SAB" id="SAB" class="part3-inpbloc1" readonly>
-                    <input type="number" name="" id="sabball" class="caracballs" readonly>
-
-                    <label for="CAR" class="caraclabel">CAR</label>
-                    <input type="text" name="CAR" id="CAR" class="part3-inpbloc1" readonly>
-                    <input type="number" name="" id="carball" class="caracballs" readonly>
-
-                    <label for="CON" class="caraclabel">CON</label>
-                    <input type="text" name="CON" id="CON" class="part3-inpbloc1" readonly>
-                    <input type="number" name="" id="conball" class="caracballs" readonly>
+                    <div class="col-12 btnprox2">
+                        <div>
+                            <button type="button" class="btnSetaFF-2"><a href="">
+                                    <img src="\public\src\img\icon\Seta.png" alt="" class="setaproximo2"></a></button>
+                        </div>
+                        <div>
+                            <button type="button" class="btnSetaFF-3"><a href="">
+                                    <img src="\public\src\img\icon\Seta.png" alt="" class="setaproximo"></a></button>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
 
-
-            <label for="">
-                <h2 class="legenptspericia">Pontos de perícia</h2>
-            </label>
-            <div class="part3-bloco2 divpag">
-                <label for="acrobacia" class="pericia-name caraclabel">Acrobacia</label>
-                <input type="number" name="acrobacia" id="acrobacia" class="part3-inpbloc2 caracgrid" readonly>
-
-
-                <label for="intuicao" class="pericia-name  caraclabel">Intuíção</label>
-                <input type="number" name="intuicao" id="intuicao" class="part3-inpbloc2 caracgrid" readonly>
-
-
-                <label for="adestramento" class="pericia-name caraclabel">Adestramento</label>
-                <input type="number" name="adestramento" id="adestramento" class="part3-inpbloc2 caracgrid" readonly>
-
-
-                <label for="investigacao" class="pericia-name caraclabel">Investigação</label>
-                <input type="number" name="investigacao" id="investigacao" class="part3-inpbloc2 caracgrid" readonly>
-
-
-                <label for="arcanismo" class="pericia-name caraclabel">Arcanismo</label>
-                <input type="number" name="arcanismo" id="arcanismo" class="part3-inpbloc2 caracgrid" readonly>
-
-                <label for="medicina" class="pericia-name caraclabel">Medicina</label>
-                <input type="number" name="medicina" id="medicina" class="part3-inpbloc2 caracgrid" readonly>
-
-
-                <label for="atletismo" class="pericia-name caraclabel">Atletismo</label>
-                <input type="number" name="atletismo" id="atletismo" class="part3-inpbloc2 caracgrid" readonly>
-
-
-                <label for="natureza" class="pericia-name caraclabel">Natureza</label>
-                <input type="number" name="natureza" id="natureza" class="part3-inpbloc2 caracgrid" readonly>
-
-
-                <label for="atuacao" class="pericia-name caraclabel">Atuação</label>
-                <input type="number" name="atuacao" id="atuacao" class="part3-inpbloc2 caracgrid" readonly>
-
-
-                <label for="percepcao" class="pericia-name caraclabel">Percepção</label>
-                <input type="number" name="percepcao" id="percepcao" class="part3-inpbloc2 caracgrid" readonly>
-
-
-                <label for="blefar" class="pericia-name caraclabel">Blefar</label>
-                <input type="number" name="blefar" id="blefar" class="part3-inpbloc2 caracgrid" readonly>
-
-
-                <label for="persuacao" class="pericia-name caraclabel">Persuação</label>
-                <input type="number" name="persuacao" id="persuacao" class="part3-inpbloc2 caracgrid" readonly>
-
-
-                <label for="furtividade" class="pericia-name caraclabel">Furtividade</label>
-                <input type="number" name="furtividade" id="furtividade" class="part3-inpbloc2 caracgrid" readonly>
-
-
-                <label for="prestidigitacao" class="pericia-name caraclabel">Prestidigitação</label>
-                <input type="number" name="prestidigitacao" id="prestidigitacao" class="part3-inpbloc2 caracgrid"
-                    readonly>
-
-
-                <label for="historia" class="pericia-name caraclabel">História</label>
-                <input type="number" name="historia" id="historia" class="part3-inpbloc2 caracgrid" readonly>
-
-
-                <label for="religiao" class="pericia-name caraclabel">Religião</label>
-                <input type="number" name="religiao" id="religiao" class="part3-inpbloc2 caracgrid" readonly>
-
-
-                <label for="intimidacao" class="pericia-name caraclabel">Intimidação</label>
-                <input type="number" name="intimidacao" id="intimidacao" class="part3-inpbloc2 caracgrid" readonly>
-
-
-                <label for="sobrevivencia" class="pericia-name caraclabel">Sobrevivência</label>
-                <input type="number" name="sobrevivencia" id="sobrevivencia" class="part3-inpbloc2 caracgrid" readonly>
-            </div>
-
-            <button type="button" class="btnSetaFF-2 marginbtnFF"><a href="">
-                    <img src="\public\src\img\icon\Seta.png" alt="" class="setaproximo2"></a></button>
-
-            <button type="button" class="btnSetaFF-3 marginbtnFF"><a href="">
-                    <img src="\public\src\img\icon\Seta.png" alt="" class="setaproximo"></a></button>
+           
+        
         </section>
 
-        <section class=" part4" id="part4">
-            <div class="part4-bloco1">
-
-                <div class="input4-group">
-                    <label for="" class="labelparte4">Habilidade-Chave</label>
-                    <input type="text" name="" id="" class="part4-inpbloc1" readonly>
-                </div>
-
-                <div class="input4-group">
-                    <label for="" class="labelparte4">CD do TR</label>
-                    <input type="text" name="" id="" class="part4-inpbloc1" readonly>
-                </div>
-
-                <div class="input4-group">
-                    <label for="" class="labelparte4-bonus">Bônus de <br>ataque</label>
-                    <input type="text" name="" id="" class="part4-inpbloc1" readonly>
+        <section class="center part4" id="part4">
+            <div class="container">
+                <div class="center row">
+                    <div class="part4-bloco1">
+        
+                        <div class="input4-group">
+                            <label for="" class="labelparte4">Habilidade-Chave</label>
+                            <input type="text" name="" id="" class="part4-inpbloc1" readonly>
+                        </div>
+        
+                        <div class="input4-group">
+                            <label for="" class="labelparte4">CD do TR</label>
+                            <input type="text" name="" id="" class="part4-inpbloc1" readonly>
+                        </div>
+        
+                        <div class="input4-group">
+                            <label for="" class="labelparte4-bonus">Bônus de <br>ataque</label>
+                            <input type="text" name="" id="" class="part4-inpbloc1" readonly>
+                        </div>
+                    </div>
+        
+                    <div class="part4-bloco2">
+                        <div class="part4-bloco2-1">
+                            <label for="" class="numberlabel">0</label>
+                            <input type="text" class="part4-inpbloc2" name="" id="" readonly>
+                            <div>
+                                <input type="text" class="part4-inpbloc2-1" name="" id="" readonly>
+                            </div>
+        
+                            <label for="" class="numberlabel">1</label>
+                            <input type="text" class="part4-inpbloc2" name="" id="" readonly>
+                            <div>
+                                <input type="text" class="part4-inpbloc2-1" name="" id="">
+                            </div>
+                            <label for="" class="numberlabel">2</label>
+                            <input type="text" class="part4-inpbloc2" name="" id="" readonly>
+                            <div>
+                                <input type="text" class="part4-inpbloc2-1" name="" id="" readonly>
+                            </div>
+                            
+                            <label for="" class="numberlabel">3</label>
+                            <input type="text" class="part4-inpbloc2" name="" id="" readonly>
+                            <div>
+                                <input type="text" class="part4-inpbloc2-1" name="" id="" readonly>
+                            </div>
+                            
+                            <label for="" class="numberlabel">4</label>
+                            <input type="text" class="part4-inpbloc2" name="" id="" readonly>
+                            <div>
+                                <input type="text" class="part4-inpbloc2-1" name="" id="" readonly>
+                            </div>
+        
+                            
+                        </div>
+                        <div class="part4-bloco2-2">
+                            <label for="" class="numberlabel">5</label>
+                            <input type="text" class="part4-inpbloc2" name="" id="" readonly>
+                            <div>
+                                <input type="text" class="part4-inpbloc2-1" name="" id="" readonly>
+                            </div>
+        
+                            <label for="" class="numberlabel">6</label>
+                            <input type="text" class="part4-inpbloc2" name="" id="" readonly>
+                            <div>
+                                <input type="text" class="part4-inpbloc2-1" name="" id="" readonly>
+                            </div>
+                            <label for="" class="numberlabel">7</label>
+                            <input type="text" class="part4-inpbloc2" name="" id="" readonly>
+                            <div>
+                                <input type="text" class="part4-inpbloc2-1" name="" id="" readonly>
+                            </div>
+                            
+                            <label for="" class="numberlabel">8</label>
+                            <input type="text" class="part4-inpbloc2" name="" id="" readonly>
+                            <div>
+                                <input type="text" class="part4-inpbloc2-1" name="" id="" readonly>
+                            </div>
+                            <label for="" class="numberlabel">9</label>
+                            <input type="text" class="part4-inpbloc2" name="" id="" readonly>
+                            <div>
+                                <input type="text" class="part4-inpbloc2-1" name="" id="" readonly>
+                            </div>
+                        </div>      
+                    </div>
+                    
+                    <div class="col-12 btnprox2">
+                        <div>
+                            <button type="button" class="btnSetaFF-2"><a href="">
+                                    <img src="\public\src\img\icon\Seta.png" alt="" class="setaproximo2"></a></button>
+                        </div>
+                        <div>
+                            <button type="button" class="btnSetaFF-3"><a href="">
+                                    <img src="\public\src\img\icon\Seta.png" alt="" class="setaproximo"></a></button>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="part4-bloco2">
-                <div class="part4-bloco2-1">
-                    <label for="" class="numberlabel">0</label>
-                    <input type="text" class="part4-inpbloc2" name="" id="" readonly>
-                    <div>
-                        <input type="text" class="part4-inpbloc2-1" name="" id="" readonly>
-                    </div>
-
-                    <label for="" class="numberlabel">1</label>
-                    <input type="text" class="part4-inpbloc2" name="" id="" readonly>
-                    <div>
-                        <input type="text" class="part4-inpbloc2-1" name="" id="">
-                    </div>
-                    <label for="" class="numberlabel">2</label>
-                    <input type="text" class="part4-inpbloc2" name="" id="" readonly>
-                    <div>
-                        <input type="text" class="part4-inpbloc2-1" name="" id="" readonly>
-                    </div>
-                    
-                    <label for="" class="numberlabel">3</label>
-                    <input type="text" class="part4-inpbloc2" name="" id="" readonly>
-                    <div>
-                        <input type="text" class="part4-inpbloc2-1" name="" id="" readonly>
-                    </div>
-                    
-                    <label for="" class="numberlabel">4</label>
-                    <input type="text" class="part4-inpbloc2" name="" id="" readonly>
-                    <div>
-                        <input type="text" class="part4-inpbloc2-1" name="" id="" readonly>
-                    </div>
-
-                    
-                </div>
-                    <div class="part4-bloco2-2">
-                        <label for="" class="numberlabel">5</label>
-                        <input type="text" class="part4-inpbloc2" name="" id="" readonly>
-                        <div>
-                            <input type="text" class="part4-inpbloc2-1" name="" id="" readonly>
-                        </div>
-    
-                        <label for="" class="numberlabel">6</label>
-                        <input type="text" class="part4-inpbloc2" name="" id="" readonly>
-                        <div>
-                            <input type="text" class="part4-inpbloc2-1" name="" id="" readonly>
-                        </div>
-                        <label for="" class="numberlabel">7</label>
-                        <input type="text" class="part4-inpbloc2" name="" id="" readonly>
-                        <div>
-                            <input type="text" class="part4-inpbloc2-1" name="" id="" readonly>
-                        </div>
-                        
-                        <label for="" class="numberlabel">8</label>
-                        <input type="text" class="part4-inpbloc2" name="" id="" readonly>
-                        <div>
-                            <input type="text" class="part4-inpbloc2-1" name="" id="" readonly>
-                        </div>
-                        <label for="" class="numberlabel">9</label>
-                    <input type="text" class="part4-inpbloc2" name="" id="" readonly>
-                    <div>
-                        <input type="text" class="part4-inpbloc2-1" name="" id="" readonly>
-                    </div>
-            </div>
-            <button type="button" class="btnSetaFF-3 marginbtnFF2"><a href="">
-                <img src="\public\src\img\icon\Seta.png" alt="" class="setaproximo"></a></button>
-
         </section>
 
     </main>
