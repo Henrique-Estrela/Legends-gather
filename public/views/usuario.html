@@ -4,24 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legends Gather</title>
+    
     <!-- Icon -->
     <link rel="icon" href="../src/img/logo-icon.png">
+    
     <!-- Bootstrap -->
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
     <script defer src="../bootstrap/js/bootstrap.bundle.js"></script>
     <script defer src="../bootstrap/js/bootstrap.js"></script>
+    
     <!-- CSS -->
     <link rel="stylesheet" href="../src/css/style.css">
     <link rel="stylesheet" href="../src/css/responsive.css">
+    
     <!-- Font Awesame -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    
     <!-- JS -->
     <script type="module" src="../src/js/edituser.js" defer></script>
+    <script type="module" src="../src/js/user.js" defer></script>
+
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=McLaren&family=MedievalSharp&display=swap" rel="stylesheet">
+    
     <!-- Sweet Alert -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.all.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css" rel="stylesheet">
@@ -59,35 +67,41 @@
     </header>
 
     <main>
-        <div>
-            <img class="sair" src="../src/img/icon/Fechar.png " alt="">
-        </div>
-        <div>
-            <img class="imgusuario" src="../src/img/image 20.png" alt="Usuario-editar">
-        </div>
-        <div>
-            <input class="inputname" type="text" value="MR.Pudding" readonly>
-        </div>
-        <div>
-            <p class="email">Email:</p>
-        </div>
-        <div>
-            <input class="inputemail" type="email" value="Jorgegamer@gmail.com" readonly>
-        </div>
-        <div>
-            <p class="senha">Senha:</p>
-        </div>
-        <div>
-            <input class="inputsenha" type="text" value="gamer123" readonly>
-        </div>
-<!--         <div>
-            <img class="imgedit" src="../src/img/Component 1.png" alt="">
-        </div> -->
-        <button type="button" class="imgedit edituser">
-                <p class="fontEditar">Editar</p>
-                <img src="\public\src\img\icon\PenaEdit.png" alt="" class="peninhaedit ">
+        <div class="container">
+            <button type="button" class="user btnCloseFF">
+                <a href="\public\views\home.html">
+                    <img src="\public\src\img\icon\Fechar.png" alt="" class="setaproximo">
+                </a>
+            </button>
+            <div class="row">
+              
+
+                <div class="col-lg-6">
+                    <div>
+                        <img class="imgusuario" src="../src/img/image 20.png" alt="Usuario-editar">
+                        <input class="inputname" type="text" value="" readonly>
+                    </div>
+                   
             
-        </button>
+                    <button type="button" class="imgedit edituser">
+                            <p class="fontEditar">Editar</p>
+                            <img src="\public\src\img\icon\PenaEdit.png" alt="" class="peninhaedit ">
+                    </button>
+                </div>
+                <div class="col-lg-6">
+                    <div>
+                        <p class="email">Email:</p>
+                        <input class="inputemail" type="email" value="" readonly>
+                    </div>
+                    <div>
+                        <p class="senha">Senha:</p>
+                        <input class="inputsenha" type="text" value="" readonly>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
     </main>
 
     <header class="mobile">

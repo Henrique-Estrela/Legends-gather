@@ -29,15 +29,6 @@ const existingCards = JSON.parse(localStorage.getItem('cards')) || [];
 
 
 
-
-const User = {
-    nome: '',
-    email:'',
-    senha:'',
-}
-
-
-
 /* 
 ---------------------------------------------
 chamar funções

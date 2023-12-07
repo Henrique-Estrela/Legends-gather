@@ -110,7 +110,19 @@ export function push_card(){
 
   return info_card;
 }
+export function push_user(){
+  const existingUsers = JSON.parse(localStorage.getItem('users')) || [];
 
+  const firstUser = existingUsers[0]
+
+  const User = {
+    nome: firstUser.nickname ,
+    email: firstUser.email ,
+    senha: firstUser.password,
+}
+
+  return User;
+}
 export function Make_card(cardContainer, existingCards) {
 
   

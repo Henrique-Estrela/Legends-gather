@@ -4,10 +4,13 @@ var edituser = document.querySelector(".edituser");
 
 var inputfile = document.querySelector('#input1');
 
+var User = functions.push_user();
+
 var valorExistente1 = document.querySelector(".imgusuario").src;
-var valorExistente2 = document.querySelector(".inputname").value;
-var valorExistente3 = document.querySelector(".inputemail").value;
-var valorExistente4 = document.querySelector(".inputsenha").value;
+var valorExistente2 = User.nome;
+var valorExistente3 = User.email;
+var valorExistente4 = User.senha;
+
 
 
 
@@ -27,7 +30,7 @@ edituser.addEventListener("click", function() {
         '</div>'+
         '<label for="nick">Nickname: </label> <input id="input2" name="nick" class="edit swal2-input" value="' + valorExistente2 + '">' +
         
-        '<label for="email">Email: </label> <input id="input3" name="email" class="edit swal2-input" value="' + valorExistente3 + '">' +       
+        '<label for="email">Email: </label> <input id="input3" name="email" class="edit swal2-input" value="' + valorExistente3 + '" readonly>' +       
         
         '<label for="senha">Senha: </label> <input id="input4" name="senha" class="edit swal2-input" value="' + valorExistente4 + '">' 
         
@@ -41,16 +44,39 @@ edituser.addEventListener("click", function() {
         confirmButtonText: 'Salvar',
         cancelButtonText: 'Cancelar',
         preConfirm: () => {
-          // Aqui você pode acessar os valores dos inputs usando o JavaScript
-          const input1 = document.getElementById('input1').src;
-          const input2 = document.getElementById('input2').value;
-          const input3 = document.getElementById('input3').value;
-          const input4 = document.getElementById('input4').value;
+            // Aqui você pode acessar os valores dos inputs usando o JavaScript
+            const input1 = document.getElementById('input1').src;
+            const input2 = document.getElementById('input2').value;
+            const input3 = document.getElementById('input3').value;
+            const input4 = document.getElementById('input4').value;
           
-          // Faça algo com os valores, por exemplo, exibindo-os em um alerta
-          Swal.fire({
-              title: 'Valores dos Inputs',
-              html: `Input 1: ${input1}<br>Input 2: ${input2}<br>Input 2: ${input3}<br>Input 2: ${input4}`
+
+            const existingUsers = JSON.parse(localStorage.getItem('users')) || [];
+
+            const userEmailParaEditar = User.email;
+            const usuarioParaEditar = existingUsers.find(user => user.email === userEmailParaEditar);
+
+            if (usuarioParaEditar) {
+                usuarioParaEditar.nickname = input2; 
+                usuarioParaEditar.password = input4; 
+
+                localStorage.setItem('users', JSON.stringify(existingUsers));
+            }
+            Swal.fire({
+                title: "Usuário editado com sucesso!",
+                background: "var(--d_color8)",
+                color:"#fff",
+                confirmButtonColor:"var(--d_color5)",
+                confirmButtonText: `
+                Voltar
+              `,
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    window.location.href = " "
+                }
+                else {
+                    window.location.href = " "
+                }
             });
         }
     });
