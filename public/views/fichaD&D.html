@@ -40,7 +40,7 @@
 
     <main class="fluid-ficha">
 
-        <section class="final none part1" id="part1">
+        <section class="final  part1" id="part1">
             <div class="container">
                 <div class="progress-bar-container row">
                     <div class="col-10" id="barraprog"> 
@@ -202,7 +202,7 @@
 
                     <div class="center col-12 btnprox1">
                         <div>
-                            <button type="button" class="btnSetaFF">
+                            <button type="button" class="btnSetaFF btnSetaFF-3">
                                 <img src="\public\src\img\icon\Seta.png" alt="" class="setaproximo">
                             </button>
                         </div>
@@ -296,12 +296,12 @@
 
                     <div class="col-12 btnprox2">
                         <div>
-                            <button type="button" class="btnSetaFF-2"><a href="">
-                                    <img src="\public\src\img\icon\Seta.png" alt="" class="setaproximo2"></a></button>
+                            <button type="button" class="btnSetaFF-2">
+                                    <img src="\public\src\img\icon\Seta.png" alt="" class="setaproximo2"></button>
                         </div>
                         <div>
-                            <button type="button" class="btnSetaFF-3"><a href="">
-                                    <img src="\public\src\img\icon\Seta.png" alt="" class="setaproximo"></a></button>
+                            <button type="button" class="btnSetaFF-3">
+                                    <img src="\public\src\img\icon\Seta.png" alt="" class="setaproximo"></button>
                         </div>
                     </div>
                     
@@ -439,12 +439,12 @@
 
                     <div class="col-12 btnprox2">
                         <div>
-                            <button type="button" class="btnSetaFF-2"><a href="">
-                                    <img src="\public\src\img\icon\Seta.png" alt="" class="setaproximo2"></a></button>
+                            <button type="button" class="btnSetaFF-2">
+                                    <img src="\public\src\img\icon\Seta.png" alt="" class="setaproximo2"></button>
                         </div>
                         <div>
-                            <button type="button" class="btnSetaFF-3"><a href="">
-                                    <img src="\public\src\img\icon\Seta.png" alt="" class="setaproximo"></a></button>
+                            <button type="button" class="btnSetaFF-3">
+                                    <img src="\public\src\img\icon\Seta.png" alt="" class="setaproximo"></button>
                         </div>
                     </div>
                     
@@ -455,7 +455,7 @@
         
         </section>
 
-        <section class="center part4" id="part4">
+        <section class="none center part4" id="part4">
             <div class="container">
                 <div class="center row">
                     <div class="part4-bloco1">
@@ -542,12 +542,8 @@
                     
                     <div class="col-12 btnprox2">
                         <div>
-                            <button type="button" class="btnSetaFF-2"><a href="">
-                                    <img src="\public\src\img\icon\Seta.png" alt="" class="setaproximo2"></a></button>
-                        </div>
-                        <div>
-                            <button type="button" class="btnSetaFF-3"><a href="">
-                                    <img src="\public\src\img\icon\Seta.png" alt="" class="setaproximo"></a></button>
+                            <button type="button" id="" class="btnSetaFF-2">
+                                    <img src="\public\src\img\icon\Seta.png" alt="" class="setaproximo2"></button>
                         </div>
                     </div>
                 </div>
@@ -555,6 +551,55 @@
         </section>
 
     </main>
+
+    <script>
+
+
+        var voltarform = document.querySelectorAll(".btnSetaFF-2");
+        var proxform = document.querySelectorAll(".btnSetaFF-3");
+
+        const part1 = document.querySelector("#part1");
+        const part2 = document.querySelector("#part2");
+        const part3 = document.querySelector("#part3");
+        const part4 = document.querySelector("#part4");
+
+
+
+        proxform[0].addEventListener('click', function() {
+            part1.classList.add("none");
+            part2.classList.remove("none");        
+        });
+
+        proxform[1].addEventListener('click', function() {
+            part2.classList.add("none");
+            part3.classList.remove("none");        
+        });
+
+        proxform[2].addEventListener('click', function() {
+            part3.classList.add("none");
+            part4.classList.remove("none");        
+        });
+
+
+        voltarform[0].addEventListener('click', function() {
+            part2.classList.add("none");
+            part1.classList.remove("none");        
+        });
+
+        voltarform[1].addEventListener('click', function() {
+            part3.classList.add("none");
+            part2.classList.remove("none");        
+        });
+
+        voltarform[2].addEventListener('click', function() {
+            part4.classList.add("none");
+            part3.classList.remove("none");        
+        });
+
+
+
+
+    </script>
 
 </body>
 

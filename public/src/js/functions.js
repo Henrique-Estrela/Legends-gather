@@ -205,6 +205,25 @@ export function nextforms(nextform,formcont) {
   return formcont++;
 }
 
+export function nextficha(nextform,formcont) {
+
+  if (nextform[formcont].value == 1) {
+      pag2.classList.add("none");
+      pag3.classList.remove("none");
+  } else if (nextform[formcont].value == 0) {
+      pag1.classList.add("none");
+      pag2.classList.remove("none");
+  } else if (nextform[formcont].value == 1) {
+    pag2.classList.add("none");
+    pag3.classList.remove("none");
+  } else if (nextform[formcont].value == 0) {
+    pag1.classList.add("none");
+    pag2.classList.remove("none");
+  }
+  
+  return formcont++;
+}
+
 
 
 
