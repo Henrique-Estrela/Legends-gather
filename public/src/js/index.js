@@ -9,7 +9,6 @@ Variáveis
 
 
 
-const theme_btn = document.querySelector("#toggletheme");
 
 const user_btn = document.querySelector("#userbtn");
 
@@ -28,6 +27,7 @@ const cardContaineredit = document.querySelector('.edit');
 const existingCards = JSON.parse(localStorage.getItem('cards')) || [];
 
 var User = functions.push_user();
+
 var nick = document.getElementById("nicknameuser");
 
 /* 
@@ -90,14 +90,5 @@ make_card.addEventListener('click', function () {
 });
 
 
-theme_btn.addEventListener('click', function () {
-    functions.toggle_ligth_mode();
-
-    localStorage.removeItem("ligth");
-
-    if (document.body.classList.contains("ligth")) {
-        localStorage.setItem("ligth", 1);
-    };
-});
 
 
