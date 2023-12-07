@@ -27,7 +27,8 @@ formulario.addEventListener('submit', function(event) {
             background: "var(--d_color8)",
             color:"#fff"
         });
-          
+        functions.Make_card(cardContainer, existingCards); 
     }
+
 });
 

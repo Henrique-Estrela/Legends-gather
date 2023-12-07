@@ -80,8 +80,7 @@ user_btn.addEventListener('click', function () {
  
 
 more_card.addEventListener('click', function () {
-    // functions.modal_card();
-    functions.Make_card(cardContainer, existingCards)
+    functions.modal_card();
 });
 
 
