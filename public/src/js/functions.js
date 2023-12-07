@@ -81,6 +81,7 @@ export function modal_card() {
             icon: "info",
             iconColor: "#fff"
           });
+          
         }
     });
 }
@@ -102,6 +103,9 @@ export function pull_card(cardContainer, existingCards) {
 }
 
 export function push_card(){
+  const existingCards = JSON.parse(localStorage.getItem('cards')) || [];
+  var cardinfo = existingCards[0]
+  
   const info_card = {
     img: '../src/img/boneco1.png',
     href: '',

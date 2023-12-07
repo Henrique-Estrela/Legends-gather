@@ -40,12 +40,10 @@ functions.loadtema();
 
 functions.Loading();
 
-window.onload = functions.pull_card(cardContainer,existingCards);
 
 window.onload = functions.check_width;
 window.onresize = functions.check_width;
 
-nick.textContent = User.nome;
 
 /* 
 ---------------------------------------------
@@ -55,12 +53,17 @@ Ações
 
   
 window.addEventListener('load', function() {  
+
     setTimeout(() => {
       const telaLoadElement = document.querySelector('.telaLoad');
       functions.hideLoading(telaLoadElement);
     }, 500);
 
+    functions.pull_card(cardContainer,existingCards);
     functions.editEmpty(cardContaineredit, existingCards);
+    
+    nick.textContent = User.nome;
+
 });
 
 
@@ -77,7 +80,8 @@ user_btn.addEventListener('click', function () {
  
 
 more_card.addEventListener('click', function () {
-    functions.modal_card();
+    // functions.modal_card();
+    functions.Make_card(cardContainer, existingCards)
 });
 
 

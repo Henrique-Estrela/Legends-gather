@@ -1,0 +1,3 @@
+const card_info = {
+    
+}
