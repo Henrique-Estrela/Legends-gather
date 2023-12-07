@@ -856,8 +856,10 @@ usuario
 --------------------------------------------- 
 */
 
-.user.btnCloseFF{
-  
+.useredit.btnCloseFF{
+  position: absolute;
+  right: 0;
+  margin: 2rem;
 }
 
 
