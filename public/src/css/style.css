@@ -816,23 +816,50 @@ configuração
   width: auto;
   height: 30rem;
  }
-.grademusic{
+ .gradesom{
   flex-shrink: 0;
   border-radius: 1rem;
   border: 2.5px solid var(--d_color1);
   background: rgba(217, 217, 217, 0.00);
-  width: 35rem;
-  height: 3.5rem;
+  width: auto;
+  height: 30rem;
+ }
+
+
+ .gradesom div{
+  flex-direction:row;
+  align-items:baseline;
+  display: flex;
+  margin-top: 1rem;
+  height: auto;
+ }
+ .imgmudo{
+  width: 3.5rem;
+  margin-top: 0.8rem;
+  margin-left: 35rem;
+  position:absolute;
+ }
+ .imgsom{
+  width: 3.5rem;
+  margin-left: 3rem;
+ }
+.grademusic{
+  border-radius: 1rem;
+  border: 2.5px solid var(--d_color1);
+  background: rgba(217, 217, 217, 0.00);
+  width: 33rem;
   margin-left: 3rem;
 }
 .letramusic{
+  position: absolute;
+ text-align: center;
   font-size: 2rem;
   color: #000;
-  justify-content: center;
   display: flex;
-  margin-top: 0.5rem;
-
-}
+  margin-left: 10rem;
+  margin-top: 1rem;
+ }
+ 
 .tema1{
   font-size: 3rem;
   margin-left: 2rem;
@@ -847,6 +874,31 @@ configuração
   justify-content: center;
   align-items: center;
   display: flex;
+}
+.gradeimg{
+  height: 50rem;
+  width: 10rem;
+  display: flex;
+}
+.botsom{
+  background-color: #452175;
+  border-radius: 10px;
+  align-items: center;
+  width: 35rem;
+  height: 3rem;
+  display: flex;
+  font-size: 2rem;
+  text-align: center;
+
+}
+
+.divimg{
+ width: 1.5rem;
+ height: 2rem;
+ background-color: #301752;
+ margin-left: 1rem;
+ align-items: center;
+ display: flex;
 }
 
 /* 
