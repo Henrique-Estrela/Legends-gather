@@ -24,6 +24,7 @@
     <!-- JS -->
     <script type="module" src="../src/js/edituser.js" defer></script>
     <script type="module" src="../src/js/user.js" defer></script>
+ 
 
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -67,40 +68,47 @@
     </header>
 
     <main>
-        <div class="container">
-            <button type="button" class="useredit btnCloseFF">
+        <div class="container useredit">
+            <button type="button" class="btnCloseFF">
                 <a href="\public\views\home.html">
                     <img src="\public\src\img\icon\Fechar.png" alt="" class="setaproximo">
                 </a>
             </button>
+
             <div class="row">
-                <div class="col-lg-6">
-                    <div>
+                <div class="col-lg-6 center">
+                    <div class="center">
                         <img class="imgusuario" src="../src/img/image 20.png" alt="Usuario-editar">
-                        <input class="inputname" type="text" value="" readonly>
+                        <input class="inputuser inputname" type="text" value="" readonly>
                     </div>
                    
-                    <button type="button" class="imgedit edituser">
-                            <p class="fontEditar">Editar</p>
-                            <img src="\public\src\img\icon\PenaEdit.png" alt="" class="peninhaedit ">
-                    </button>
+                 
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 center">
                     <div>
                         <p class="email">Email:</p>
-                        <input class="inputemail" type="email" value="" readonly>
+                        <input class="inputuser inputemail" type="email" value="" readonly>
                     </div>
                     <div>
                         <p class="senha">Senha:</p>
-                        <input class="inputsenha" type="text" value="" readonly>
+                        <input class="inputuser inputsenha" type="text" value="" readonly>
                     </div>
                 </div>
+                <div class="col-lg-6 center">
+                    <button type="button" class="imgedit edituser">
+                        <p class="fontEditar">Editar</p>
+                        <img src="\public\src\img\icon\PenaEdit.png" alt="" class="peninhaedit ">
+                    </button>
+                </div>
+                
+
 
             </div>
         </div>
         
     </main>
 
+   
     <header class="mobile">
         <nav class="Navbar">
             <div class="logo">
@@ -131,6 +139,6 @@
 
         </nav>
     </header>
-    
+   
 </body>
 </html>

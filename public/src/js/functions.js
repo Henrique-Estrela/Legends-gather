@@ -119,7 +119,7 @@ export function push_user(){
     nome: firstUser.nickname ,
     email: firstUser.email ,
     senha: firstUser.password,
-}
+  }
 
   return User;
 }

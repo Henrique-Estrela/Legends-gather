@@ -27,7 +27,8 @@ const cardContaineredit = document.querySelector('.edit');
 
 const existingCards = JSON.parse(localStorage.getItem('cards')) || [];
 
-
+var User = functions.push_user();
+var nick = document.getElementById("nicknameuser");
 
 /* 
 ---------------------------------------------
@@ -44,6 +45,7 @@ window.onload = functions.pull_card(cardContainer,existingCards);
 window.onload = functions.check_width;
 window.onresize = functions.check_width;
 
+nick.textContent = User.nome;
 
 /* 
 ---------------------------------------------

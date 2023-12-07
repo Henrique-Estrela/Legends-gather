@@ -856,47 +856,54 @@ usuario
 --------------------------------------------- 
 */
 
-.useredit.btnCloseFF{
+.useredit .btnCloseFF{
   position: absolute;
   right: 0;
-  margin: 2rem;
+  top: 0;
+  margin: 4rem;
+
 }
 
+.useredit div.row{
+  margin-top: 5rem;
+}
+.useredit div.row div:nth-child(1){
+  gap: 6rem;
+}
+.useredit div.row div:nth-child(2){
+  gap: 4rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
 
 .imgusuario{
   width: 20rem;
-  margin-left: 5rem;
-  margin-top: 1rem;
+  top: 1rem;
 }
-.inputname{
+
+.inputuser{
   background-color: #5A2CA0;
   border-radius: 10px;
   display: flex;
-  width: 20rem;
-  height: 4rem;
+  height: 5rem;
   text-align:right ;
   color: white;
   font-size: 2.5em;
-  justify-content: center;
+  text-align: start;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
 }
-.inputemail{
-  background-color: #5A2CA0;
-  border-radius: 10px;
-  display: flex;
-  width: 30rem;
-  height: 5rem;
-  font-size: 2.5em;
-  justify-content: center;
+.inputname{
+  height: 3.5rem;
+  width: 80%;
+  margin-top: -4rem;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+
 }
-.inputsenha{
-  background-color: #5A2CA0;
-  border-radius: 10px;
-  display: flex;
-  width: 30rem;
-  height: 5rem;
-  font-size: 2.5em;
-  justify-content: center;
-}
+
 
 .fontEditar{
   font-size: 2.5rem;
@@ -918,6 +925,7 @@ usuario
   height: 4rem;
   width: 15rem;
   display: flex;
+  margin-bottom: 3rem;
 }
 
 .inputname::placeholder, .inputemail::placeholder, .inputsenha::placeholder{
@@ -931,13 +939,8 @@ usuario
   transform: scale(0.9);
 }
 
-.email{
-  margin-top: 11rem;
-  font-size: 2.5em;
-}
-.senha{
-  margin-top: 21rem;
-  font-size: 2.5em;
+.email, .senha{
+  font-size: 1.7em;
 }
 
 .sair{

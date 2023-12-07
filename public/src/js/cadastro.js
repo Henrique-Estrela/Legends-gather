@@ -11,7 +11,14 @@ signupForm.addEventListener('submit', function (event) {
 
     // Validar se os campos de senha coincidem
     if (password !== confirmPassword) {
-      alert('Senhas não coincidem. Por favor, tente novamente.');
+      Swal.fire({
+        title: "Senhas não coincidem. Por favor, tente novamente.",
+        background: "var(--d_color8)",
+        color: "#fff",
+        confirmButtonColor: "var(--d_color5)",
+        icon: "info",
+        iconColor: "#fff"
+    });
       return;
     }
 
@@ -22,7 +29,14 @@ signupForm.addEventListener('submit', function (event) {
     const existingUser = existingUsers.find(user => user.email === email);
 
     if (existingUser) {
-      alert('Este email já está cadastrado. Por favor, use outro.');
+      Swal.fire({
+        title: "Este email já está cadastrado. Por favor, use outro.",
+        background: "var(--d_color8)",
+        color: "#fff",
+        confirmButtonColor: "var(--d_color5)",
+        icon: "info",
+        iconColor: "#fff"
+    });
     } else {
       // Adicionar novo usuário à lista
       existingUsers.push({ email, nickname, password });
@@ -30,7 +44,20 @@ signupForm.addEventListener('submit', function (event) {
       // Armazenar usuários atualizados no localStorage
       localStorage.setItem('users', JSON.stringify(existingUsers));
 
-      alert('Cadastro realizado com sucesso!');
+      Swal.fire({
+        title: "Cadastro realizado com sucesso!",
+        background: "var(--d_color8)",
+        color: "#fff",
+        confirmButtonColor: "var(--d_color5)",
+        icon: "info",
+        iconColor: "#fff"
+      }).then((result) => {
+        if (result.isConfirmed) {
+            window.location.href = " "
+        }else {
+          window.location.href = " "
+        }
+      })
     }
 });
 
